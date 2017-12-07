@@ -1,0 +1,49 @@
+Dec 07 11:40:35.602 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Dec 07 11:40:35.602 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49229.
+Dec 07 11:40:35.619 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 07 11:40:35.620 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips 
+Dec 07 11:40:35.620 GENERAL: working_dir=/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips
+Dec 07 11:40:35.620 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips/5f19c6e9-6b5e-4e17-b9e3-3acdcda90c90 
+Dec 07 11:40:35.620 GENERAL: working_dir=/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips/5f19c6e9-6b5e-4e17-b9e3-3acdcda90c90
+Dec 07 11:40:35.621 HYPERVISOR: exec_cmd: vm create Lisboa1 2 c7200 
+Dec 07 11:40:35.621 VM: VM Lisboa1 created.
+Dec 07 11:40:35.622 HYPERVISOR: exec_cmd: vm set_con_tcp_port Lisboa1 5012 
+Dec 07 11:40:35.623 HYPERVISOR: exec_cmd: c7200 get_mac_addr Lisboa1 
+Dec 07 11:40:35.623 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Dec 07 11:40:35.624 HYPERVISOR: exec_cmd: vm slot_add_binding Lisboa1 0 0 C7200-IO-FE 
+Dec 07 11:40:35.625 HYPERVISOR: exec_cmd: vm set_con_tcp_port Lisboa1 5012 
+Dec 07 11:40:35.626 HYPERVISOR: exec_cmd: vm set_disk0 Lisboa1 0 
+Dec 07 11:40:35.628 HYPERVISOR: exec_cmd: vm set_ram Lisboa1 512 
+Dec 07 11:40:35.629 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Dec 07 11:40:35.629 HYPERVISOR: exec_cmd: vm slot_add_binding Lisboa1 1 0 PA-2FE-TX 
+Dec 07 11:40:35.630 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Dec 07 11:40:35.631 HYPERVISOR: exec_cmd: vm slot_remove_binding Lisboa1 0 0 
+Dec 07 11:40:35.632 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Dec 07 11:40:35.633 HYPERVISOR: exec_cmd: vm slot_add_binding Lisboa1 0 0 C7200-IO-2FE 
+Dec 07 11:40:35.635 HYPERVISOR: exec_cmd: vm set_ios Lisboa1 /Users/cristianacarvalho/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 07 11:40:35.637 HYPERVISOR: exec_cmd: c7200 set_mac_addr Lisboa1 ca02.5293.0000 
+Dec 07 11:40:35.638 HYPERVISOR: exec_cmd: vm set_nvram Lisboa1 512 
+Dec 07 11:40:35.639 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Dec 07 11:40:35.640 HYPERVISOR: exec_cmd: vm set_idle_pc Lisboa1 0x63184bc8 
+Dec 07 11:40:35.641 HYPERVISOR: exec_cmd: vm set_config Lisboa1 configs/i2_startup-config.cfg 
+Dec 07 11:40:37.033 HYPERVISOR: exec_cmd: nio create_udp udp-e34a32e2-5135-43b4-9f24-15ca4c05cf0a 10007 127.0.0.1 10006 
+Dec 07 11:40:37.034 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisboa1 0 0 udp-e34a32e2-5135-43b4-9f24-15ca4c05cf0a 
+Dec 07 11:40:37.035 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Dec 07 12:29:44.544 HYPERVISOR: exec_cmd: nio create_udp udp-6ae3a4c0-557f-4145-b7ff-0d2c894cd056 10042 127.0.0.1 10043 
+Dec 07 12:29:44.545 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisboa1 0 1 udp-6ae3a4c0-557f-4145-b7ff-0d2c894cd056 
+Dec 07 12:29:44.546 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Dec 07 12:41:06.555 HYPERVISOR: exec_cmd: nio create_udp udp-7d9a02f5-4579-429d-9147-4ebaf851b9bb 10048 127.0.0.1 10049 
+Dec 07 12:41:06.556 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisboa1 1 0 udp-7d9a02f5-4579-429d-9147-4ebaf851b9bb 
+Dec 07 12:41:06.557 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Dec 07 12:41:11.235 HYPERVISOR: exec_cmd: nio create_udp udp-273c3624-3b38-45cd-a313-b3f60ad49e88 10050 127.0.0.1 10051 
+Dec 07 12:41:11.236 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisboa1 1 1 udp-273c3624-3b38-45cd-a313-b3f60ad49e88 
+Dec 07 12:41:11.237 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Dec 07 12:55:01.353 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Dec 07 12:55:01.359 HYPERVISOR: exec_cmd: vm extract_config Lisboa1 
+Dec 07 12:55:02.287 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Dec 07 12:55:02.298 HYPERVISOR: exec_cmd: vm extract_config Lisboa1 
+Dec 07 12:55:02.312 HYPERVISOR: exec_cmd: vm delete Lisboa1 
+Dec 07 12:55:02.313 VM: VM Lisboa1 destroyed.
+Dec 07 12:55:02.330 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 07 12:55:02.508 HYPERVISOR: Stopped.
+Dec 07 12:55:02.508 GENERAL: reset done.

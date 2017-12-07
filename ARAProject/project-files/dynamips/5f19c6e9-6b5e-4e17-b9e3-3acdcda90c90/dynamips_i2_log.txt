@@ -1,0 +1,19 @@
+Dec 07 11:40:34.061 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Dec 07 11:40:34.061 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49203.
+Dec 07 11:40:34.077 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 07 11:40:34.079 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips 
+Dec 07 11:40:34.079 GENERAL: working_dir=/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips
+Dec 07 11:40:34.080 HYPERVISOR: exec_cmd: ethsw create EthernetCore 
+Dec 07 11:40:37.553 HYPERVISOR: exec_cmd: nio create_udp udp-b8cc0659-e543-4d98-8f40-8b2242d97ad2 10013 127.0.0.1 10012 
+Dec 07 11:40:37.554 HYPERVISOR: exec_cmd: ethsw add_nio EthernetCore udp-b8cc0659-e543-4d98-8f40-8b2242d97ad2 
+Dec 07 11:40:37.555 HYPERVISOR: exec_cmd: ethsw set_access_port EthernetCore udp-b8cc0659-e543-4d98-8f40-8b2242d97ad2 1 
+Dec 07 11:40:38.018 HYPERVISOR: exec_cmd: nio create_udp udp-afe87ebf-d4e8-45ea-8f4b-1111e4ba3383 10016 127.0.0.1 10017 
+Dec 07 11:40:38.019 HYPERVISOR: exec_cmd: ethsw add_nio EthernetCore udp-afe87ebf-d4e8-45ea-8f4b-1111e4ba3383 
+Dec 07 11:40:38.028 HYPERVISOR: exec_cmd: ethsw set_access_port EthernetCore udp-afe87ebf-d4e8-45ea-8f4b-1111e4ba3383 1 
+Dec 07 11:40:39.100 HYPERVISOR: exec_cmd: nio create_udp udp-5e8c2208-dbb9-4368-8d70-4057a4ee7bdb 10029 127.0.0.1 10028 
+Dec 07 11:40:39.102 HYPERVISOR: exec_cmd: ethsw add_nio EthernetCore udp-5e8c2208-dbb9-4368-8d70-4057a4ee7bdb 
+Dec 07 11:40:39.119 HYPERVISOR: exec_cmd: ethsw set_access_port EthernetCore udp-5e8c2208-dbb9-4368-8d70-4057a4ee7bdb 1 
+Dec 07 12:55:02.275 HYPERVISOR: exec_cmd: ethsw delete EthernetCore 
+Dec 07 12:55:02.340 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 07 12:55:02.722 HYPERVISOR: Stopped.
+Dec 07 12:55:02.722 GENERAL: reset done.

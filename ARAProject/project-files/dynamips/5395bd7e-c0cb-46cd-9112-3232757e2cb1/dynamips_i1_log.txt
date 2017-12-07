@@ -1,0 +1,48 @@
+Dec 07 11:40:33.970 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Dec 07 11:40:33.970 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49173.
+Dec 07 11:40:33.991 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 07 11:40:33.991 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips 
+Dec 07 11:40:33.991 GENERAL: working_dir=/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips
+Dec 07 11:40:33.992 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips/101bafd3-9f4f-4fb6-b01d-20279681ce3e 
+Dec 07 11:40:33.992 GENERAL: working_dir=/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips/101bafd3-9f4f-4fb6-b01d-20279681ce3e
+Dec 07 11:40:33.993 HYPERVISOR: exec_cmd: vm create Aveiro 6 c7200 
+Dec 07 11:40:33.994 VM: VM Aveiro created.
+Dec 07 11:40:33.995 HYPERVISOR: exec_cmd: vm set_con_tcp_port Aveiro 5005 
+Dec 07 11:40:33.996 HYPERVISOR: exec_cmd: c7200 get_mac_addr Aveiro 
+Dec 07 11:40:33.998 HYPERVISOR: exec_cmd: vm get_status Aveiro 
+Dec 07 11:40:33.999 HYPERVISOR: exec_cmd: vm slot_add_binding Aveiro 0 0 C7200-IO-FE 
+Dec 07 11:40:34.001 HYPERVISOR: exec_cmd: vm set_disk0 Aveiro 0 
+Dec 07 11:40:34.002 HYPERVISOR: exec_cmd: vm set_ram Aveiro 512 
+Dec 07 11:40:34.003 HYPERVISOR: exec_cmd: vm get_status Aveiro 
+Dec 07 11:40:34.004 HYPERVISOR: exec_cmd: vm slot_add_binding Aveiro 1 0 PA-2FE-TX 
+Dec 07 11:40:34.006 HYPERVISOR: exec_cmd: vm get_status Aveiro 
+Dec 07 11:40:34.007 HYPERVISOR: exec_cmd: vm slot_remove_binding Aveiro 0 0 
+Dec 07 11:40:34.008 HYPERVISOR: exec_cmd: vm get_status Aveiro 
+Dec 07 11:40:34.008 HYPERVISOR: exec_cmd: vm slot_add_binding Aveiro 0 0 C7200-IO-2FE 
+Dec 07 11:40:34.010 HYPERVISOR: exec_cmd: vm set_ios Aveiro /Users/cristianacarvalho/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 07 11:40:34.011 HYPERVISOR: exec_cmd: c7200 set_mac_addr Aveiro ca06.5299.0000 
+Dec 07 11:40:34.012 HYPERVISOR: exec_cmd: vm set_nvram Aveiro 512 
+Dec 07 11:40:34.013 HYPERVISOR: exec_cmd: vm get_status Aveiro 
+Dec 07 11:40:34.014 HYPERVISOR: exec_cmd: vm set_idle_pc Aveiro 0x63184bc8 
+Dec 07 11:40:34.017 HYPERVISOR: exec_cmd: vm set_config Aveiro configs/i6_startup-config.cfg 
+Dec 07 11:40:37.327 HYPERVISOR: exec_cmd: nio create_udp udp-f9c57e53-3566-40cc-842c-7baff962f3b2 10010 127.0.0.1 10011 
+Dec 07 11:40:37.328 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Aveiro 1 1 udp-f9c57e53-3566-40cc-842c-7baff962f3b2 
+Dec 07 11:40:37.329 HYPERVISOR: exec_cmd: vm get_status Aveiro 
+Dec 07 11:40:38.057 HYPERVISOR: exec_cmd: nio create_udp udp-6d674141-9b48-4e39-8d39-a8ca39dd2ad4 10017 127.0.0.1 10016 
+Dec 07 11:40:38.058 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Aveiro 0 0 udp-6d674141-9b48-4e39-8d39-a8ca39dd2ad4 
+Dec 07 11:40:38.059 HYPERVISOR: exec_cmd: vm get_status Aveiro 
+Dec 07 11:40:38.378 HYPERVISOR: exec_cmd: nio create_udp udp-e4f6bfec-93e5-4c23-a998-02604e49e21d 10020 127.0.0.1 10021 
+Dec 07 11:40:38.382 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Aveiro 0 1 udp-e4f6bfec-93e5-4c23-a998-02604e49e21d 
+Dec 07 11:40:38.385 HYPERVISOR: exec_cmd: vm get_status Aveiro 
+Dec 07 11:40:39.946 HYPERVISOR: exec_cmd: nio create_udp udp-98b7dbc8-8744-4995-995e-efab3d75065e 10038 127.0.0.1 10039 
+Dec 07 11:40:39.947 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Aveiro 1 0 udp-98b7dbc8-8744-4995-995e-efab3d75065e 
+Dec 07 11:40:39.948 HYPERVISOR: exec_cmd: vm get_status Aveiro 
+Dec 07 12:55:01.160 HYPERVISOR: exec_cmd: vm get_status Aveiro 
+Dec 07 12:55:01.167 HYPERVISOR: exec_cmd: vm extract_config Aveiro 
+Dec 07 12:55:02.280 HYPERVISOR: exec_cmd: vm get_status Aveiro 
+Dec 07 12:55:02.295 HYPERVISOR: exec_cmd: vm extract_config Aveiro 
+Dec 07 12:55:02.307 HYPERVISOR: exec_cmd: vm delete Aveiro 
+Dec 07 12:55:02.307 VM: VM Aveiro destroyed.
+Dec 07 12:55:02.327 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 07 12:55:02.343 HYPERVISOR: Stopped.
+Dec 07 12:55:02.343 GENERAL: reset done.

@@ -1,0 +1,12 @@
+conf t
+
+interface f0/0
+ip address 192.100.1.1 255.255.255.0
+
+interface f1/0
+ip address 192.100.1.2 255.255.255.0
+
+
+end
+wr
+ 
