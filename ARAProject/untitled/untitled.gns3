@@ -1,0 +1,18 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "name": "untitled",
+    "project_id": "ce723a6f-cbf2-459b-957e-ddc446ebaa0d",
+    "revision": 7,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "topology": {
+        "computes": [],
+        "drawings": [],
+        "links": [],
+        "nodes": []
+    },
+    "type": "topology",
+    "version": "2.0.3"
+}

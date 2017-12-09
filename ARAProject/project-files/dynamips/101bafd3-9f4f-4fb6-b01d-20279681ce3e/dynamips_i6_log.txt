@@ -1,0 +1,10 @@
+Dec 08 12:43:15.458 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Dec 08 12:43:15.458 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54309.
+Dec 08 12:43:15.478 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 08 12:43:15.479 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips 
+Dec 08 12:43:15.479 GENERAL: working_dir=/Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips
+Dec 08 12:43:15.480 HYPERVISOR: exec_cmd: ethsw create SW1 
+Dec 08 12:43:16.477 HYPERVISOR: exec_cmd: ethsw delete SW1 
+Dec 08 12:43:16.484 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 08 12:43:16.982 HYPERVISOR: Stopped.
+Dec 08 12:43:16.982 GENERAL: reset done.
