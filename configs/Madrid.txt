@@ -37,5 +37,28 @@ ipv6 enable
 ipv6 address 2201:200:100:0::1/64
 no shutdown
 
+router bgp 20000
+address-family ipv4 unicast
+
+!porto
+neighbor 4.4.4.34 remote-as 1000
+!lisboa2
+neighbor 4.4.4.17 remote-as 1000
+!lisboa1
+neighbor 4.4.4.26 remote-as 40000
+
+!internet announcement
+!porto
+neighbor 4.4.4.34 default-originate
+!lisboa2
+neighbor 4.4.4.17 default-originate
+!lisboa1
+neighbor 4.4.4.26 default-originate
+
+!networks
+network 200.100.1.0 mask 255.255.255.0
+network 200.200.1.0 mask 255.255.255.0
+
+
 end
 wr

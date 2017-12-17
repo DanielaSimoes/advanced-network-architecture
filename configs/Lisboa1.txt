@@ -25,5 +25,21 @@ ipv6 enable
 ipv6 address 2001:2:2::1/64
 no shutdown
 
+router bgp 40000
+address-family ipv4 unicast
+! madrid
+neighbor 4.4.4.25 remote-as 20000
+! lisboa2
+neighbor 4.4.4.10 remote-as 1000
+neighbor 4.4.4.10 default-originate
+!network announcement
+! madrid
+neighbor 4.4.4.25 default-originate
+
+!networks
+network 65.0.1.0 mask 255.255.255.0
+
+exit
+
 end
 wr

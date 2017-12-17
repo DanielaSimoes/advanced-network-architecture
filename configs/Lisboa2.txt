@@ -1,5 +1,6 @@
 conf t
 ipv6 unicast-routing
+ip bgp-community new-format
 
 interface f0/0
 ip address 4.4.4.17 255.255.255.248
@@ -33,6 +34,60 @@ ip address 4.4.4.10 255.255.255.248
 ipv6 enable
 ipv6 address 2001:4:4:10::2/64
 no shutdown
+
+interface lo0
+ip address 10.0.10.2 255.255.255.255
+ip ospf 1 area 0
+no shutdown
+
+! non transit
+ip as-path access-list 1 permit ^$
+route-map non-transit
+match as-path 1
+
+!"sub" AS (EMPC)
+access-list 1 permit 112.1.1.0 0.0.0.255
+route-map non-transit permit 20
+match ip add 1
+
+!traffic towards internet should be preferably routed via ISP PT1
+ip bgp-community new-format
+
+ip prefix-list default-route permit 0.0.0.0/0
+
+route-map routes-in-default permit 10
+match ip address prefix-list default-route
+set community 1000:1
+route-map routes-in-default permit 20
+
+router bgp 1000
+address-family ipv4 unicast
+
+! madrid
+neighbor 4.4.4.18 remote-as 20000
+neighbor 4.4.4.18 route-map non-transit out
+! lisboa1
+neighbor 4.4.4.9 remote-as 40000
+neighbor 4.4.4.9 route-map non-transit out
+neighbor 4.4.4.9 route-map routes-in-default in
+! porto
+neighbor 10.0.10.1 remote-as 1000
+neighbor 10.0.10.1 next-hop-self
+neighbor 10.0.10.1 update-source Loopback 0
+neighbor 10.0.10.1 send-community
+! aveiro
+neighbor 10.0.10.3 remote-as 1000
+neighbor 10.0.10.3 next-hop-self
+neighbor 10.0.10.3 update-source Loopback 0
+neighbor 10.0.10.3 send-community
+! oeiras
+neighbor 10.0.10.4 remote-as 1000
+neighbor 10.0.10.4 next-hop-self
+neighbor 10.0.10.4 update-source Loopback 0
+neighbor 10.0.10.4 send-community
+
+!networks
+network 192.100.1.0 mask 255.255.255.0
 
 end
 wr

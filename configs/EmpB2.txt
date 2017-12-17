@@ -3,14 +3,14 @@ ipv6 unicast-routing
 
 interface f0/0
 ip address 10.0.4.2 255.255.255.252
-ip ospf 1 area 0
+ip ospf 3 area 0
 ipv6 enable
 ipv6 address 2001:100:1:6::2/64
 no shutdown
 
 interface f0/1
 ip address 111.1.1.2 255.255.255.0
-ip ospf 1 area 0
+ip ospf 3 area 0
 ipv6 enable
 ipv6 address 3001:111:2::1/64
 no shutdown
