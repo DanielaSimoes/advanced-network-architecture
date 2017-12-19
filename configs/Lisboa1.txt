@@ -1,5 +1,7 @@
 conf t
 ipv6 unicast-routing
+ip bgp-community new-format
+
 
 interface f0/0
 ip address 4.4.4.26 255.255.255.248
@@ -25,16 +27,26 @@ ipv6 enable
 ipv6 address 2001:2:2::1/64
 no shutdown
 
+ip prefix-list default-route seq 10 permit 0.0.0.0/0
+
+route-map routes-out-lisboa2 permit 10
+match ip address prefix-list default-route
+set community 40000:1
+
+route-map routes-out-lisboa2 permit 20
+
 router bgp 40000
 address-family ipv4 unicast
+
 ! madrid
 neighbor 4.4.4.25 remote-as 20000
+neighbor 4.4.4.25 default-originate
+
 ! lisboa2
 neighbor 4.4.4.10 remote-as 1000
+neighbor 4.4.4.10 route-map routes-out-lisboa2 out
 neighbor 4.4.4.10 default-originate
-!network announcement
-! madrid
-neighbor 4.4.4.25 default-originate
+neighbor 4.4.4.10 send-community
 
 !networks
 network 65.0.1.0 mask 255.255.255.0

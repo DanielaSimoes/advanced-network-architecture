@@ -45,35 +45,27 @@ no shutdown
 !traffic towards internet should be preferably routed via ISP PT1
 ip community-list 1 permit 1000:1
 
-route-map routes-to-internet permit 10
-match community 1
-set local-preference 110
-
-route-map routes-to-internet permit 20
-!end traffic towards internet
-
-
 !traffic towards AS20000 should be preferably routed via Porto
 ip community-list 3 permit 1000:3
 
-route-map routes-to-as20000 permit 40
+route-map routes-in-lisboa2 permit 10
+match community 1
+set local-preference 110
+
+route-map routes-in-lisboa2 permit 20
 match community 3
 set local-preference 110
 
-route-map routes-to-as20000 permit 50
-!end traffic towards AS20000
-
+route-map routes-in-lisboa2 permit 30
 
 router bgp 1000
 address-family ipv4 unicast
 
 ! lisboa 2
 neighbor 10.0.10.2 remote-as 1000
-neighbor 10.0.10.2 route-map routes-to-internet in
-neighbor 10.0.10.2 route-map routes-to-as20000 in
+neighbor 10.0.10.2 route-map routes-in-lisboa2 in
 !networks
 network 192.100.1.0 mask 255.255.255.0
-
 
 end
 wr

@@ -51,25 +51,30 @@ route-map non-transit permit 20
 match ip add 1
 
 !traffic towards internet should be preferably routed via ISP PT1
-ip prefix-list default-route permit 0.0.0.0/0
+ip prefix-list default-route seq 10 permit 0.0.0.0/0
 
-route-map routes-in-default permit 10
+route-map routes-in-lisboa1 permit 10
 match ip address prefix-list default-route
 set community 1000:1
-route-map routes-in-default permit 20
-!end traffic towards internet
+set local-preference 110
 
+route-map routes-in-lisboa1  permit 30
+!end
 
 !traffic towards AS20000
-ip prefix-list route-to-as20000 permit 200.100.1.0/24
-ip prefix-list route-to-as20000 permit 200.200.1.0/24
+ip prefix-list route-to-as20000 seq 10 permit 200.100.1.0/24
+ip prefix-list route-to-as20000 seq 20 permit 200.200.1.0/24
 
-route-map routes-to-as20000-ipv4 permit 30
+route-map routes-in-lisboa1 permit 20
 match ip address prefix-list route-to-as20000
 set community 1000:3
-route-map routes-to-as20000-ipv4 permit 40
-!end traffic towards AS20000
 
+route-map routes-in-madrid permit 10
+match ip address prefix-list route-to-as20000
+set community 1000:3
+
+route-map routes-in-madrid permit 20
+!end traffic towards AS20000
 
 router bgp 1000
 address-family ipv4 unicast
@@ -77,12 +82,11 @@ address-family ipv4 unicast
 ! madrid
 neighbor 4.4.4.18 remote-as 20000
 neighbor 4.4.4.18 route-map non-transit out
-neighbor 4.4.4.18 route-map routes-to-as20000-ipv4 in
+neighbor 4.4.4.18 route-map routes-in-madrid in
 ! lisboa1
 neighbor 4.4.4.9 remote-as 40000
 neighbor 4.4.4.9 route-map non-transit out
-neighbor 4.4.4.9 route-map routes-in-default in
-neighbor 4.4.4.9 route-map route-to-as20000-ipv4 in
+neighbor 4.4.4.9 route-map routes-in-lisboa1 in
 ! porto
 neighbor 10.0.10.1 remote-as 1000
 neighbor 10.0.10.1 next-hop-self
