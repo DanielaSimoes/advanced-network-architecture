@@ -45,14 +45,32 @@ set local-preference 110
 route-map routes-to-internet permit 20
 !end traffic towards internet
 
+
+!traffic towards AS20000 should be preferably routed via Porto
+ip community-list 2 permit 1000:2
+ip community-list 3 permit 1000:3
+
+route-map routes-to-as20000 permit 30
+match community 2
+set local-preference 110
+
+route-map routes-to-as20000 permit 40
+match community 3
+set local-preference 109
+!end traffic towards AS20000
+
 router bgp 1000
 address-family ipv4 unicast
 
 ! lisboa2
 neighbor 10.0.10.2 remote-as 1000
 neighbor 10.0.10.2 route-map routes-to-internet in
+neighbor 10.0.10.2 route-map routes-to-as20000 in
+
 ! porto
 neighbor 10.0.10.1 remote-as 1000
+neighbor 10.0.10.1 route-map routes-to-as20000 in
+
 
 !networks
 network 192.100.1.0 mask 255.255.255.0

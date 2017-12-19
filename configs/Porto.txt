@@ -45,6 +45,22 @@ match community 1
 set local-preference 110
 
 route-map routes-to-internet permit 20
+! end traffic towards internet
+
+
+!traffic towards AS20000
+ip prefix-list route-to-as20000 permit 200.100.1.0/24
+ip prefix-list route-to-as20000 permit 200.200.1.0/24
+
+route-map routes-to-as20000-ipv4 permit 25
+match ip address prefix-list route-to-as20000
+set community 1000:2
+route-map routes-to-as20000-ipv4 permit 30
+!end traffic towards AS20000
+
+
+!IP traffic for remote SIP proxy 2 cannot be routed via Porto
+ip prefix-list proxy-route-deny-ipv4 seq 5 deny 65.0.1.0/24
 
 router bgp 1000
 address-family ipv4 unicast
@@ -52,22 +68,21 @@ address-family ipv4 unicast
 ! madrid
 neighbor 4.4.4.33 remote-as 20000
 neighbor 4.4.4.33 route-map non-transit out
+neighbor 4.4.4.33 route-map proxy-route-deny-ipv4 in
+neighbor 4.4.4.33 route-map routes-to-as20000-ipv4 in
 ! lisboa2
 neighbor 10.0.10.2 remote-as 1000
 neighbor 10.0.10.2 next-hop-self
 neighbor 10.0.10.2 update-source Loopback 0
 neighbor 10.0.10.2 route-map routes-to-internet in
+neighbor 10.0.10.2 route-map proxy-route-deny-ipv4 out
 ! aveiro
 neighbor 10.0.10.3 remote-as 1000
 neighbor 10.0.10.3 next-hop-self
 neighbor 10.0.10.3 update-source Loopback 0
+neighbor 10.0.10.3 send-community
 ! empc
 neighbor 10.0.7.1 remote-as 65400
-neighbor 10.0.7.1 next-hop-self
-neighbor 10.0.7.1 update-source Loopback 0
-
-!networks
-network 192.100.1.0 mask 255.255.255.0
 
 exit
 
