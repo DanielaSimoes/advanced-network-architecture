@@ -1,0 +1,12 @@
+Dec 19 10:21:57.587 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Dec 19 10:21:57.587 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 64837.
+Dec 19 10:21:57.609 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 19 10:21:57.610 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips 
+Dec 19 10:21:57.610 GENERAL: working_dir=/Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips
+Dec 19 10:21:57.611 HYPERVISOR: exec_cmd: ethsw create SW2 
+Dec 19 10:22:00.510 HYPERVISOR: exec_cmd: nio create_udp udp-4bdb9abf-4626-4ed1-8c9c-b99735e567d4 10009 127.0.0.1 10008 
+Dec 19 10:22:00.511 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-4bdb9abf-4626-4ed1-8c9c-b99735e567d4 
+Dec 19 10:22:00.529 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-4bdb9abf-4626-4ed1-8c9c-b99735e567d4 1 
+Dec 19 10:22:01.648 HYPERVISOR: exec_cmd: nio create_udp udp-c588183a-d06f-4f5e-8854-bf45111a76fc 10018 127.0.0.1 10019 
+Dec 19 10:22:01.649 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-c588183a-d06f-4f5e-8854-bf45111a76fc 
+Dec 19 10:22:01.657 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-c588183a-d06f-4f5e-8854-bf45111a76fc 1 

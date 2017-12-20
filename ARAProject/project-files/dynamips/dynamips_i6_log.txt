@@ -1,0 +1,17 @@
+Dec 19 10:21:57.504 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Dec 19 10:21:57.505 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 64834.
+Dec 19 10:21:57.531 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 19 10:21:57.533 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips 
+Dec 19 10:21:57.533 GENERAL: working_dir=/Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips
+Dec 19 10:21:57.534 HYPERVISOR: exec_cmd: ethsw create EthernetCore 
+Dec 19 10:21:59.889 HYPERVISOR: exec_cmd: nio create_udp udp-a316cd98-631d-423b-93eb-2af847b65caa 10004 127.0.0.1 10005 
+Dec 19 10:21:59.890 HYPERVISOR: exec_cmd: ethsw add_nio EthernetCore udp-a316cd98-631d-423b-93eb-2af847b65caa 
+Dec 19 10:21:59.903 HYPERVISOR: exec_cmd: ethsw set_access_port EthernetCore udp-a316cd98-631d-423b-93eb-2af847b65caa 1 
+Dec 19 10:22:02.373 HYPERVISOR: exec_cmd: nio create_udp udp-47de2d82-71d3-449a-89bd-908ad92e1ea2 10025 127.0.0.1 10024 
+Dec 19 10:22:02.374 HYPERVISOR: exec_cmd: ethsw add_nio EthernetCore udp-47de2d82-71d3-449a-89bd-908ad92e1ea2 
+Dec 19 10:22:02.386 HYPERVISOR: exec_cmd: ethsw set_access_port EthernetCore udp-47de2d82-71d3-449a-89bd-908ad92e1ea2 1 
+Dec 19 10:22:05.331 HYPERVISOR: exec_cmd: nio create_udp udp-572ad824-f466-4456-92ef-fd7f81f5d481 10051 127.0.0.1 10050 
+Dec 19 10:22:05.333 HYPERVISOR: exec_cmd: ethsw add_nio EthernetCore udp-572ad824-f466-4456-92ef-fd7f81f5d481 
+Dec 19 10:22:05.340 HYPERVISOR: exec_cmd: ethsw set_access_port EthernetCore udp-572ad824-f466-4456-92ef-fd7f81f5d481 1 
+Dec 20 12:13:47.751 HYPERVISOR: exec_cmd: nio bind_filter udp-572ad824-f466-4456-92ef-fd7f81f5d481 2 capture 
+Dec 20 12:13:47.757 HYPERVISOR: exec_cmd: nio setup_filter udp-572ad824-f466-4456-92ef-fd7f81f5d481 2 en10mb /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/tmp/captures/Lisboa2_FastEthernet01_to_EthernetCore_Ethernet1.pcap 

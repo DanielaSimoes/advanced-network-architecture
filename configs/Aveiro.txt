@@ -1,12 +1,16 @@
 conf t
 ipv6 unicast-routing
 ip bgp-community new-format
+ip cef
+mpls traffic-eng tunnels
 
 interface f0/0
 ip address 10.0.1.2 255.255.255.248
 ip ospf 1 area 0
 ipv6 enable
 ipv6 address 2001:100:1:2::2/64
+mpls traffic-eng tunnels
+ip rsvp bandwidth 40000 40000
 no shutdown
 
 interface f0/1
@@ -14,6 +18,7 @@ ip address 10.0.2.1 255.255.255.252
 ip ospf 1 area 0
 ipv6 enable
 ipv6 address 2001:100:1:4::1/64
+mpls traffic-eng tunnels
 no shutdown
 
 interface f1/0
@@ -21,6 +26,7 @@ ip address 10.2.2.1 255.255.255.252
 ip ospf 1 area 0
 ipv6 enable
 ipv6 address 3001:10:2:2::1/64
+mpls traffic-eng tunnels
 no shutdown
 
 interface f1/1
@@ -28,12 +34,28 @@ ip address 10.0.3.1 255.255.255.252
 ip ospf 1 area 0
 ipv6 enable
 ipv6 address 2001:100:1:5::1/64
+mpls traffic-eng tunnels
 no shutdown
 
 interface lo0
 ip address 10.0.10.3 255.255.255.255
 ip ospf 1 area 0
 no shutdown
+
+interface tunnel 1
+ip unnumbered Loopback0
+tunnel destination 10.0.10.4 !oeiras
+tunnel mode mpls traffic-eng
+tunnel mpls traffic-eng bandwidth 20480
+tunnel mpls traffic-eng path-option 1 explicit name aveiro_oeiras
+tunnel mpls traffic-eng autoroute announce
+
+exit
+
+ip explicit-path name aveiro_oeiras enable
+next-address 10.0.1.1 !lisboa2
+next-address 10.0.6.1 !oeiras
+
 
 !traffic towards internet should be preferably routed via ISP PT1
 ip community-list 1 permit 1000:1
@@ -69,6 +91,11 @@ neighbor 10.0.10.1 remote-as 1000
 neighbor 10.0.10.1 route-map routes-in-porto in
 neighbor 10.0.10.1 next-hop-self
 neighbor 10.0.10.1 update-source Loopback 0
+
+! RSVP-TE
+router ospf 1
+mpls traffic-eng area 0
+mpls traffic-eng router-id Loopback 0
 
 end
 wr
