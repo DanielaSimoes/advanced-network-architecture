@@ -72,14 +72,14 @@ exit
 ip prefix-list route-to-tunnel1 permit 111.1.1.128/26
 route-map route-to-tunnels permit 10
 match ip address prefix-list route-to-tunnel1
-set interface Tunnel1
+set default interface Tunnel1
 
-!route to tunnel 2 -> oeiras B2 111.1.1.192/26
+!route to tunnel 2 -> oeiras 111.1.1.192/26
 ip prefix-list route-to-tunnel2 permit 111.1.1.192/26
 
 route-map route-to-tunnels permit 20
 match ip address prefix-list route-to-tunnel2
-set interface Tunnel2
+set default interface Tunnel2
 
 route-map route-to-tunnels permit 30
 
