@@ -3,6 +3,7 @@ ipv6 unicast-routing
 ip bgp-community new-format
 ip cef
 mpls traffic-eng tunnels
+mpls ip
 
 interface f0/0
 ip address 10.0.1.2 255.255.255.248
@@ -10,7 +11,8 @@ ip ospf 1 area 0
 ipv6 enable
 ipv6 address 2001:100:1:2::2/64
 mpls traffic-eng tunnels
-ip rsvp bandwidth 40000 40000
+ip rsvp bandwidth 80000 80000
+mpls ip
 no shutdown
 
 interface f0/1
@@ -35,6 +37,10 @@ ip ospf 1 area 0
 ipv6 enable
 ipv6 address 2001:100:1:5::1/64
 mpls traffic-eng tunnels
+mpls ip
+ip vrf forwarding VPN-1
+ip address 10.0.3.1 255.255.255.252
+ip policy route-map route-to-tunnels
 no shutdown
 
 interface lo0
@@ -43,14 +49,39 @@ ip ospf 1 area 0
 no shutdown
 
 interface tunnel 1
-ip unnumbered Loopback0
+ip address 10.0.20.1 255.255.255.255
 tunnel destination 10.0.10.4 !oeiras
 tunnel mode mpls traffic-eng
 tunnel mpls traffic-eng bandwidth 20480
 tunnel mpls traffic-eng path-option 1 explicit name aveiro_oeiras
 tunnel mpls traffic-eng autoroute announce
+tunnel mpls traffic-eng autoroute metric 2
+
+interface tunnel 2
+ip address 10.0.30.1 255.255.255.255
+tunnel destination 10.0.10.4 !oeiras
+tunnel mode mpls traffic-eng
+tunnel mpls traffic-eng bandwidth 20480
+tunnel mpls traffic-eng path-option 1 explicit name aveiro_oeiras
+tunnel mpls traffic-eng autoroute announce
+tunnel mpls traffic-eng autoroute metric 2
 
 exit
+
+! route to tunnel 1 -> oeiras B2 111.1.1.128/26
+ip prefix-list route-to-tunnel1 permit 111.1.1.128/26
+route-map route-to-tunnels permit 10
+match ip address prefix-list route-to-tunnel1
+set interface Tunnel1
+
+!route to tunnel 2 -> oeiras B2 111.1.1.192/26
+ip prefix-list route-to-tunnel2 permit 111.1.1.192/26
+
+route-map route-to-tunnels permit 20
+match ip address prefix-list route-to-tunnel2
+set interface Tunnel2
+
+route-map route-to-tunnels permit 30
 
 ip explicit-path name aveiro_oeiras enable
 next-address 10.0.1.1 !lisboa2
@@ -96,6 +127,12 @@ neighbor 10.0.10.1 update-source Loopback 0
 router ospf 1
 mpls traffic-eng area 0
 mpls traffic-eng router-id Loopback 0
+
+! MPLS VPN
+ip vrf VPN-1
+rd 1000:1
+route-target export 1000:1
+route-target import 1000:1
 
 end
 wr
