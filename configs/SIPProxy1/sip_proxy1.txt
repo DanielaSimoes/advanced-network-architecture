@@ -1,0 +1,12 @@
+vim /etc/network/interfaces
+
+allow-hotplug eth0
+iface eth0 inet static
+address 192.100.1.2
+netmask 255.255.255.0
+gateway 192.100.1.1
+
+sudo ip route add default via 192.100.1.1
+
+
+service asterisk restart

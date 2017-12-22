@@ -1,0 +1,53 @@
+Dec 22 10:29:25.916 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Dec 22 10:29:25.916 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 62330.
+Dec 22 10:29:25.931 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 22 10:29:25.933 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips 
+Dec 22 10:29:25.933 GENERAL: working_dir=/Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips
+Dec 22 10:29:25.934 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/8cb30d82-af84-4300-955e-16458a0165a9 
+Dec 22 10:29:25.934 GENERAL: working_dir=/Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/8cb30d82-af84-4300-955e-16458a0165a9
+Dec 22 10:29:25.935 HYPERVISOR: exec_cmd: vm create EmpC 5 c7200 
+Dec 22 10:29:25.936 VM: VM EmpC created.
+Dec 22 10:29:25.937 HYPERVISOR: exec_cmd: vm set_con_tcp_port EmpC 5010 
+Dec 22 10:29:25.938 HYPERVISOR: exec_cmd: c7200 get_mac_addr EmpC 
+Dec 22 10:29:25.939 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 22 10:29:25.940 HYPERVISOR: exec_cmd: vm slot_add_binding EmpC 0 0 C7200-IO-FE 
+Dec 22 10:29:25.942 HYPERVISOR: exec_cmd: vm set_ios EmpC /Users/Daniela/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 22 10:29:25.943 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 22 10:29:25.944 HYPERVISOR: exec_cmd: vm slot_remove_binding EmpC 0 0 
+Dec 22 10:29:25.945 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 22 10:29:25.947 HYPERVISOR: exec_cmd: vm slot_add_binding EmpC 0 0 C7200-IO-2FE 
+Dec 22 10:29:25.948 HYPERVISOR: exec_cmd: vm set_nvram EmpC 512 
+Dec 22 10:29:25.949 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 22 10:29:25.950 HYPERVISOR: exec_cmd: vm slot_add_binding EmpC 1 0 PA-2FE-TX 
+Dec 22 10:29:25.951 HYPERVISOR: exec_cmd: c7200 set_mac_addr EmpC ca05.5298.0000 
+Dec 22 10:29:25.952 HYPERVISOR: exec_cmd: vm set_ram EmpC 512 
+Dec 22 10:29:25.953 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 22 10:29:25.954 HYPERVISOR: exec_cmd: vm set_idle_pc EmpC 0x63184bc8 
+Dec 22 10:29:25.955 HYPERVISOR: exec_cmd: vm set_disk0 EmpC 0 
+Dec 22 10:29:25.958 HYPERVISOR: exec_cmd: vm set_config EmpC configs/i5_startup-config.cfg 
+Dec 22 10:29:25.960 HYPERVISOR: exec_cmd: vm set_config EmpC configs/i5_startup-config.cfg /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/8cb30d82-af84-4300-955e-16458a0165a9/configs/i5_private-config.cfg 
+Dec 22 10:29:26.809 HYPERVISOR: exec_cmd: nio create_udp udp-340bdb6d-fe07-4c4d-b7f4-742d6341cc86 10002 127.0.0.1 10003 
+Dec 22 10:29:26.810 HYPERVISOR: exec_cmd: vm slot_add_nio_binding EmpC 0 1 udp-340bdb6d-fe07-4c4d-b7f4-742d6341cc86 
+Dec 22 10:29:26.811 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 22 10:29:29.327 HYPERVISOR: exec_cmd: nio create_udp udp-bf8bfdf8-76ad-4d08-ad3c-41fbd8d64faf 10027 127.0.0.1 10026 
+Dec 22 10:29:29.328 HYPERVISOR: exec_cmd: vm slot_add_nio_binding EmpC 0 0 udp-bf8bfdf8-76ad-4d08-ad3c-41fbd8d64faf 
+Dec 22 10:29:29.329 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 22 10:30:03.679 HYPERVISOR: exec_cmd: vm set_ghost_status EmpC 2 
+Dec 22 10:30:03.718 HYPERVISOR: exec_cmd: vm set_ghost_file EmpC /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Dec 22 10:30:03.732 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 22 10:30:03.745 HYPERVISOR: exec_cmd: vm start EmpC 
+Dec 22 10:30:34.065 HYPERVISOR: exec_cmd: vm extract_config EmpC 
+Dec 22 10:31:04.072 HYPERVISOR: exec_cmd: vm extract_config EmpC 
+Dec 22 17:35:55.568 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 22 17:35:55.571 HYPERVISOR: exec_cmd: vm stop EmpC 
+Dec 22 17:35:55.665 VM: VM EmpC shutdown.
+Dec 22 17:35:55.667 HYPERVISOR: exec_cmd: vm extract_config EmpC 
+Dec 22 17:36:01.499 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 22 17:36:01.510 HYPERVISOR: exec_cmd: vm extract_config EmpC 
+Dec 22 17:36:02.030 HYPERVISOR: exec_cmd: vm get_status EmpC 
+Dec 22 17:36:02.106 HYPERVISOR: exec_cmd: vm extract_config EmpC 
+Dec 22 17:36:02.171 HYPERVISOR: exec_cmd: vm delete EmpC 
+Dec 22 17:36:02.171 VM: VM EmpC destroyed.
+Dec 22 17:36:02.220 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 22 17:36:02.428 HYPERVISOR: Stopped.
+Dec 22 17:36:02.428 GENERAL: reset done.

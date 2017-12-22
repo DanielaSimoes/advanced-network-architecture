@@ -17,7 +17,6 @@ no shutdown
 
 interface f0/1
 ip address 10.0.2.1 255.255.255.252
-ip ospf 1 area 0
 ipv6 enable
 ipv6 address 2001:100:1:4::1/64
 mpls traffic-eng tunnels
@@ -142,10 +141,9 @@ redistribute ospf 2 vrf VPN-1
 
 router ospf 2 vrf VPN-1
 network 110.1.1.0 0.0.0.127 area 0
-capability vrf-lite
 
 ip route vrf VPN-1 0.0.0.0 0.0.0.0 10.0.1.1 global
-ip route 110.1.1.0 255.255.255.128 f0/1
+ip route 110.1.1.0 255.255.255.128 f0/1 10.0.2.2
 
 ! RSVP-TE
 router ospf 1

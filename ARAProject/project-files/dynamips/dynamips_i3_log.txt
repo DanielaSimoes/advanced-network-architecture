@@ -1,0 +1,24 @@
+Dec 22 10:29:24.448 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Dec 22 10:29:24.448 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 62294.
+Dec 22 10:29:24.473 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 22 10:29:24.474 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips 
+Dec 22 10:29:24.474 GENERAL: working_dir=/Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips
+Dec 22 10:29:24.475 HYPERVISOR: exec_cmd: ethsw create EthernetCore 
+Dec 22 10:29:27.039 HYPERVISOR: exec_cmd: nio create_udp udp-d1fd53e5-98b9-453f-a9d3-217034e59a86 10005 127.0.0.1 10004 
+Dec 22 10:29:27.040 HYPERVISOR: exec_cmd: ethsw add_nio EthernetCore udp-d1fd53e5-98b9-453f-a9d3-217034e59a86 
+Dec 22 10:29:27.060 HYPERVISOR: exec_cmd: ethsw set_access_port EthernetCore udp-d1fd53e5-98b9-453f-a9d3-217034e59a86 1 
+Dec 22 10:29:28.579 HYPERVISOR: exec_cmd: nio create_udp udp-cc4c0076-836f-48cb-a4a5-9663f0ab3dac 10021 127.0.0.1 10020 
+Dec 22 10:29:28.580 HYPERVISOR: exec_cmd: ethsw add_nio EthernetCore udp-cc4c0076-836f-48cb-a4a5-9663f0ab3dac 
+Dec 22 10:29:28.600 HYPERVISOR: exec_cmd: ethsw set_access_port EthernetCore udp-cc4c0076-836f-48cb-a4a5-9663f0ab3dac 1 
+Dec 22 10:29:31.009 HYPERVISOR: exec_cmd: nio create_udp udp-dfc6da2d-b416-46ac-897a-3bc0208230e3 10040 127.0.0.1 10041 
+Dec 22 10:29:31.010 HYPERVISOR: exec_cmd: ethsw add_nio EthernetCore udp-dfc6da2d-b416-46ac-897a-3bc0208230e3 
+Dec 22 10:29:31.029 HYPERVISOR: exec_cmd: ethsw set_access_port EthernetCore udp-dfc6da2d-b416-46ac-897a-3bc0208230e3 1 
+Dec 22 16:54:39.624 HYPERVISOR: exec_cmd: nio bind_filter udp-dfc6da2d-b416-46ac-897a-3bc0208230e3 2 capture 
+Dec 22 16:54:39.628 HYPERVISOR: exec_cmd: nio setup_filter udp-dfc6da2d-b416-46ac-897a-3bc0208230e3 2 en10mb /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/tmp/captures/EthernetCore_Ethernet2_to_Aveiro_FastEthernet00.pcap 
+Dec 22 16:55:29.123 HYPERVISOR: exec_cmd: nio unbind_filter udp-dfc6da2d-b416-46ac-897a-3bc0208230e3 2 
+Dec 22 17:12:25.691 HYPERVISOR: exec_cmd: nio bind_filter udp-dfc6da2d-b416-46ac-897a-3bc0208230e3 2 capture 
+Dec 22 17:12:25.693 HYPERVISOR: exec_cmd: nio setup_filter udp-dfc6da2d-b416-46ac-897a-3bc0208230e3 2 en10mb /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/tmp/captures/EthernetCore_Ethernet2_to_Aveiro_FastEthernet00.pcap 
+Dec 22 17:36:02.031 HYPERVISOR: exec_cmd: ethsw delete EthernetCore 
+Dec 22 17:36:02.144 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 22 17:36:02.480 HYPERVISOR: Stopped.
+Dec 22 17:36:02.481 GENERAL: reset done.
