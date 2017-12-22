@@ -21,6 +21,10 @@ ip ospf 1 area 0
 ipv6 enable
 ipv6 address 2001:100:1:4::1/64
 mpls traffic-eng tunnels
+mpls ip
+ip vrf forwarding VPN-1
+ip address 10.0.2.1 255.255.255.252
+ip ospf 2 area 0
 no shutdown
 
 interface f1/0
@@ -38,8 +42,6 @@ ipv6 enable
 ipv6 address 2001:100:1:5::1/64
 mpls traffic-eng tunnels
 mpls ip
-ip vrf forwarding VPN-1
-ip address 10.0.3.1 255.255.255.252
 ip policy route-map route-to-tunnels
 no shutdown
 
@@ -49,7 +51,7 @@ ip ospf 1 area 0
 no shutdown
 
 interface tunnel 1
-ip address 10.0.20.1 255.255.255.255
+ip unnumbered Loopback0
 tunnel destination 10.0.10.4 !oeiras
 tunnel mode mpls traffic-eng
 tunnel mpls traffic-eng bandwidth 20480
@@ -58,7 +60,7 @@ tunnel mpls traffic-eng autoroute announce
 tunnel mpls traffic-eng autoroute metric 2
 
 interface tunnel 2
-ip address 10.0.30.1 255.255.255.255
+ip unnumbered Loopback0
 tunnel destination 10.0.10.4 !oeiras
 tunnel mode mpls traffic-eng
 tunnel mpls traffic-eng bandwidth 20480
@@ -123,6 +125,28 @@ neighbor 10.0.10.1 route-map routes-in-porto in
 neighbor 10.0.10.1 next-hop-self
 neighbor 10.0.10.1 update-source Loopback 0
 
+redistribute static
+
+!VPN
+bgp router-id 30.30.30.30
+neighbor 10.0.10.4 remote-as 1000
+neighbor 10.0.10.4 update-source Loopback0
+
+address-family vpnv4
+neighbor 10.0.10.4 activate
+neighbor 10.0.10.4 send-community both
+
+address-family ipv4 vrf VPN-1
+redistribute connected
+redistribute ospf 2 vrf VPN-1
+
+router ospf 2 vrf VPN-1
+network 110.1.1.0 0.0.0.127 area 0
+capability vrf-lite
+
+ip route vrf VPN-1 0.0.0.0 0.0.0.0 10.0.1.1 global
+ip route 110.1.1.0 255.255.255.128 f0/1
+
 ! RSVP-TE
 router ospf 1
 mpls traffic-eng area 0
@@ -133,6 +157,8 @@ ip vrf VPN-1
 rd 1000:1
 route-target export 1000:1
 route-target import 1000:1
+
+exit
 
 end
 wr

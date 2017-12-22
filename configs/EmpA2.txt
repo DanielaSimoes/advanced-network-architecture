@@ -9,11 +9,17 @@ ipv6 address 2001:100:1:7::2/64
 no shutdown
 
 interface f0/1
-ip address 110.1.1.2 255.255.255.0
+ip address 110.1.1.129 255.255.255.128
 ip ospf 2 area 0
 ipv6 enable
 ipv6 address 3001:110:2::1/64
 no shutdown
+
+router ospf 2
+network 110.1.1.128 255.255.255.128 area 0
+network 10.0.5.0 255.255.255.252 area 0
+
+ip route 0.0.0.0 0.0.0.0 10.0.5.1
 
 end
 wr
