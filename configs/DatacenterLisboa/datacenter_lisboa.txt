@@ -1,0 +1,17 @@
+vim /etc/network/interfaces
+
+allow-hotplug eth0
+iface eth0 inet static
+address 10.2.1.2
+netmask 255.255.255.0
+gateway 10.2.1.1
+dns-nameservers 10.2.1.2
+
+# defining nameservers
+cp etc.resolv.conf to /etc/resolv.conf
+
+# verify if its working
+root@labcom:/home/labcom# host aracdn.com
+aracdn.com has address 10.2.1.2
+
+sudo ip route add default via 10.2.1.2

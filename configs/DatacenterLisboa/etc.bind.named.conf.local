@@ -1,0 +1,26 @@
+view "aveiro" {
+  match-clients { 110.1.1.0/25; 111.1.1.0/25; };
+  recursion no;
+  zone "aracdn.com" {
+    type master;
+    file "/etc/bind/aracdn.com-aveiro.db";
+  };
+};
+
+view "oeiras" {
+  match-clients { 111.1.1.128/25; 110.1.1.128/25; };
+  recursion no;
+  zone "aracdn.com" {
+    type master;
+    file "/etc/bind/aracdn.com-oeiras.db";
+  };
+};
+
+view "other" {
+  match-clients { any; };
+  recursion no;
+  zone "aracdn.com" {
+    type master;
+    file "/etc/bind/aracdn.com-other.db";
+  };
+};
