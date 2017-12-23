@@ -49,6 +49,16 @@ ip address 10.0.10.2 255.255.255.255
 ip ospf 1 area 0
 no shutdown
 
+!SNMP
+snmp-server engineID local 123456789A
+snmp-server user user1 group1 v3 auth md5 authpass priv des56 encpassword
+snmp-server group group1 v3 priv
+snmp-server view myview system included
+snmp-server community myrouter RO
+
+snmp-server enable traps syslog
+snmp-server host 10.2.3.2 version 2c myrouter
+
 ! non transit
 ip as-path access-list 1 permit ^$
 route-map non-transit permit 10
