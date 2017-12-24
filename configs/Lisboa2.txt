@@ -11,7 +11,7 @@ ipv6 address 2001:4:4:20::2/64
 mpls traffic-eng tunnels
 no shutdown
 
-interface f0/1
+interface ATM3/0
 ip address 10.0.1.1 255.255.255.248
 ip ospf 1 area 0
 ipv6 enable
