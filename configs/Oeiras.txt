@@ -10,6 +10,7 @@ ip address 10.0.6.1 255.255.255.252
 ip ospf 1 area 0
 ipv6 enable
 ipv6 address 2001:100:1:3::2/64
+ipv6 ospf 1 area 0
 mpls traffic-eng tunnels
 ip rsvp bandwidth 80000 80000
 mpls ip
@@ -20,6 +21,7 @@ ip address 10.0.4.1 255.255.255.252
 ip ospf 1 area 0
 ipv6 enable
 ipv6 address 2001:100:1:6::1/64
+ipv6 ospf 1 area 0
 mpls traffic-eng tunnels
 mpls ip
 ip policy route-map route-to-tunnels
@@ -30,6 +32,7 @@ ip address 10.2.3.1 255.255.255.252
 ip ospf 1 area 0
 ipv6 enable
 ipv6 address 3001:10:2:3::1/64
+ipv6 ospf 1 area 0
 mpls traffic-eng tunnels
 no shutdown
 
@@ -37,6 +40,7 @@ interface f1/1
 ip address 10.0.5.1 255.255.255.252
 ipv6 enable
 ipv6 address 2001:100:1:7::1/64
+ipv6 ospf 1 area 0
 mpls traffic-eng tunnels
 mpls ip
 ip vrf forwarding VPN-1
@@ -49,6 +53,7 @@ ip address 192.100.1.1 255.255.255.0
 ip ospf 1 area 0
 ipv6 enable
 ipv6 address 2001:100:1:1::1/64
+ipv6 ospf 1 area 0
 mpls traffic-eng tunnels
 no shutdown
 
@@ -75,6 +80,7 @@ tunnel mpls traffic-eng bandwidth 20480
 tunnel mpls traffic-eng path-option 1 explicit name oeiras_aveiro
 tunnel mpls traffic-eng autoroute announce
 tunnel mpls traffic-eng autoroute metric 2
+
 
 !SNMP
 snmp-server engineID local 123456789A

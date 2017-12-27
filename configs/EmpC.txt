@@ -22,5 +22,9 @@ neighbor 10.0.7.2 remote-as 1000
 !networks
 network 112.1.1.0 mask 255.255.255.0
 
+address-family ipv6 unicast
+network 3001:112:1::/64
+neighbor 2001:100:1:2::3 remote-as 1000
+
 end
 wr
