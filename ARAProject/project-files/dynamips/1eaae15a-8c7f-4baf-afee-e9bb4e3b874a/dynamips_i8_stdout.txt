@@ -25,7 +25,7 @@ ELF entry point: 0x80008000
 
 C7200 'Lisboa2': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
 VM Lisboa2: starting CPU!
-NIO udp-6bccc29b-67f0-4fda-9e75-f9e5a0117e05: capturing to file '/Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/tmp/captures/Lisboa2_FastEthernet10_to_Oeiras_FastEthernet00.pcap'
+NIO udp-6bccc29b-67f0-4fda-9e75-f9e5a0117e05: capturing to file './tmp/captures/Lisboa2_FastEthernet10_to_Oeiras_FastEthernet00.pcap'
 
 C7200 'Lisboa2': stopping simulation.
 NIO udp-6bccc29b-67f0-4fda-9e75-f9e5a0117e05: ending packet capture.

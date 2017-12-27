@@ -1,10 +1,10 @@
 Dec 20 14:42:21.717 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
 Dec 20 14:42:21.718 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51095.
 Dec 20 14:42:21.738 HYPERVISOR: exec_cmd: hypervisor version 
-Dec 20 14:42:21.739 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips 
-Dec 20 14:42:21.739 GENERAL: working_dir=/Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips
-Dec 20 14:42:21.740 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/50255974-ebee-47d5-af2f-50d6f273db37 
-Dec 20 14:42:21.740 GENERAL: working_dir=/Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/50255974-ebee-47d5-af2f-50d6f273db37
+Dec 20 14:42:21.739 HYPERVISOR: exec_cmd: hypervisor working_dir ./project-files/dynamips 
+Dec 20 14:42:21.739 GENERAL: working_dir=./project-files/dynamips
+Dec 20 14:42:21.740 HYPERVISOR: exec_cmd: hypervisor working_dir ./project-files/dynamips/50255974-ebee-47d5-af2f-50d6f273db37 
+Dec 20 14:42:21.740 GENERAL: working_dir=./project-files/dynamips/50255974-ebee-47d5-af2f-50d6f273db37
 Dec 20 14:42:21.742 HYPERVISOR: exec_cmd: vm create Lisboa2 4 c7200 
 Dec 20 14:42:21.742 VM: VM Lisboa2 created.
 Dec 20 14:42:21.744 HYPERVISOR: exec_cmd: vm set_con_tcp_port Lisboa2 5009 
@@ -27,7 +27,7 @@ Dec 20 14:42:21.774 HYPERVISOR: exec_cmd: vm set_ram Lisboa2 512
 Dec 20 14:42:21.777 HYPERVISOR: exec_cmd: vm set_disk0 Lisboa2 0 
 Dec 20 14:42:21.779 HYPERVISOR: exec_cmd: c7200 set_mac_addr Lisboa2 ca04.5296.0000 
 Dec 20 14:42:21.783 HYPERVISOR: exec_cmd: vm set_config Lisboa2 configs/i4_startup-config.cfg 
-Dec 20 14:42:21.788 HYPERVISOR: exec_cmd: vm set_config Lisboa2 configs/i4_startup-config.cfg /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/50255974-ebee-47d5-af2f-50d6f273db37/configs/i4_private-config.cfg 
+Dec 20 14:42:21.788 HYPERVISOR: exec_cmd: vm set_config Lisboa2 configs/i4_startup-config.cfg configs/i4_private-config.cfg 
 Dec 20 14:42:25.177 HYPERVISOR: exec_cmd: nio create_udp udp-b23e417f-af18-477e-b88c-5d785f4ac3cd 10013 127.0.0.1 10012 
 Dec 20 14:42:25.178 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisboa2 2 0 udp-b23e417f-af18-477e-b88c-5d785f4ac3cd 
 Dec 20 14:42:25.180 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
@@ -44,14 +44,14 @@ Dec 20 14:42:29.865 HYPERVISOR: exec_cmd: nio create_udp udp-667410fd-bd47-4b61-
 Dec 20 14:42:29.866 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisboa2 0 1 udp-667410fd-bd47-4b61-953c-41b9affca263 
 Dec 20 14:42:29.868 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
 Dec 20 14:42:48.415 HYPERVISOR: exec_cmd: vm set_ghost_status Lisboa2 2 
-Dec 20 14:42:48.417 HYPERVISOR: exec_cmd: vm set_ghost_file Lisboa2 /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Dec 20 14:42:48.417 HYPERVISOR: exec_cmd: vm set_ghost_file Lisboa2 ./project-files/dynamips/c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
 Dec 20 14:42:48.419 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
 Dec 20 14:42:48.423 HYPERVISOR: exec_cmd: vm start Lisboa2 
 Dec 20 14:43:18.649 HYPERVISOR: exec_cmd: vm extract_config Lisboa2 
 Dec 20 14:44:18.660 HYPERVISOR: exec_cmd: vm extract_config Lisboa2 
 Dec 20 14:48:18.707 HYPERVISOR: exec_cmd: vm extract_config Lisboa2 
 Dec 20 15:27:47.691 HYPERVISOR: exec_cmd: nio bind_filter udp-6bccc29b-67f0-4fda-9e75-f9e5a0117e05 2 capture 
-Dec 20 15:27:47.693 HYPERVISOR: exec_cmd: nio setup_filter udp-6bccc29b-67f0-4fda-9e75-f9e5a0117e05 2 en10mb /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/tmp/captures/Lisboa2_FastEthernet10_to_Oeiras_FastEthernet00.pcap 
+Dec 20 15:27:47.693 HYPERVISOR: exec_cmd: nio setup_filter udp-6bccc29b-67f0-4fda-9e75-f9e5a0117e05 2 en10mb ./tmp/captures/Lisboa2_FastEthernet10_to_Oeiras_FastEthernet00.pcap 
 Dec 20 15:28:19.601 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
 Dec 20 15:28:19.602 HYPERVISOR: exec_cmd: vm stop Lisboa2 
 Dec 20 15:28:19.766 VM: VM Lisboa2 shutdown.

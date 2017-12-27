@@ -25,7 +25,7 @@ ELF entry point: 0x80008000
 
 C7200 'Oeiras': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
 VM Oeiras: starting CPU!
-NIO udp-2c5a3005-56fc-4af4-a4e5-7e418aec9e12: capturing to file '/Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/tmp/captures/Oeiras_FastEthernet11_to_EmpA2_FastEthernet00.pcap'
+NIO udp-2c5a3005-56fc-4af4-a4e5-7e418aec9e12: capturing to file './tmp/captures/Oeiras_FastEthernet11_to_EmpA2_FastEthernet00.pcap'
 
 C7200 'Oeiras': stopping simulation.
 NIO udp-2c5a3005-56fc-4af4-a4e5-7e418aec9e12: ending packet capture.

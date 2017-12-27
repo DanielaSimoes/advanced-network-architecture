@@ -1,10 +1,10 @@
 Dec 16 20:28:47.662 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
 Dec 16 20:28:47.663 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52623.
 Dec 16 20:28:47.683 HYPERVISOR: exec_cmd: hypervisor version 
-Dec 16 20:28:47.683 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips 
-Dec 16 20:28:47.684 GENERAL: working_dir=/Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips
-Dec 16 20:28:47.684 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/3a307e93-7cea-4fe4-8aab-fc2156a5c805 
-Dec 16 20:28:47.684 GENERAL: working_dir=/Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/3a307e93-7cea-4fe4-8aab-fc2156a5c805
+Dec 16 20:28:47.683 HYPERVISOR: exec_cmd: hypervisor working_dir ./project-files/dynamips 
+Dec 16 20:28:47.684 GENERAL: working_dir=./project-files/dynamips
+Dec 16 20:28:47.684 HYPERVISOR: exec_cmd: hypervisor working_dir ./project-files/dynamips/3a307e93-7cea-4fe4-8aab-fc2156a5c805 
+Dec 16 20:28:47.684 GENERAL: working_dir=./project-files/dynamips/3a307e93-7cea-4fe4-8aab-fc2156a5c805
 Dec 16 20:28:47.685 HYPERVISOR: exec_cmd: vm create Oeiras 7 c7200 
 Dec 16 20:28:47.685 VM: VM Oeiras created.
 Dec 16 20:28:47.686 HYPERVISOR: exec_cmd: vm set_con_tcp_port Oeiras 5006 
@@ -27,7 +27,7 @@ Dec 16 20:28:47.702 HYPERVISOR: exec_cmd: vm slot_add_binding Oeiras 0 0 C7200-I
 Dec 16 20:28:47.704 HYPERVISOR: exec_cmd: vm get_status Oeiras 
 Dec 16 20:28:47.704 HYPERVISOR: exec_cmd: vm slot_add_binding Oeiras 2 0 PA-2FE-TX 
 Dec 16 20:28:47.706 HYPERVISOR: exec_cmd: vm set_config Oeiras configs/i7_startup-config.cfg 
-Dec 16 20:28:47.708 HYPERVISOR: exec_cmd: vm set_config Oeiras configs/i7_startup-config.cfg /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/3a307e93-7cea-4fe4-8aab-fc2156a5c805/configs/i7_private-config.cfg 
+Dec 16 20:28:47.708 HYPERVISOR: exec_cmd: vm set_config Oeiras configs/i7_startup-config.cfg configs/i7_private-config.cfg 
 Dec 16 20:28:48.240 HYPERVISOR: exec_cmd: nio create_udp udp-1d6889a8-017f-4875-bd3e-a45e8c716d90 10000 127.0.0.1 10001 
 Dec 16 20:28:48.241 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oeiras 1 0 udp-1d6889a8-017f-4875-bd3e-a45e8c716d90 
 Dec 16 20:28:48.242 HYPERVISOR: exec_cmd: vm get_status Oeiras 
@@ -44,13 +44,13 @@ Dec 16 20:28:53.573 HYPERVISOR: exec_cmd: nio create_udp udp-8e5076b9-eb3a-41cf-
 Dec 16 20:28:53.574 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oeiras 0 1 udp-8e5076b9-eb3a-41cf-a1f0-c7d583542984 
 Dec 16 20:28:53.575 HYPERVISOR: exec_cmd: vm get_status Oeiras 
 Dec 16 20:31:29.876 HYPERVISOR: exec_cmd: vm set_ghost_status Oeiras 2 
-Dec 16 20:31:29.881 HYPERVISOR: exec_cmd: vm set_ghost_file Oeiras /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Dec 16 20:31:29.881 HYPERVISOR: exec_cmd: vm set_ghost_file Oeiras ./project-files/dynamips/c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
 Dec 16 20:31:29.882 HYPERVISOR: exec_cmd: vm get_status Oeiras 
 Dec 16 20:31:29.886 HYPERVISOR: exec_cmd: vm start Oeiras 
 Dec 16 20:32:00.130 HYPERVISOR: exec_cmd: vm extract_config Oeiras 
 Dec 16 20:32:30.134 HYPERVISOR: exec_cmd: vm extract_config Oeiras 
 Dec 16 20:41:17.766 HYPERVISOR: exec_cmd: nio bind_filter udp-2c5a3005-56fc-4af4-a4e5-7e418aec9e12 2 capture 
-Dec 16 20:41:17.767 HYPERVISOR: exec_cmd: nio setup_filter udp-2c5a3005-56fc-4af4-a4e5-7e418aec9e12 2 en10mb /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/tmp/captures/Oeiras_FastEthernet11_to_EmpA2_FastEthernet00.pcap 
+Dec 16 20:41:17.767 HYPERVISOR: exec_cmd: nio setup_filter udp-2c5a3005-56fc-4af4-a4e5-7e418aec9e12 2 en10mb ./tmp/captures/Oeiras_FastEthernet11_to_EmpA2_FastEthernet00.pcap 
 Dec 16 22:11:14.115 HYPERVISOR: exec_cmd: vm get_status Oeiras 
 Dec 16 22:11:14.116 HYPERVISOR: exec_cmd: vm stop Oeiras 
 Dec 16 22:11:14.296 VM: VM Oeiras shutdown.
