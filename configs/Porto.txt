@@ -62,18 +62,32 @@ route-map routes-to-internet permit 20
 ip prefix-list route-to-as20000 permit 200.100.1.0/24
 ip prefix-list route-to-as20000 permit 200.200.1.0/24
 
+ipv6 prefix-list route-to-as20000-ipv6 permit 2201:200:100:0::/64
+ipv6 prefix-list route-to-as20000-ipv6 permit 2201:200:200:0::/64
+
 route-map route-in-madrid permit 10
 match ip address prefix-list route-to-as20000
+set community 1000:2
+
+route-map route-in-madrid-ipv6 permit 10
+match ip address prefix-list route-to-as20000-ipv6
 set community 1000:2
 !end
 
 !IP traffic for remote SIP proxy 2 cannot be routed via Porto
 ip prefix-list proxy-route-deny-ipv4 permit 65.0.1.0/24
 
+ipv6 prefix-list proxy-route-deny-ipv6 permit 2301:65:0:1::/64
+
 route-map route-in-madrid deny 20
 match ip address prefix-list proxy-route-deny-ipv4
 
+route-map route-in-madrid-ipv6 deny 20
+match ip address prefix-list proxy-route-deny-ipv6
+
 route-map route-in-madrid permit 30
+
+route-map route-in-madrid-ipv6 permit 30
 !end
 
 router bgp 1000
@@ -95,8 +109,33 @@ neighbor 10.0.10.3 remote-as 1000
 neighbor 10.0.10.3 next-hop-self
 neighbor 10.0.10.3 update-source Loopback 0
 neighbor 10.0.10.3 send-community
+
 ! empc
 neighbor 10.0.7.1 remote-as 65400
+
+
+address-family ipv6 unicast
+
+! madrid
+neighbor 2001:4:4:40::2 remote-as 20000
+neighbor 2001:4:4:40::2 activate
+neighbor 2001:4:4:40::2 route-map non-transit out
+neighbor 2001:4:4:40::2 route-map route-in-madrid-ipv6 in
+
+! lisboa2
+neighbor 2001:100:1:2::1 remote-as 1000
+neighbor 2001:100:1:2::1 activate
+neighbor 2001:100:1:2::1 next-hop-self
+neighbor 2001:100:1:2::1 route-map routes-to-internet in
+
+! aveiro
+neighbor 2001:100:1:2::2 remote-as 1000
+neighbor 2001:100:1:2::2 activate
+neighbor 2001:100:1:2::2 next-hop-self
+neighbor 2001:100:1:2::2 send-community
+
+! empc
+neighbor 2001:100:1:3::2 remote-as 65400
 
 exit
 
