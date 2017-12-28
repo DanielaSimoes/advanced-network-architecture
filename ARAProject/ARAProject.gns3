@@ -12,180 +12,6 @@
         "drawings": [],
         "links": [
             {
-                "link_id": "2b7c9c2d-780a-40f1-ada8-8383c525186b",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e1",
-                            "x": 36,
-                            "y": -23
-                        },
-                        "node_id": "04cf7e67-2075-4955-a5e9-b473922f721c",
-                        "port_number": 1
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 34,
-                            "y": 55
-                        },
-                        "node_id": "b47c2927-9e1a-41cc-b9a5-ea61d5114ac0",
-                        "port_number": 0
-                    }
-                ]
-            },
-            {
-                "link_id": "6d19abbb-ed0f-411a-b442-65a31997e85a",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "3",
-                            "x": -15,
-                            "y": -20
-                        },
-                        "node_id": "dec288a9-9ed2-4891-a03f-25fb2602c5d9",
-                        "port_number": 3
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "3",
-                            "x": 25,
-                            "y": 45
-                        },
-                        "node_id": "6c936cb6-e9b2-4adb-9853-aff53f828814",
-                        "port_number": 3
-                    }
-                ]
-            },
-            {
-                "link_id": "443d839e-00e8-4370-bfb7-69163dc6dca2",
-                "nodes": [
-                    {
-                        "adapter_number": 1,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f1/0",
-                            "x": 63,
-                            "y": 51
-                        },
-                        "node_id": "5395bd7e-c0cb-46cd-9112-3232757e2cb1",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/0",
-                            "x": -34,
-                            "y": -16
-                        },
-                        "node_id": "50255974-ebee-47d5-af2f-50d6f273db37",
-                        "port_number": 0
-                    }
-                ]
-            },
-            {
-                "link_id": "fdcf7bf3-2b05-405b-a92f-6ab1c0d2c3b9",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e1",
-                            "x": 75,
-                            "y": 12
-                        },
-                        "node_id": "b47c2927-9e1a-41cc-b9a5-ea61d5114ac0",
-                        "port_number": 1
-                    },
-                    {
-                        "adapter_number": 2,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f2/1",
-                            "x": -6,
-                            "y": 25
-                        },
-                        "node_id": "5395bd7e-c0cb-46cd-9112-3232757e2cb1",
-                        "port_number": 1
-                    }
-                ]
-            },
-            {
-                "link_id": "e3df0a73-f661-440b-9be8-94f5fdcbf917",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/1",
-                            "x": 49,
-                            "y": -33
-                        },
-                        "node_id": "101bafd3-9f4f-4fb6-b01d-20279681ce3e",
-                        "port_number": 1
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/0",
-                            "x": 0,
-                            "y": 45
-                        },
-                        "node_id": "1eaae15a-8c7f-4baf-afee-e9bb4e3b874a",
-                        "port_number": 0
-                    }
-                ]
-            },
-            {
-                "link_id": "d83832c4-e14d-413c-b948-9574fa3eccfa",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e2",
-                            "x": 73,
-                            "y": 27
-                        },
-                        "node_id": "63fa1827-7384-45aa-93c8-ad2b664298b3",
-                        "port_number": 2
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0/0",
-                            "x": -5,
-                            "y": 17
-                        },
-                        "node_id": "66654829-66e4-415f-9a0c-e2dca1be463a",
-                        "port_number": 0
-                    }
-                ]
-            },
-            {
                 "link_id": "912c99be-a8ff-4531-a23f-5aaff432aa77",
                 "nodes": [
                     {
@@ -211,93 +37,6 @@
                         },
                         "node_id": "3d3c57d1-d91d-482f-ae99-994f23e77f24",
                         "port_number": 0
-                    }
-                ]
-            },
-            {
-                "link_id": "66dfd286-d625-4b66-92d3-60491bf37aab",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/1",
-                            "x": 72,
-                            "y": 21
-                        },
-                        "node_id": "5f19c6e9-6b5e-4e17-b9e3-3acdcda90c90",
-                        "port_number": 1
-                    },
-                    {
-                        "adapter_number": 2,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f2/0",
-                            "x": -27,
-                            "y": 23
-                        },
-                        "node_id": "50255974-ebee-47d5-af2f-50d6f273db37",
-                        "port_number": 0
-                    }
-                ]
-            },
-            {
-                "link_id": "c0f1d5af-6efe-435a-bb07-af9c1035d60c",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "1",
-                            "x": -26,
-                            "y": -6
-                        },
-                        "node_id": "6c936cb6-e9b2-4adb-9853-aff53f828814",
-                        "port_number": 1
-                    },
-                    {
-                        "adapter_number": 2,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "0",
-                            "x": 40,
-                            "y": 41
-                        },
-                        "node_id": "3d3c57d1-d91d-482f-ae99-994f23e77f24",
-                        "port_number": 0
-                    }
-                ]
-            },
-            {
-                "link_id": "35d7bfc7-6943-41ba-aa47-49423e40c099",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "3",
-                            "x": 30,
-                            "y": -33
-                        },
-                        "node_id": "82431572-83af-4d83-a3ee-6550d5870331",
-                        "port_number": 3
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "2",
-                            "x": -12,
-                            "y": 41
-                        },
-                        "node_id": "6c936cb6-e9b2-4adb-9853-aff53f828814",
-                        "port_number": 2
                     }
                 ]
             },
@@ -331,7 +70,7 @@
                 ]
             },
             {
-                "link_id": "0f981f00-2e0a-446c-a708-fc1cceaa8249",
+                "link_id": "22bb527f-e571-4f9a-b0b9-a5775a045958",
                 "nodes": [
                     {
                         "adapter_number": 0,
@@ -342,7 +81,7 @@
                             "x": 69,
                             "y": 6
                         },
-                        "node_id": "a3084299-6f90-4972-85a6-b76402a22c1a",
+                        "node_id": "3a307e93-7cea-4fe4-8aab-fc2156a5c805",
                         "port_number": 1
                     },
                     {
@@ -350,29 +89,29 @@
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": -4,
-                            "y": 44
+                            "text": "f0/0",
+                            "x": -3,
+                            "y": 37
                         },
-                        "node_id": "94857f50-cbb3-400d-87ae-b1e255e045f5",
+                        "node_id": "a3084299-6f90-4972-85a6-b76402a22c1a",
                         "port_number": 0
                     }
                 ]
             },
             {
-                "link_id": "d24557ca-bfe7-4a0d-a45d-4d04e87b3945",
+                "link_id": "c13957f6-1eb4-411a-a6f3-c5b4f7cdb94a",
                 "nodes": [
                     {
-                        "adapter_number": 0,
+                        "adapter_number": 1,
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/1",
-                            "x": 69,
-                            "y": 6
+                            "text": "f1/0",
+                            "x": 67,
+                            "y": -2
                         },
-                        "node_id": "8cb30d82-af84-4300-955e-16458a0165a9",
-                        "port_number": 1
+                        "node_id": "101bafd3-9f4f-4fb6-b01d-20279681ce3e",
+                        "port_number": 0
                     },
                     {
                         "adapter_number": 0,
@@ -380,10 +119,10 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e0",
-                            "x": -4,
-                            "y": 45
+                            "x": -6,
+                            "y": 38
                         },
-                        "node_id": "cefc0268-465b-4109-9735-4bd0797d0355",
+                        "node_id": "f7ef077e-e980-4d6f-88fc-517badeafc47",
                         "port_number": 0
                     }
                 ]
@@ -418,7 +157,181 @@
                 ]
             },
             {
-                "link_id": "05ab849b-3b5d-471f-a690-9d3b6dbfc74f",
+                "link_id": "6f6a6659-4bac-438f-888c-536d7a0c2f45",
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": 72,
+                            "y": 28
+                        },
+                        "node_id": "50255974-ebee-47d5-af2f-50d6f273db37",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": -6,
+                            "y": 15
+                        },
+                        "node_id": "3a307e93-7cea-4fe4-8aab-fc2156a5c805",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "443d839e-00e8-4370-bfb7-69163dc6dca2",
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": 63,
+                            "y": 51
+                        },
+                        "node_id": "5395bd7e-c0cb-46cd-9112-3232757e2cb1",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": -34,
+                            "y": -16
+                        },
+                        "node_id": "50255974-ebee-47d5-af2f-50d6f273db37",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "e3df0a73-f661-440b-9be8-94f5fdcbf917",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": 49,
+                            "y": -33
+                        },
+                        "node_id": "101bafd3-9f4f-4fb6-b01d-20279681ce3e",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 0,
+                            "y": 45
+                        },
+                        "node_id": "1eaae15a-8c7f-4baf-afee-e9bb4e3b874a",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "66dfd286-d625-4b66-92d3-60491bf37aab",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": 72,
+                            "y": 21
+                        },
+                        "node_id": "5f19c6e9-6b5e-4e17-b9e3-3acdcda90c90",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 2,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f2/0",
+                            "x": -27,
+                            "y": 23
+                        },
+                        "node_id": "50255974-ebee-47d5-af2f-50d6f273db37",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "d24557ca-bfe7-4a0d-a45d-4d04e87b3945",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": 69,
+                            "y": 6
+                        },
+                        "node_id": "8cb30d82-af84-4300-955e-16458a0165a9",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": -4,
+                            "y": 45
+                        },
+                        "node_id": "cefc0268-465b-4109-9735-4bd0797d0355",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "d45af394-357d-4f00-aaa2-bb95adb8fc2d",
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": -6,
+                            "y": 23
+                        },
+                        "node_id": "5f19c6e9-6b5e-4e17-b9e3-3acdcda90c90",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/0",
+                            "x": 72,
+                            "y": 28
+                        },
+                        "node_id": "23ce6a18-a637-42d7-852f-a60c5a280561",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "bdd3dde5-868e-431a-890e-53c8a2e80e6b",
                 "nodes": [
                     {
                         "adapter_number": 1,
@@ -426,8 +339,182 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f1/1",
-                            "x": 18,
-                            "y": -15
+                            "x": 72,
+                            "y": 30
+                        },
+                        "node_id": "101bafd3-9f4f-4fb6-b01d-20279681ce3e",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": -30,
+                            "y": 20
+                        },
+                        "node_id": "36cfe528-a765-4cfd-92f5-df37a6349027",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "897601a4-f56c-49c0-bec8-997619e020da",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": 53,
+                            "y": -12
+                        },
+                        "node_id": "1eaae15a-8c7f-4baf-afee-e9bb4e3b874a",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 14,
+                            "y": 50
+                        },
+                        "node_id": "63fa1827-7384-45aa-93c8-ad2b664298b3",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "f101fc77-57be-4d5f-b804-89861be518ae",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e1",
+                            "x": 75,
+                            "y": 10
+                        },
+                        "node_id": "63fa1827-7384-45aa-93c8-ad2b664298b3",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": -7,
+                            "y": 34
+                        },
+                        "node_id": "5aa89847-05e1-4186-9749-0fbe92fd5051",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "e409d071-3aaf-4e04-a055-b08335fb05ad",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": 75,
+                            "y": -10
+                        },
+                        "node_id": "36cfe528-a765-4cfd-92f5-df37a6349027",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": -7,
+                            "y": 23
+                        },
+                        "node_id": "e11b4282-533f-44eb-a6d5-be5ec50abc4c",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "4ddecf88-7821-448f-b7ae-9f04bd7745d3",
+                "nodes": [
+                    {
+                        "adapter_number": 2,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f2/0",
+                            "x": -5,
+                            "y": 9
+                        },
+                        "node_id": "5395bd7e-c0cb-46cd-9112-3232757e2cb1",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 70,
+                            "y": 41
+                        },
+                        "node_id": "ca3a767f-c099-46c2-9871-81fe80297ff0",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "c0f1d5af-6efe-435a-bb07-af9c1035d60c",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "1",
+                            "x": -26,
+                            "y": -6
+                        },
+                        "node_id": "6c936cb6-e9b2-4adb-9853-aff53f828814",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 2,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "0",
+                            "x": 40,
+                            "y": 41
+                        },
+                        "node_id": "3d3c57d1-d91d-482f-ae99-994f23e77f24",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "a1a2aaf5-38b2-409b-b56c-f0bb0bc3d803",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": 34,
+                            "y": 61
                         },
                         "node_id": "5395bd7e-c0cb-46cd-9112-3232757e2cb1",
                         "port_number": 1
@@ -437,11 +524,11 @@
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 46,
-                            "y": 66
+                            "text": "f0/0",
+                            "x": 31,
+                            "y": -17
                         },
-                        "node_id": "8a0292f7-bd42-4575-ac30-fae247e64243",
+                        "node_id": "5f19c6e9-6b5e-4e17-b9e3-3acdcda90c90",
                         "port_number": 0
                     }
                 ]
@@ -476,19 +563,19 @@
                 ]
             },
             {
-                "link_id": "ed9d17fa-e896-4805-aba2-b0a76399cf14",
+                "link_id": "7942d609-b273-48cd-8d91-e6bdffed4b85",
                 "nodes": [
                     {
-                        "adapter_number": 1,
+                        "adapter_number": 2,
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f1/1",
-                            "x": 0,
-                            "y": 42
+                            "text": "f2/0",
+                            "x": 39,
+                            "y": 61
                         },
-                        "node_id": "50255974-ebee-47d5-af2f-50d6f273db37",
-                        "port_number": 1
+                        "node_id": "3a307e93-7cea-4fe4-8aab-fc2156a5c805",
+                        "port_number": 0
                     },
                     {
                         "adapter_number": 0,
@@ -496,10 +583,68 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e0/0",
-                            "x": -36,
-                            "y": 1
+                            "x": 25,
+                            "y": -9
                         },
-                        "node_id": "518c7827-1afa-44ee-932f-6ae335947106",
+                        "node_id": "9ddbf8ae-b33f-4240-8347-0c17d984e92b",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "2b7c9c2d-780a-40f1-ada8-8383c525186b",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e1",
+                            "x": 36,
+                            "y": -23
+                        },
+                        "node_id": "04cf7e67-2075-4955-a5e9-b473922f721c",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 34,
+                            "y": 55
+                        },
+                        "node_id": "b47c2927-9e1a-41cc-b9a5-ea61d5114ac0",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "05ab849b-3b5d-471f-a690-9d3b6dbfc74f",
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/1",
+                            "x": 18,
+                            "y": -15
+                        },
+                        "node_id": "5395bd7e-c0cb-46cd-9112-3232757e2cb1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 46,
+                            "y": 66
+                        },
+                        "node_id": "8a0292f7-bd42-4575-ac30-fae247e64243",
                         "port_number": 0
                     }
                 ]
@@ -592,181 +737,36 @@
                 ]
             },
             {
-                "link_id": "6f6a6659-4bac-438f-888c-536d7a0c2f45",
-                "nodes": [
-                    {
-                        "adapter_number": 1,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f1/0",
-                            "x": 72,
-                            "y": 28
-                        },
-                        "node_id": "50255974-ebee-47d5-af2f-50d6f273db37",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/0",
-                            "x": -6,
-                            "y": 15
-                        },
-                        "node_id": "3a307e93-7cea-4fe4-8aab-fc2156a5c805",
-                        "port_number": 0
-                    }
-                ]
-            },
-            {
-                "link_id": "bdd3dde5-868e-431a-890e-53c8a2e80e6b",
-                "nodes": [
-                    {
-                        "adapter_number": 1,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f1/1",
-                            "x": 72,
-                            "y": 30
-                        },
-                        "node_id": "101bafd3-9f4f-4fb6-b01d-20279681ce3e",
-                        "port_number": 1
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/0",
-                            "x": -30,
-                            "y": 20
-                        },
-                        "node_id": "36cfe528-a765-4cfd-92f5-df37a6349027",
-                        "port_number": 0
-                    }
-                ]
-            },
-            {
-                "link_id": "0e7e9d8c-4322-4bd4-8b6c-2adcea4e9d0d",
-                "nodes": [
-                    {
-                        "adapter_number": 1,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f1/0",
-                            "x": 72,
-                            "y": 21
-                        },
-                        "node_id": "3a307e93-7cea-4fe4-8aab-fc2156a5c805",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": -7,
-                            "y": 30
-                        },
-                        "node_id": "3ea7d7c8-5895-4bdd-a9f3-69657b05b034",
-                        "port_number": 0
-                    }
-                ]
-            },
-            {
-                "link_id": "7942d609-b273-48cd-8d91-e6bdffed4b85",
-                "nodes": [
-                    {
-                        "adapter_number": 2,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f2/0",
-                            "x": 39,
-                            "y": 61
-                        },
-                        "node_id": "3a307e93-7cea-4fe4-8aab-fc2156a5c805",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0/0",
-                            "x": 25,
-                            "y": -9
-                        },
-                        "node_id": "9ddbf8ae-b33f-4240-8347-0c17d984e92b",
-                        "port_number": 0
-                    }
-                ]
-            },
-            {
-                "link_id": "c13957f6-1eb4-411a-a6f3-c5b4f7cdb94a",
-                "nodes": [
-                    {
-                        "adapter_number": 1,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f1/0",
-                            "x": 67,
-                            "y": -2
-                        },
-                        "node_id": "101bafd3-9f4f-4fb6-b01d-20279681ce3e",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": -6,
-                            "y": 38
-                        },
-                        "node_id": "f7ef077e-e980-4d6f-88fc-517badeafc47",
-                        "port_number": 0
-                    }
-                ]
-            },
-            {
-                "link_id": "897601a4-f56c-49c0-bec8-997619e020da",
+                "link_id": "35d7bfc7-6943-41ba-aa47-49423e40c099",
                 "nodes": [
                     {
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/1",
-                            "x": 53,
-                            "y": -12
+                            "text": "3",
+                            "x": 30,
+                            "y": -33
                         },
-                        "node_id": "1eaae15a-8c7f-4baf-afee-e9bb4e3b874a",
-                        "port_number": 1
+                        "node_id": "82431572-83af-4d83-a3ee-6550d5870331",
+                        "port_number": 3
                     },
                     {
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 14,
-                            "y": 50
+                            "text": "2",
+                            "x": -12,
+                            "y": 41
                         },
-                        "node_id": "63fa1827-7384-45aa-93c8-ad2b664298b3",
-                        "port_number": 0
+                        "node_id": "6c936cb6-e9b2-4adb-9853-aff53f828814",
+                        "port_number": 2
                     }
                 ]
             },
             {
-                "link_id": "f101fc77-57be-4d5f-b804-89861be518ae",
+                "link_id": "fdcf7bf3-2b05-405b-a92f-6ab1c0d2c3b9",
                 "nodes": [
                     {
                         "adapter_number": 0,
@@ -775,9 +775,67 @@
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e1",
                             "x": 75,
-                            "y": 10
+                            "y": 12
                         },
-                        "node_id": "63fa1827-7384-45aa-93c8-ad2b664298b3",
+                        "node_id": "b47c2927-9e1a-41cc-b9a5-ea61d5114ac0",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 2,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f2/1",
+                            "x": -6,
+                            "y": 25
+                        },
+                        "node_id": "5395bd7e-c0cb-46cd-9112-3232757e2cb1",
+                        "port_number": 1
+                    }
+                ]
+            },
+            {
+                "link_id": "6d19abbb-ed0f-411a-b442-65a31997e85a",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "3",
+                            "x": -15,
+                            "y": -20
+                        },
+                        "node_id": "dec288a9-9ed2-4891-a03f-25fb2602c5d9",
+                        "port_number": 3
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "3",
+                            "x": 25,
+                            "y": 45
+                        },
+                        "node_id": "6c936cb6-e9b2-4adb-9853-aff53f828814",
+                        "port_number": 3
+                    }
+                ]
+            },
+            {
+                "link_id": "0f981f00-2e0a-446c-a708-fc1cceaa8249",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": 69,
+                            "y": 6
+                        },
+                        "node_id": "a3084299-6f90-4972-85a6-b76402a22c1a",
                         "port_number": 1
                     },
                     {
@@ -786,10 +844,68 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e0",
-                            "x": -7,
-                            "y": 34
+                            "x": -4,
+                            "y": 44
                         },
-                        "node_id": "5aa89847-05e1-4186-9749-0fbe92fd5051",
+                        "node_id": "94857f50-cbb3-400d-87ae-b1e255e045f5",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "d83832c4-e14d-413c-b948-9574fa3eccfa",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e2",
+                            "x": 73,
+                            "y": 27
+                        },
+                        "node_id": "63fa1827-7384-45aa-93c8-ad2b664298b3",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/0",
+                            "x": -5,
+                            "y": 17
+                        },
+                        "node_id": "66654829-66e4-415f-9a0c-e2dca1be463a",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "ed9d17fa-e896-4805-aba2-b0a76399cf14",
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/1",
+                            "x": 0,
+                            "y": 42
+                        },
+                        "node_id": "50255974-ebee-47d5-af2f-50d6f273db37",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/0",
+                            "x": -36,
+                            "y": 1
+                        },
+                        "node_id": "518c7827-1afa-44ee-932f-6ae335947106",
                         "port_number": 0
                     }
                 ]
@@ -824,65 +940,7 @@
                 ]
             },
             {
-                "link_id": "a1a2aaf5-38b2-409b-b56c-f0bb0bc3d803",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/1",
-                            "x": 34,
-                            "y": 61
-                        },
-                        "node_id": "5395bd7e-c0cb-46cd-9112-3232757e2cb1",
-                        "port_number": 1
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/0",
-                            "x": 31,
-                            "y": -17
-                        },
-                        "node_id": "5f19c6e9-6b5e-4e17-b9e3-3acdcda90c90",
-                        "port_number": 0
-                    }
-                ]
-            },
-            {
-                "link_id": "4ddecf88-7821-448f-b7ae-9f04bd7745d3",
-                "nodes": [
-                    {
-                        "adapter_number": 2,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f2/0",
-                            "x": -5,
-                            "y": 9
-                        },
-                        "node_id": "5395bd7e-c0cb-46cd-9112-3232757e2cb1",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 70,
-                            "y": 41
-                        },
-                        "node_id": "ca3a767f-c099-46c2-9871-81fe80297ff0",
-                        "port_number": 0
-                    }
-                ]
-            },
-            {
-                "link_id": "d45af394-357d-4f00-aaa2-bb95adb8fc2d",
+                "link_id": "0e7e9d8c-4322-4bd4-8b6c-2adcea4e9d0d",
                 "nodes": [
                     {
                         "adapter_number": 1,
@@ -890,69 +948,11 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f1/0",
-                            "x": -6,
-                            "y": 23
-                        },
-                        "node_id": "5f19c6e9-6b5e-4e17-b9e3-3acdcda90c90",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0/0",
                             "x": 72,
-                            "y": 28
-                        },
-                        "node_id": "23ce6a18-a637-42d7-852f-a60c5a280561",
-                        "port_number": 0
-                    }
-                ]
-            },
-            {
-                "link_id": "22bb527f-e571-4f9a-b0b9-a5775a045958",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/1",
-                            "x": 69,
-                            "y": 6
+                            "y": 21
                         },
                         "node_id": "3a307e93-7cea-4fe4-8aab-fc2156a5c805",
-                        "port_number": 1
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/0",
-                            "x": -3,
-                            "y": 37
-                        },
-                        "node_id": "a3084299-6f90-4972-85a6-b76402a22c1a",
                         "port_number": 0
-                    }
-                ]
-            },
-            {
-                "link_id": "e409d071-3aaf-4e04-a055-b08335fb05ad",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/1",
-                            "x": 75,
-                            "y": -10
-                        },
-                        "node_id": "36cfe528-a765-4cfd-92f5-df37a6349027",
-                        "port_number": 1
                     },
                     {
                         "adapter_number": 0,
@@ -961,9 +961,9 @@
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e0",
                             "x": -7,
-                            "y": 23
+                            "y": 30
                         },
-                        "node_id": "e11b4282-533f-44eb-a6d5-be5ec50abc4c",
+                        "node_id": "3ea7d7c8-5895-4bdd-a9f3-69657b05b034",
                         "port_number": 0
                     }
                 ]
@@ -972,290 +972,30 @@
         "nodes": [
             {
                 "compute_id": "local",
-                "console": 5011,
+                "console": 5030,
                 "console_type": "telnet",
                 "first_port_name": null,
-                "height": 45,
+                "height": 59,
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Madrid",
-                    "x": 11,
-                    "y": -25
-                },
-                "name": "Madrid",
-                "node_id": "5395bd7e-c0cb-46cd-9112-3232757e2cb1",
-                "node_type": "dynamips",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "auto_delete_disks": true,
-                    "aux": null,
-                    "clock_divisor": 4,
-                    "disk0": 0,
-                    "disk1": 0,
-                    "dynamips_id": 1,
-                    "exec_area": 64,
-                    "idlemax": 500,
-                    "idlepc": "0x63184bc8",
-                    "idlesleep": 30,
-                    "image": "c7200-advipservicesk9-mz.152-4.S5.image",
-                    "image_md5sum": "cbbbea66a253f1dac0fcf81274dc778d",
-                    "mac_addr": "ca01.5292.0000",
-                    "midplane": "vxr",
-                    "mmap": true,
-                    "npe": "npe-400",
-                    "nvram": 512,
-                    "platform": "c7200",
-                    "power_supplies": [
-                        1,
-                        1
-                    ],
-                    "private_config": "configs/i1_private-config.cfg",
-                    "private_config_content": "\nend\n",
-                    "ram": 512,
-                    "sensors": [
-                        22,
-                        22,
-                        22,
-                        22
-                    ],
-                    "slot0": "C7200-IO-2FE",
-                    "slot1": "PA-2FE-TX",
-                    "slot2": "PA-2FE-TX",
-                    "slot3": null,
-                    "slot4": null,
-                    "slot5": null,
-                    "slot6": null,
-                    "sparsemem": true,
-                    "startup_config": "configs/i1_startup-config.cfg",
-                    "startup_config_content": "!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n\n!\n! Last configuration change at 14:34:17 UTC Sun Dec 17 2017\n!\nversion 15.2\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\n!\nhostname Madrid\n!\nboot-start-marker\nboot-end-marker\n!\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\n!\n!\nno ip domain lookup\nipv6 unicast-routing\nipv6 cef\n!\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface FastEthernet0/0\n ip address 4.4.4.33 255.255.255.248\n speed auto\n duplex auto\n ipv6 address 2001:4:4:40::2/64\n ipv6 enable\n!\ninterface FastEthernet0/1\n ip address 4.4.4.25 255.255.255.248\n speed auto\n duplex auto\n ipv6 address 2001:4:4:80::1/64\n ipv6 enable\n!\ninterface FastEthernet1/0\n ip address 4.4.4.18 255.255.255.248\n speed auto\n duplex auto\n ipv6 address 2001:4:4:20::1/64\n ipv6 enable\n!\ninterface FastEthernet1/1\n ip address 2.2.2.1 255.255.255.0\n speed auto\n duplex auto\n ipv6 address 2001:2:2::2/64\n ipv6 enable\n!\ninterface FastEthernet2/0\n ip address 200.200.1.1 255.255.255.0\n speed auto\n duplex auto\n ipv6 address 2201:200:200::1/64\n ipv6 enable\n!\ninterface FastEthernet2/1\n ip address 200.100.1.1 255.255.255.0\n speed auto\n duplex auto\n ipv6 address 2201:200:100::1/64\n ipv6 enable\n!\nrouter bgp 20000\n bgp log-neighbor-changes\n neighbor 4.4.4.17 remote-as 1000\n neighbor 4.4.4.26 remote-as 40000\n neighbor 4.4.4.34 remote-as 1000\n !\n address-family ipv4\n  network 200.100.1.0\n  network 200.200.1.0\n  neighbor 4.4.4.17 activate\n  neighbor 4.4.4.17 default-originate\n  neighbor 4.4.4.26 activate\n  neighbor 4.4.4.26 default-originate\n  neighbor 4.4.4.34 activate\n  neighbor 4.4.4.34 default-originate\n exit-address-family\n!\nip forward-protocol nd\n!\n!\nno ip http server\nno ip http secure-server\n!\n!\n!\n!\ncontrol-plane\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
-                    "system_id": "FTX0945W0MY"
-                },
-                "symbol": ":/symbols/router.svg",
-                "width": 66,
-                "x": -118,
-                "y": -203,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": 5029,
-                "console_type": "telnet",
-                "first_port_name": null,
-                "height": 45,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Porto",
-                    "x": 15,
-                    "y": -25
-                },
-                "name": "Porto",
-                "node_id": "3d3c57d1-d91d-482f-ae99-994f23e77f24",
-                "node_type": "dynamips",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "auto_delete_disks": true,
-                    "aux": null,
-                    "clock_divisor": 4,
-                    "disk0": 0,
-                    "disk1": 0,
-                    "dynamips_id": 3,
-                    "exec_area": 64,
-                    "idlemax": 500,
-                    "idlepc": "0x60795140",
-                    "idlesleep": 30,
-                    "image": "c7200-a3jk9s-mz.124-25d.image",
-                    "image_md5sum": "1c5c06208a9d09481f3eef1c7febb98c",
-                    "mac_addr": "ca03.5295.0000",
-                    "midplane": "vxr",
-                    "mmap": true,
-                    "npe": "npe-400",
-                    "nvram": 512,
-                    "platform": "c7200",
-                    "power_supplies": [
-                        1,
-                        1
-                    ],
-                    "private_config": "/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips/3d3c57d1-d91d-482f-ae99-994f23e77f24/configs/i3_private-config.cfg",
-                    "private_config_content": "!\n!\n\nend\n",
-                    "ram": 512,
-                    "sensors": [
-                        22,
-                        22,
-                        22,
-                        22
-                    ],
-                    "slot0": "C7200-IO-2FE",
-                    "slot1": "PA-2FE-TX",
-                    "slot2": "PA-A1",
-                    "slot3": null,
-                    "slot4": null,
-                    "slot5": null,
-                    "slot6": null,
-                    "sparsemem": true,
-                    "startup_config": "configs/i3_startup-config.cfg",
-                    "startup_config_content": "!\n\n!\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname Porto\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\n!\n!\nip cef\nno ip domain lookup\n!\n!\nipv6 unicast-routing\nipv6 cef\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\ninterface Loopback0\n ip address 10.0.10.1 255.255.255.255\n ip ospf 1 area 0\n!\ninterface FastEthernet0/0\n ip address 4.4.4.34 255.255.255.248\n duplex auto\n speed auto\n ipv6 address 2001:4:4:40::1/64\n ipv6 enable\n!\ninterface FastEthernet0/1\n ip address 10.0.7.2 255.255.255.252\n ip ospf 1 area 0\n duplex auto\n speed auto\n ipv6 address 2001:100:1:8::1/64\n ipv6 enable\n ipv6 ospf 1 area 0\n!\ninterface FastEthernet1/0\n no ip address\n duplex auto\n speed auto\n!\ninterface FastEthernet1/1\n no ip address\n shutdown\n duplex auto\n speed auto\n!\ninterface ATM2/0\n no ip address\n no atm ilmi-keepalive\n ip rsvp bandwidth\n!\ninterface ATM2/0.123 multipoint\n ip address 10.0.1.3 255.255.255.248\n ip ospf network broadcast\n ip ospf 1 area 0\n ipv6 address 2001:100:1:2::3/64\n ipv6 enable\n ipv6 ospf network broadcast\n ipv6 ospf 1 area 0\n pvc 0/102 \n  protocol ip 10.0.1.1 broadcast\n  protocol ipv6 2001:100:1:2::1 broadcast\n  encapsulation aal5snap\n !\n pvc 0/103 \n  protocol ip 10.0.1.2 broadcast\n  protocol ipv6 2001:100:1:2::2 broadcast\n  encapsulation aal5snap\n !\n!\n!\nrouter ospf 1\n log-adjacency-changes\n!\nrouter bgp 1000\n bgp log-neighbor-changes\n neighbor 4.4.4.33 remote-as 20000\n neighbor 10.0.7.1 remote-as 65400\n neighbor 10.0.10.2 remote-as 1000\n neighbor 10.0.10.2 update-source Loopback0\n neighbor 10.0.10.3 remote-as 1000\n neighbor 10.0.10.3 update-source Loopback0\n neighbor 2001:4:4:40::2 remote-as 20000\n neighbor 2001:100:1:2::1 remote-as 1000\n neighbor 2001:100:1:2::2 remote-as 1000\n neighbor 2001:100:1:3::2 remote-as 65400\n !\n address-family ipv4\n  neighbor 4.4.4.33 activate\n  neighbor 4.4.4.33 route-map routes-to-as20000-ipv4 in\n  neighbor 4.4.4.33 route-map non-transit out\n  neighbor 10.0.7.1 activate\n  neighbor 10.0.10.2 activate\n  neighbor 10.0.10.2 next-hop-self\n  neighbor 10.0.10.2 route-map routes-to-internet in\n  neighbor 10.0.10.2 route-map proxy-route-deny-ipv4 out\n  neighbor 10.0.10.3 activate\n  neighbor 10.0.10.3 send-community\n  neighbor 10.0.10.3 next-hop-self\n  no neighbor 2001:4:4:40::2 activate\n  no neighbor 2001:100:1:2::1 activate\n  no neighbor 2001:100:1:2::2 activate\n  no neighbor 2001:100:1:3::2 activate\n  no auto-summary\n  no synchronization\n exit-address-family\n !\n address-family ipv6\n  neighbor 2001:4:4:40::2 activate\n  neighbor 2001:4:4:40::2 route-map route-in-madrid-ipv6 in\n  neighbor 2001:4:4:40::2 route-map non-transit out\n  neighbor 2001:100:1:2::1 activate\n  neighbor 2001:100:1:2::1 next-hop-self\n  neighbor 2001:100:1:2::1 route-map routes-to-internet in\n  neighbor 2001:100:1:2::2 activate\n  neighbor 2001:100:1:2::2 send-community\n  neighbor 2001:100:1:2::2 next-hop-self\n  neighbor 2001:100:1:3::2 activate\n exit-address-family\n!\nip forward-protocol nd\n!\nno ip http server\nno ip http secure-server\n!\nip bgp-community new-format\nip community-list 1 permit 1000:1\nip as-path access-list 1 permit ^$\n!\n!\nip prefix-list proxy-route-deny-ipv4 seq 5 deny 65.0.1.0/24\nip prefix-list proxy-route-deny-ipv4 seq 10 permit 65.0.1.0/24\n!\nip prefix-list route-to-as20000 seq 10 permit 200.100.1.0/24\nip prefix-list route-to-as20000 seq 15 permit 200.200.1.0/24\naccess-list 1 permit 112.1.1.0 0.0.0.255\nipv6 router ospf 1\n log-adjacency-changes\n!\n!\n!\nipv6 prefix-list proxy-route-deny-ipv6 seq 5 permit 2301:65:0:1::/64\n!\nipv6 prefix-list route-to-as20000-ipv6 seq 5 permit 2201:200:100::/64\nipv6 prefix-list route-to-as20000-ipv6 seq 10 permit 2201:200:200::/64\nroute-map routes-to-internet permit 10\n match community 1\n set local-preference 110\n!\nroute-map routes-to-internet permit 20\n!\nroute-map route-in-madrid-ipv6 permit 10\n match ip address prefix-list route-to-as20000-ipv6\n set community 1000:2\n!\nroute-map route-in-madrid-ipv6 deny 20\n match ip address prefix-list proxy-route-deny-ipv6\n!\nroute-map route-in-madrid-ipv6 permit 30\n!\nroute-map non-transit permit 10\n match as-path 1\n!\nroute-map non-transit permit 20\n match ip address 1\n!\nroute-map routes-to-as20000-ipv4 permit 25\n match ip address prefix-list route-to-as20000\n set community 1000:2\n!\nroute-map routes-to-as20000-ipv4 permit 30\n!\nroute-map route-in-madrid permit 10\n match ip address prefix-list route-to-as20000\n set community 1000:2\n!\nroute-map route-in-madrid deny 20\n match ip address prefix-list proxy-route-deny-ipv4\n!\nroute-map route-in-madrid permit 30\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
-                    "system_id": "FTX0945W0MY"
-                },
-                "symbol": ":/symbols/router.svg",
-                "width": 66,
-                "x": 11,
-                "y": -372,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": 5012,
-                "console_type": "telnet",
-                "first_port_name": null,
-                "height": 45,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Oeiras",
+                    "text": "netM1",
                     "x": 12,
                     "y": -25
                 },
-                "name": "Oeiras",
-                "node_id": "3a307e93-7cea-4fe4-8aab-fc2156a5c805",
-                "node_type": "dynamips",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "auto_delete_disks": true,
-                    "aux": null,
-                    "clock_divisor": 4,
-                    "disk0": 0,
-                    "disk1": 0,
-                    "dynamips_id": 7,
-                    "exec_area": 64,
-                    "idlemax": 500,
-                    "idlepc": "0x63184bc8",
-                    "idlesleep": 30,
-                    "image": "c7200-advipservicesk9-mz.152-4.S5.image",
-                    "image_md5sum": "cbbbea66a253f1dac0fcf81274dc778d",
-                    "mac_addr": "ca07.529b.0000",
-                    "midplane": "vxr",
-                    "mmap": true,
-                    "npe": "npe-400",
-                    "nvram": 512,
-                    "platform": "c7200",
-                    "power_supplies": [
-                        1,
-                        1
-                    ],
-                    "private_config": "configs/i7_private-config.cfg",
-                    "private_config_content": "\nsnmp-server engineID local 123456789A\nsnmp-server user user1 group1 v3 encrypted auth md5 31:0A:11:8F:A5:72:99:5E:F8:B5:AA:E6:77:66:7B:BF priv des F1:6B:3D:35:D8:6A:DD:C6:31:F5:4F:17:11:1D:38:DB \nend\n",
-                    "ram": 512,
-                    "sensors": [
-                        22,
-                        22,
-                        22,
-                        22
-                    ],
-                    "slot0": "C7200-IO-2FE",
-                    "slot1": "PA-2FE-TX",
-                    "slot2": "PA-2FE-TX",
-                    "slot3": null,
-                    "slot4": null,
-                    "slot5": null,
-                    "slot6": null,
-                    "sparsemem": true,
-                    "startup_config": "configs/i7_startup-config.cfg",
-                    "startup_config_content": "!\n!\n\n!\nversion 15.2\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\n!\nhostname Oeiras\n!\nboot-start-marker\nboot-end-marker\n!\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\nip cef\n!\nip vrf VPN-1\n rd 1000:1\n route-target export 1000:1\n route-target import 1000:1\n!\n!\n!\n!\n!\n!\nno ip domain lookup\nipv6 unicast-routing\nipv6 cef\n!\n!\nmpls traffic-eng tunnels\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface Loopback0\n ip address 10.0.10.4 255.255.255.255\n ip ospf 1 area 0\n!\ninterface Tunnel1\n ip unnumbered Loopback0\n tunnel mode mpls traffic-eng\n tunnel destination 10.0.10.3\n tunnel mpls traffic-eng autoroute announce\n tunnel mpls traffic-eng autoroute metric 2\n tunnel mpls traffic-eng priority 7 7\n tunnel mpls traffic-eng bandwidth 20480\n tunnel mpls traffic-eng path-option 1 explicit name oeiras_aveiro\n!\ninterface Tunnel2\n ip unnumbered Loopback0\n tunnel mode mpls traffic-eng\n tunnel destination 10.0.10.3\n tunnel mpls traffic-eng autoroute announce\n tunnel mpls traffic-eng autoroute metric 2\n tunnel mpls traffic-eng priority 7 7\n tunnel mpls traffic-eng bandwidth 20480\n tunnel mpls traffic-eng path-option 1 explicit name oeiras_aveiro\n!\ninterface FastEthernet0/0\n ip address 10.0.6.1 255.255.255.252\n ip ospf 1 area 0\n speed auto\n duplex auto\n ipv6 address 2001:100:1:3::2/64\n ipv6 enable\n mpls ip\n mpls traffic-eng tunnels\n ipv6 ospf 1 area 0\n ip rsvp bandwidth 80000 80000\n!\ninterface FastEthernet0/1\n ip address 10.0.4.1 255.255.255.252\n ip policy route-map route-to-tunnels\n ip ospf 1 area 0\n speed auto\n duplex auto\n ipv6 address 2001:100:1:6::1/64\n ipv6 enable\n mpls ip\n mpls traffic-eng tunnels\n ipv6 ospf 1 area 0\n!\ninterface FastEthernet1/0\n ip address 10.2.3.1 255.255.255.252\n ip ospf 1 area 0\n speed auto\n duplex auto\n ipv6 address 3001:10:2:3::1/64\n ipv6 enable\n mpls traffic-eng tunnels\n ipv6 ospf 1 area 0\n!\ninterface FastEthernet1/1\n ip vrf forwarding VPN-1\n ip address 10.0.5.1 255.255.255.252\n ip ospf 2 area 0\n speed auto\n duplex auto\n ipv6 address 2001:100:1:7::1/64\n ipv6 enable\n mpls ip\n mpls traffic-eng tunnels\n ipv6 ospf 1 area 0\n!\ninterface FastEthernet2/0\n ip address 192.100.1.1 255.255.255.0\n ip ospf 1 area 0\n speed auto\n duplex auto\n ipv6 address 2001:100:1:1::1/64\n ipv6 enable\n mpls traffic-eng tunnels\n ipv6 ospf 1 area 0\n!\ninterface FastEthernet2/1\n ip address 200.100.1.1 255.255.255.0\n speed auto\n duplex auto\n ipv6 address 2201:200:100::1/64\n ipv6 enable\n!\nrouter ospf 2 vrf VPN-1\n capability vrf-lite\n network 110.1.1.128 0.0.0.127 area 0\n!\nrouter ospf 1\n mpls traffic-eng router-id Loopback0\n mpls traffic-eng area 0\n!\nrouter bgp 1000\n bgp router-id 40.40.40.40\n bgp log-neighbor-changes\n neighbor 10.0.10.2 remote-as 1000\n neighbor 10.0.10.3 remote-as 1000\n neighbor 10.0.10.3 update-source Loopback0\n neighbor 2001:100:1:3::1 remote-as 1000\n !\n address-family ipv4\n  network 192.100.1.0\n  redistribute connected\n  redistribute static\n  neighbor 10.0.10.2 activate\n  neighbor 10.0.10.2 route-map routes-in-lisboa2 in\n  neighbor 10.0.10.3 activate\n  no neighbor 2001:100:1:3::1 activate\n exit-address-family\n !\n address-family vpnv4\n  neighbor 10.0.10.3 activate\n  neighbor 10.0.10.3 send-community both\n exit-address-family\n !\n address-family ipv6\n  network 2001:100:1::/48\n  neighbor 2001:100:1:3::1 activate\n  neighbor 2001:100:1:3::1 route-map routes-in-lisboa2-ipv6 in\n exit-address-family\n !\n address-family ipv4 vrf VPN-1\n  redistribute connected\n  redistribute ospf 2\n exit-address-family\n!\nip forward-protocol nd\n!\nip bgp-community new-format\nip community-list 1 permit 1000:1\nip community-list 2 permit 1000:2\nip community-list 3 permit 1000:3\n!\nno ip http server\nno ip http secure-server\nip route 110.1.1.128 255.255.255.128 FastEthernet1/1\nip route vrf VPN-1 0.0.0.0 0.0.0.0 10.0.1.1 global\n!\nip explicit-path name oeiras_aveiro enable\n next-address 10.0.6.2\n next-address 10.0.1.2\n!\n!\nip prefix-list route-to-tunnel1 seq 5 permit 111.1.1.0/26\n!\nip prefix-list route-to-tunnel2 seq 5 permit 111.1.1.64/26\nipv6 router ospf 1\n!\n!\nroute-map routes-to-internet permit 10\n match community 1\n set local-preference 110\n!\nroute-map routes-to-internet permit 20\n!\nroute-map route-to-tunnels permit 10\n match ip address prefix-list route-to-tunnel1\n!\nroute-map route-to-tunnels permit 20\n match ip address prefix-list route-to-tunnel2\n!\nroute-map route-to-tunnels permit 30\n!\nroute-map routes-in-lisboa2 permit 10\n match community 1\n set local-preference 110\n!\nroute-map routes-in-lisboa2 permit 20\n match community 3\n set local-preference 110\n!\nroute-map routes-in-lisboa2 permit 30\n!\nroute-map routes-to-as20000 permit 30\n match community 2\n set local-preference 111\n!\nroute-map routes-to-as20000 permit 40\n match community 3\n set local-preference 110\n!\nroute-map routes-to-as20000 permit 50\n!\nroute-map routes-in-lisboa2-ipv6 permit 10\n match community 1\n set local-preference 110\n!\nroute-map routes-in-lisboa2-ipv6 permit 20\n match community 3\n set local-preference 110\n!\nroute-map routes-in-lisboa2-ipv6 permit 30\n!\nsnmp-server engineID local 123456789A\nsnmp-server group group1 v3 priv \nsnmp-server view myview system included\nsnmp-server community myrouter RO\nsnmp-server enable traps syslog\nsnmp-server host 10.2.3.2 version 2c myrouter \n!\n!\ncontrol-plane\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
-                    "system_id": "FTX0945W0MY"
-                },
-                "symbol": ":/symbols/router.svg",
-                "width": 66,
-                "x": 294,
-                "y": 11,
-                "z": 2
-            },
-            {
-                "compute_id": "local",
-                "console": 5016,
-                "console_type": "telnet",
-                "first_port_name": null,
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "DataCenterAveiro",
-                    "x": -16,
-                    "y": -25
-                },
-                "name": "DataCenterAveiro",
-                "node_id": "f7ef077e-e980-4d6f-88fc-517badeafc47",
+                "name": "netM1",
+                "node_id": "ca3a767f-c099-46c2-9871-81fe80297ff0",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
                 "properties": {
-                    "startup_script": "set pcname DataCenterAveiro\n",
+                    "startup_script": "set pcname netM1\n",
                     "startup_script_path": "startup.vpc"
                 },
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": 512,
-                "y": -295,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": 5028,
-                "console_type": "telnet",
-                "first_port_name": null,
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "netM2",
-                    "x": 12,
-                    "y": -25
-                },
-                "name": "netM2",
-                "node_id": "8a0292f7-bd42-4575-ac30-fae247e64243",
-                "node_type": "vpcs",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "startup_script": "set pcname netM2\n",
-                    "startup_script_path": "startup.vpc"
-                },
-                "symbol": ":/symbols/vpcs_guest.svg",
-                "width": 65,
-                "x": -217,
-                "y": -227,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": 5026,
-                "console_type": "telnet",
-                "first_port_name": null,
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC1",
-                    "x": 18,
-                    "y": -25
-                },
-                "name": "PC1",
-                "node_id": "cefc0268-465b-4109-9735-4bd0797d0355",
-                "node_type": "vpcs",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "startup_script": "set pcname PC1\n",
-                    "startup_script_path": "startup.vpc"
-                },
-                "symbol": ":/symbols/vpcs_guest.svg",
-                "width": 65,
-                "x": 254,
-                "y": -420,
+                "x": -215,
+                "y": -143,
                 "z": 1
             },
             {
@@ -1336,49 +1076,19 @@
             },
             {
                 "compute_id": "local",
-                "console": null,
-                "console_type": null,
-                "first_port_name": null,
-                "height": 48,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "ATM3",
-                    "x": -8,
-                    "y": -19
-                },
-                "name": "ATM3",
-                "node_id": "82431572-83af-4d83-a3ee-6550d5870331",
-                "node_type": "atm_switch",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "mappings": {
-                        "2:0:501": "1:0:502",
-                        "3:0:201": "1:0:202"
-                    }
-                },
-                "symbol": ":/symbols/atm_switch.svg",
-                "width": 51,
-                "x": 77,
-                "y": -159,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": 5009,
+                "console": 5012,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Lisboa2",
-                    "x": 40,
-                    "y": -16
+                    "text": "Oeiras",
+                    "x": 12,
+                    "y": -25
                 },
-                "name": "Lisboa2",
-                "node_id": "50255974-ebee-47d5-af2f-50d6f273db37",
+                "name": "Oeiras",
+                "node_id": "3a307e93-7cea-4fe4-8aab-fc2156a5c805",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
@@ -1388,14 +1098,14 @@
                     "clock_divisor": 4,
                     "disk0": 0,
                     "disk1": 0,
-                    "dynamips_id": 4,
+                    "dynamips_id": 7,
                     "exec_area": 64,
                     "idlemax": 500,
-                    "idlepc": "0x60795140",
+                    "idlepc": "0x63184bc8",
                     "idlesleep": 30,
-                    "image": "c7200-a3jk9s-mz.124-25d.image",
-                    "image_md5sum": "1c5c06208a9d09481f3eef1c7febb98c",
-                    "mac_addr": "ca04.5296.0000",
+                    "image": "c7200-advipservicesk9-mz.152-4.S5.image",
+                    "image_md5sum": "cbbbea66a253f1dac0fcf81274dc778d",
+                    "mac_addr": "ca07.529b.0000",
                     "midplane": "vxr",
                     "mmap": true,
                     "npe": "npe-400",
@@ -1405,8 +1115,8 @@
                         1,
                         1
                     ],
-                    "private_config": "/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips/50255974-ebee-47d5-af2f-50d6f273db37/configs/i4_private-config.cfg",
-                    "private_config_content": "\nkerberos password \nsnmp-server engineID local 123456789A\nsnmp-server user user1 group1 v3 encrypted auth md5 31:0A:11:8F:A5:72:99:5E:F8:B5:AA:E6:77:66:7B:BF priv des56 F1:6B:3D:35:D8:6A:DD:C6:31:F5:4F:17:11:1D:38:DB \nend\n",
+                    "private_config": "configs/i7_private-config.cfg",
+                    "private_config_content": "\nsnmp-server engineID local 123456789A\nsnmp-server user user1 group1 v3 encrypted auth md5 31:0A:11:8F:A5:72:99:5E:F8:B5:AA:E6:77:66:7B:BF priv des F1:6B:3D:35:D8:6A:DD:C6:31:F5:4F:17:11:1D:38:DB \nend\n",
                     "ram": 512,
                     "sensors": [
                         22,
@@ -1417,70 +1127,112 @@
                     "slot0": "C7200-IO-2FE",
                     "slot1": "PA-2FE-TX",
                     "slot2": "PA-2FE-TX",
-                    "slot3": "PA-A1",
+                    "slot3": null,
                     "slot4": null,
                     "slot5": null,
                     "slot6": null,
                     "sparsemem": true,
-                    "startup_config": "configs/i4_startup-config.cfg",
-                    "startup_config_content": "!\n\n!\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname Lisboa2\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\n!\n!\nip cef\nno ip domain lookup\n!\n!\nipv6 unicast-routing\nipv6 cef\nmpls traffic-eng tunnels\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\ninterface Loopback0\n ip address 10.0.10.2 255.255.255.255\n ip ospf 1 area 0\n!\ninterface FastEthernet0/0\n ip address 4.4.4.17 255.255.255.248\n duplex auto\n speed auto\n ipv6 address 2001:4:4:20::2/64\n ipv6 enable\n mpls traffic-eng tunnels\n!\ninterface FastEthernet0/1\n no ip address\n duplex auto\n speed auto\n!\ninterface FastEthernet1/0\n ip address 10.0.6.2 255.255.255.252\n ip ospf 1 area 0\n duplex auto\n speed auto\n ipv6 address 2001:100:1:3::1/64\n ipv6 enable\n ipv6 ospf 1 area 0\n mpls traffic-eng tunnels\n ip rsvp bandwidth 80000 80000\n!\ninterface FastEthernet1/1\n ip address 10.2.1.1 255.255.255.252\n ip ospf 1 area 0\n duplex auto\n speed auto\n ipv6 address 3001:10:2:1::1/64\n ipv6 enable\n ipv6 ospf 1 area 0\n mpls traffic-eng tunnels\n!\ninterface FastEthernet2/0\n ip address 4.4.4.10 255.255.255.248\n duplex auto\n speed auto\n ipv6 address 2001:4:4:10::2/64\n ipv6 enable\n mpls traffic-eng tunnels\n!\ninterface FastEthernet2/1\n no ip address\n shutdown\n duplex auto\n speed auto\n!\ninterface ATM3/0\n no ip address\n no atm ilmi-keepalive\n!\ninterface ATM3/0.123 multipoint\n ip address 10.0.1.1 255.255.255.248\n ip ospf network broadcast\n ip ospf 1 area 0\n ipv6 address 2001:100:1:2::1/64\n ipv6 enable\n ipv6 ospf network broadcast\n ipv6 ospf 1 area 0\n mpls ip\n mpls traffic-eng tunnels\n ip rsvp bandwidth 80000 80000\n pvc 0/202 \n  protocol ip 10.0.1.3 broadcast\n  protocol ipv6 2001:100:1:2::3 broadcast\n  encapsulation aal5snap\n !\n pvc 0/502 \n  protocol ip 10.0.1.2 broadcast\n  protocol ipv6 2001:100:1:2::2 broadcast\n  encapsulation aal5snap\n !\n!\n!\nrouter ospf 1\n mpls traffic-eng router-id Loopback0\n mpls traffic-eng area 0\n log-adjacency-changes\n!\nrouter bgp 1000\n bgp log-neighbor-changes\n neighbor 4.4.4.9 remote-as 40000\n neighbor 4.4.4.18 remote-as 20000\n neighbor 10.0.10.1 remote-as 1000\n neighbor 10.0.10.1 update-source Loopback0\n neighbor 10.0.10.3 remote-as 1000\n neighbor 10.0.10.3 update-source Loopback0\n neighbor 10.0.10.4 remote-as 1000\n neighbor 10.0.10.4 update-source Loopback0\n neighbor 2001:4:4:10::1 remote-as 40000\n neighbor 2001:4:4:20::1 remote-as 20000\n neighbor 2001:100:1:2::2 remote-as 1000\n neighbor 2001:100:1:2::3 remote-as 1000\n neighbor 2001:100:1:3::2 remote-as 1000\n !\n address-family ipv4\n  neighbor 4.4.4.9 activate\n  neighbor 4.4.4.9 route-map route-to-as20000-ipv4 in\n  neighbor 4.4.4.9 route-map non-transit out\n  neighbor 4.4.4.18 activate\n  neighbor 4.4.4.18 route-map routes-to-as20000-ipv4 in\n  neighbor 4.4.4.18 route-map non-transit out\n  neighbor 10.0.10.1 activate\n  neighbor 10.0.10.1 send-community\n  neighbor 10.0.10.1 next-hop-self\n  neighbor 10.0.10.3 activate\n  neighbor 10.0.10.3 send-community\n  neighbor 10.0.10.3 next-hop-self\n  neighbor 10.0.10.4 activate\n  neighbor 10.0.10.4 send-community\n  neighbor 10.0.10.4 next-hop-self\n  no neighbor 2001:4:4:10::1 activate\n  no neighbor 2001:4:4:20::1 activate\n  no neighbor 2001:100:1:2::2 activate\n  no neighbor 2001:100:1:2::3 activate\n  no neighbor 2001:100:1:3::2 activate\n  no auto-summary\n  no synchronization\n exit-address-family\n !\n address-family ipv6\n  neighbor 2001:4:4:10::1 activate\n  neighbor 2001:4:4:10::1 route-map routes-in-lisboa1-ipv6 in\n  neighbor 2001:4:4:10::1 route-map non-transit out\n  neighbor 2001:4:4:20::1 activate\n  neighbor 2001:4:4:20::1 route-map routes-in-madrid-ipv6 in\n  neighbor 2001:4:4:20::1 route-map non-transit out\n  neighbor 2001:100:1:2::2 activate\n  neighbor 2001:100:1:2::2 send-community\n  neighbor 2001:100:1:2::2 next-hop-self\n  neighbor 2001:100:1:2::3 activate\n  neighbor 2001:100:1:2::3 send-community\n  neighbor 2001:100:1:2::3 next-hop-self\n  neighbor 2001:100:1:3::2 activate\n  neighbor 2001:100:1:3::2 send-community\n  neighbor 2001:100:1:3::2 next-hop-self\n exit-address-family\n!\nip forward-protocol nd\n!\nno ip http server\nno ip http secure-server\n!\nip bgp-community new-format\nip as-path access-list 1 permit ^$\n!\n!\nip prefix-list default-route seq 5 permit 0.0.0.0/0\n!\nip prefix-list route-to-as20000 seq 5 permit 200.100.1.0/24\nip prefix-list route-to-as20000 seq 10 permit 200.200.1.0/24\naccess-list 1 permit 112.1.1.0 0.0.0.255\nsnmp-server engineID local 123456789A\nsnmp-server group group1 v3 priv match exact \nsnmp-server view myview system included\nsnmp-server community myrouter RO\nsnmp-server enable traps syslog\nsnmp-server host 10.2.3.2 version 2c myrouter \nipv6 router ospf 1\n log-adjacency-changes\n!\n!\n!\nipv6 prefix-list default-route-ipv6 seq 10 permit ::/0\n!\nipv6 prefix-list route-to-as20000-ipv6 seq 5 permit 2201:200:100::/64\nipv6 prefix-list route-to-as20000-ipv6 seq 10 permit 2201:200:200::/64\nroute-map routes-in-madrid permit 10\n match ip address prefix-list route-to-as20000\n set community 1000:3\n!\nroute-map routes-in-madrid permit 20\n!\nroute-map non-transit permit 10\n match as-path 1\n!\nroute-map non-transit permit 20\n match ip address 1\n!\nroute-map routes-in-lisboa1 permit 10\n match ip address prefix-list default-route\n set local-preference 110\n set community 1000:1\n!\nroute-map routes-in-lisboa1 permit 20\n match ip address prefix-list route-to-as20000\n set community 1000:3\n!\nroute-map routes-in-lisboa1 permit 30\n!\nroute-map routes-to-as20000-ipv4 permit 30\n match ip address prefix-list route-to-as20000\n set community 1000:3\n!\nroute-map routes-to-as20000-ipv4 permit 40\n!\nroute-map routes-in-lisboa1-ipv6 permit 10\n match ip address prefix-list default-route-ipv6\n set local-preference 110\n set community 1000:1\n!\nroute-map routes-in-lisboa1-ipv6 permit 20\n match ip address prefix-list route-to-as20000-ipv6\n set community 1000:3\n!\nroute-map routes-in-lisboa1-ipv6 permit 30\n!\nroute-map routes-in-default permit 10\n match ip address prefix-list default-route\n set community 1000:1\n!\nroute-map routes-in-default permit 20\n!\nroute-map routes-in-madrid-ipv6 permit 10\n match ip address prefix-list route-to-as20000-ipv6\n set community 1000:3\n!\nroute-map routes-in-madrid-ipv6 permit 20\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
+                    "startup_config": "configs/i7_startup-config.cfg",
+                    "startup_config_content": "!\n!\n!\n!\n\n!\nversion 15.2\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\n!\nhostname Oeiras\n!\nboot-start-marker\nboot-end-marker\n!\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\nip cef\n!\nip vrf VPN-1\n rd 1000:1\n route-target export 1000:1\n route-target import 1000:1\n!\n!\n!\n!\n!\n!\nno ip domain lookup\nipv6 unicast-routing\nipv6 cef\n!\n!\nmpls traffic-eng tunnels\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface Loopback0\n ip address 10.0.10.4 255.255.255.255\n ip ospf 1 area 0\n!\ninterface Tunnel1\n ip unnumbered Loopback0\n tunnel mode mpls traffic-eng\n tunnel destination 10.0.10.3\n tunnel mpls traffic-eng autoroute announce\n tunnel mpls traffic-eng autoroute metric 2\n tunnel mpls traffic-eng priority 7 7\n tunnel mpls traffic-eng bandwidth 20480\n tunnel mpls traffic-eng path-option 1 explicit name oeiras_aveiro\n!\ninterface Tunnel2\n ip unnumbered Loopback0\n tunnel mode mpls traffic-eng\n tunnel destination 10.0.10.3\n tunnel mpls traffic-eng autoroute announce\n tunnel mpls traffic-eng autoroute metric 2\n tunnel mpls traffic-eng priority 7 7\n tunnel mpls traffic-eng bandwidth 20480\n tunnel mpls traffic-eng path-option 1 explicit name oeiras_aveiro\n!\ninterface FastEthernet0/0\n ip address 10.0.6.1 255.255.255.252\n ip ospf 1 area 0\n speed auto\n duplex auto\n ipv6 address 2001:100:1:3::2/64\n ipv6 enable\n mpls ip\n mpls traffic-eng tunnels\n ipv6 ospf 1 area 0\n ip rsvp bandwidth 80000 80000\n!\ninterface FastEthernet0/1\n ip address 10.0.4.1 255.255.255.252\n ip policy route-map route-to-tunnels\n ip ospf 1 area 0\n speed auto\n duplex auto\n ipv6 address 2001:100:1:6::1/64\n ipv6 enable\n mpls ip\n mpls traffic-eng tunnels\n ipv6 ospf 1 area 0\n!\ninterface FastEthernet1/0\n ip address 10.2.3.1 255.255.255.252\n ip ospf 1 area 0\n speed auto\n duplex auto\n ipv6 address 3001:10:2:3::1/64\n ipv6 enable\n mpls traffic-eng tunnels\n ipv6 ospf 1 area 0\n!\ninterface FastEthernet1/1\n ip vrf forwarding VPN-1\n ip address 10.0.5.1 255.255.255.252\n ip ospf 2 area 0\n speed auto\n duplex auto\n ipv6 address 2001:100:1:7::1/64\n ipv6 enable\n mpls ip\n mpls traffic-eng tunnels\n ipv6 ospf 1 area 0\n!\ninterface FastEthernet2/0\n ip address 192.100.1.1 255.255.255.0\n ip ospf 1 area 0\n speed auto\n duplex auto\n ipv6 address 2001:100:1:1::1/64\n ipv6 enable\n mpls traffic-eng tunnels\n ipv6 ospf 1 area 0\n!\ninterface FastEthernet2/1\n ip address 200.100.1.1 255.255.255.0\n speed auto\n duplex auto\n ipv6 address 2201:200:100::1/64\n ipv6 enable\n!\nrouter ospf 2 vrf VPN-1\n capability vrf-lite\n network 110.1.1.128 0.0.0.127 area 0\n!\nrouter ospf 1\n mpls traffic-eng router-id Loopback0\n mpls traffic-eng area 0\n!\nrouter bgp 1000\n bgp router-id 40.40.40.40\n bgp log-neighbor-changes\n neighbor 10.0.10.2 remote-as 1000\n neighbor 10.0.10.3 remote-as 1000\n neighbor 10.0.10.3 update-source Loopback0\n neighbor 2001:100:1:3::1 remote-as 1000\n !\n address-family ipv4\n  network 192.100.1.0\n  redistribute connected\n  redistribute static\n  neighbor 10.0.10.2 activate\n  neighbor 10.0.10.2 route-map routes-in-lisboa2 in\n  neighbor 10.0.10.3 activate\n  no neighbor 2001:100:1:3::1 activate\n exit-address-family\n !\n address-family vpnv4\n  neighbor 10.0.10.3 activate\n  neighbor 10.0.10.3 send-community both\n exit-address-family\n !\n address-family ipv6\n  network 2001:100:1::/48\n  neighbor 2001:100:1:3::1 activate\n  neighbor 2001:100:1:3::1 route-map routes-in-lisboa2-ipv6 in\n exit-address-family\n !\n address-family ipv4 vrf VPN-1\n  redistribute connected\n  redistribute ospf 2\n exit-address-family\n!\nip forward-protocol nd\n!\nip bgp-community new-format\nip community-list 1 permit 1000:1\nip community-list 2 permit 1000:2\nip community-list 3 permit 1000:3\n!\nno ip http server\nno ip http secure-server\nip route 110.1.1.128 255.255.255.128 FastEthernet1/1\nip route vrf VPN-1 0.0.0.0 0.0.0.0 10.0.1.1 global\n!\nip explicit-path name oeiras_aveiro enable\n next-address 10.0.6.2\n next-address 10.0.1.2\n!\n!\nip prefix-list route-to-tunnel1 seq 5 permit 111.1.1.0/26\n!\nip prefix-list route-to-tunnel2 seq 5 permit 111.1.1.64/26\nipv6 router ospf 1\n!\n!\nroute-map routes-to-internet permit 10\n match community 1\n set local-preference 110\n!\nroute-map routes-to-internet permit 20\n!\nroute-map route-to-tunnels permit 10\n match ip address prefix-list route-to-tunnel1\n!\nroute-map route-to-tunnels permit 20\n match ip address prefix-list route-to-tunnel2\n!\nroute-map route-to-tunnels permit 30\n!\nroute-map routes-in-lisboa2 permit 10\n match community 1\n set local-preference 110\n!\nroute-map routes-in-lisboa2 permit 20\n match community 3\n set local-preference 110\n!\nroute-map routes-in-lisboa2 permit 30\n!\nroute-map routes-to-as20000 permit 30\n match community 2\n set local-preference 111\n!\nroute-map routes-to-as20000 permit 40\n match community 3\n set local-preference 110\n!\nroute-map routes-to-as20000 permit 50\n!\nroute-map routes-in-lisboa2-ipv6 permit 10\n match community 1\n set local-preference 110\n!\nroute-map routes-in-lisboa2-ipv6 permit 20\n match community 3\n set local-preference 110\n!\nroute-map routes-in-lisboa2-ipv6 permit 30\n!\nsnmp-server engineID local 123456789A\nsnmp-server group group1 v3 priv \nsnmp-server view myview system included\nsnmp-server community myrouter RO\nsnmp-server enable traps syslog\nsnmp-server host 10.2.3.2 version 2c myrouter \n!\n!\ncontrol-plane\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
-                "x": 37,
-                "y": -30,
-                "z": 1
+                "x": 294,
+                "y": 11,
+                "z": 2
             },
             {
                 "compute_id": "local",
-                "console": 5023,
-                "console_type": "telnet",
-                "first_port_name": "",
-                "height": 59,
+                "console": null,
+                "console_type": null,
+                "first_port_name": null,
+                "height": 32,
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "SIPProxy2",
-                    "x": 3,
+                    "text": "SW2",
+                    "x": 20,
                     "y": -25
                 },
-                "name": "SIPProxy2",
-                "node_id": "23ce6a18-a637-42d7-852f-a60c5a280561",
-                "node_type": "virtualbox",
+                "name": "SW2",
+                "node_id": "04cf7e67-2075-4955-a5e9-b473922f721c",
+                "node_type": "ethernet_switch",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
                 "properties": {
-                    "acpi_shutdown": false,
-                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
-                    "adapters": 1,
-                    "headless": false,
-                    "linked_clone": false,
-                    "ram": 512,
-                    "use_any_adapter": false,
-                    "vmname": "LabComServer_1"
+                    "ports_mapping": [
+                        {
+                            "name": "Ethernet0",
+                            "port_number": 0,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet1",
+                            "port_number": 1,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet2",
+                            "port_number": 2,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet3",
+                            "port_number": 3,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet4",
+                            "port_number": 4,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet5",
+                            "port_number": 5,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet6",
+                            "port_number": 6,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet7",
+                            "port_number": 7,
+                            "type": "access",
+                            "vlan": 1
+                        }
+                    ]
                 },
-                "symbol": ":/symbols/vbox_guest.svg",
-                "width": 65,
-                "x": -238,
-                "y": -32,
+                "symbol": ":/symbols/ethernet_switch.svg",
+                "width": 72,
+                "x": -409,
+                "y": 152,
                 "z": 1
             },
             {
                 "compute_id": "local",
-                "console": 5015,
+                "console": 5011,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Lisboa1",
-                    "x": -13,
-                    "y": -20
+                    "text": "Madrid",
+                    "x": 11,
+                    "y": -25
                 },
-                "name": "Lisboa1",
-                "node_id": "5f19c6e9-6b5e-4e17-b9e3-3acdcda90c90",
+                "name": "Madrid",
+                "node_id": "5395bd7e-c0cb-46cd-9112-3232757e2cb1",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
@@ -1490,14 +1242,14 @@
                     "clock_divisor": 4,
                     "disk0": 0,
                     "disk1": 0,
-                    "dynamips_id": 2,
+                    "dynamips_id": 1,
                     "exec_area": 64,
                     "idlemax": 500,
                     "idlepc": "0x63184bc8",
                     "idlesleep": 30,
                     "image": "c7200-advipservicesk9-mz.152-4.S5.image",
                     "image_md5sum": "cbbbea66a253f1dac0fcf81274dc778d",
-                    "mac_addr": "ca02.5293.0000",
+                    "mac_addr": "ca01.5292.0000",
                     "midplane": "vxr",
                     "mmap": true,
                     "npe": "npe-400",
@@ -1507,7 +1259,7 @@
                         1,
                         1
                     ],
-                    "private_config": "configs/i2_private-config.cfg",
+                    "private_config": "configs/i1_private-config.cfg",
                     "private_config_content": "\nend\n",
                     "ram": 512,
                     "sensors": [
@@ -1518,20 +1270,20 @@
                     ],
                     "slot0": "C7200-IO-2FE",
                     "slot1": "PA-2FE-TX",
-                    "slot2": null,
+                    "slot2": "PA-2FE-TX",
                     "slot3": null,
                     "slot4": null,
                     "slot5": null,
                     "slot6": null,
                     "sparsemem": true,
-                    "startup_config": "configs/i2_startup-config.cfg",
-                    "startup_config_content": "!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n\n!\n! Last configuration change at 21:41:40 UTC Sun Dec 17 2017\n!\nversion 15.2\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\n!\nhostname Lisboa1\n!\nboot-start-marker\nboot-end-marker\n!\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\n!\n!\nno ip domain lookup\nipv6 unicast-routing\nipv6 cef\n!\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface FastEthernet0/0\n ip address 4.4.4.26 255.255.255.248\n speed auto\n duplex auto\n ipv6 address 2001:4:4:80::2/64\n ipv6 address 3001:112:1::1/64\n ipv6 enable\n!\ninterface FastEthernet0/1\n ip address 4.4.4.9 255.255.255.248\n speed auto\n duplex auto\n ipv6 address 2001:4:4:10::1/64\n ipv6 address 2001:100:1:3::2/64\n ipv6 enable\n!\ninterface FastEthernet1/0\n ip address 65.0.1.1 255.255.255.0\n speed auto\n duplex auto\n ipv6 address 2301:65:0:1::1/64\n ipv6 enable\n!\ninterface FastEthernet1/1\n ip address 2.2.2.2 255.255.255.0\n speed auto\n duplex auto\n ipv6 address 2001:2:2::1/64\n ipv6 enable\n!\nrouter bgp 40000\n bgp log-neighbor-changes\n neighbor 4.4.4.10 remote-as 1000\n neighbor 4.4.4.25 remote-as 20000\n !\n address-family ipv4\n  network 65.0.1.0 mask 255.255.255.0\n  neighbor 4.4.4.10 activate\n  neighbor 4.4.4.10 default-originate\n  neighbor 4.4.4.25 activate\n  neighbor 4.4.4.25 default-originate\n exit-address-family\n!\nip forward-protocol nd\n!\n!\nno ip http server\nno ip http secure-server\n!\n!\n!\n!\ncontrol-plane\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
+                    "startup_config": "configs/i1_startup-config.cfg",
+                    "startup_config_content": "!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n\n!\n! Last configuration change at 14:34:17 UTC Sun Dec 17 2017\n!\nversion 15.2\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\n!\nhostname Madrid\n!\nboot-start-marker\nboot-end-marker\n!\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\n!\n!\nno ip domain lookup\nipv6 unicast-routing\nipv6 cef\n!\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface FastEthernet0/0\n ip address 4.4.4.33 255.255.255.248\n speed auto\n duplex auto\n ipv6 address 2001:4:4:40::2/64\n ipv6 enable\n!\ninterface FastEthernet0/1\n ip address 4.4.4.25 255.255.255.248\n speed auto\n duplex auto\n ipv6 address 2001:4:4:80::1/64\n ipv6 enable\n!\ninterface FastEthernet1/0\n ip address 4.4.4.18 255.255.255.248\n speed auto\n duplex auto\n ipv6 address 2001:4:4:20::1/64\n ipv6 enable\n!\ninterface FastEthernet1/1\n ip address 2.2.2.1 255.255.255.0\n speed auto\n duplex auto\n ipv6 address 2001:2:2::2/64\n ipv6 enable\n!\ninterface FastEthernet2/0\n ip address 200.200.1.1 255.255.255.0\n speed auto\n duplex auto\n ipv6 address 2201:200:200::1/64\n ipv6 enable\n!\ninterface FastEthernet2/1\n ip address 200.100.1.1 255.255.255.0\n speed auto\n duplex auto\n ipv6 address 2201:200:100::1/64\n ipv6 enable\n!\nrouter bgp 20000\n bgp log-neighbor-changes\n neighbor 4.4.4.17 remote-as 1000\n neighbor 4.4.4.26 remote-as 40000\n neighbor 4.4.4.34 remote-as 1000\n !\n address-family ipv4\n  network 200.100.1.0\n  network 200.200.1.0\n  neighbor 4.4.4.17 activate\n  neighbor 4.4.4.17 default-originate\n  neighbor 4.4.4.26 activate\n  neighbor 4.4.4.26 default-originate\n  neighbor 4.4.4.34 activate\n  neighbor 4.4.4.34 default-originate\n exit-address-family\n!\nip forward-protocol nd\n!\n!\nno ip http server\nno ip http secure-server\n!\n!\n!\n!\ncontrol-plane\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
-                "x": -117,
-                "y": -29,
+                "x": -118,
+                "y": -203,
                 "z": 1
             },
             {
@@ -1612,75 +1364,105 @@
             },
             {
                 "compute_id": "local",
-                "console": 5030,
+                "console": 5028,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 59,
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "netM1",
+                    "text": "netM2",
                     "x": 12,
                     "y": -25
                 },
-                "name": "netM1",
-                "node_id": "ca3a767f-c099-46c2-9871-81fe80297ff0",
+                "name": "netM2",
+                "node_id": "8a0292f7-bd42-4575-ac30-fae247e64243",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
                 "properties": {
-                    "startup_script": "set pcname netM1\n",
+                    "startup_script": "set pcname netM2\n",
                     "startup_script_path": "startup.vpc"
                 },
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": -215,
-                "y": -143,
+                "x": -217,
+                "y": -227,
                 "z": 1
             },
             {
                 "compute_id": "local",
-                "console": 5014,
+                "console": null,
+                "console_type": null,
+                "first_port_name": null,
+                "height": 48,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "ATM3",
+                    "x": -8,
+                    "y": -19
+                },
+                "name": "ATM3",
+                "node_id": "82431572-83af-4d83-a3ee-6550d5870331",
+                "node_type": "atm_switch",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "mappings": {
+                        "2:0:501": "1:0:502",
+                        "3:0:201": "1:0:202"
+                    }
+                },
+                "symbol": ":/symbols/atm_switch.svg",
+                "width": 51,
+                "x": 77,
+                "y": -159,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5022,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 59,
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "netB1",
-                    "x": 13,
+                    "text": "DatacenterOeiras",
+                    "x": -16,
                     "y": -25
                 },
-                "name": "netB1",
-                "node_id": "e11b4282-533f-44eb-a6d5-be5ec50abc4c",
+                "name": "DatacenterOeiras",
+                "node_id": "3ea7d7c8-5895-4bdd-a9f3-69657b05b034",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
                 "properties": {
-                    "startup_script": "set pcname netB1\n",
+                    "startup_script": "set pcname DatacenterOeiras\n",
                     "startup_script_path": "startup.vpc"
                 },
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": 515,
-                "y": -201,
+                "x": 518,
+                "y": 6,
                 "z": 1
             },
             {
                 "compute_id": "local",
-                "console": 5019,
+                "console": 5006,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "EmpA1",
-                    "x": 10,
+                    "text": "EmpC",
+                    "x": 14,
                     "y": -25
                 },
-                "name": "EmpA1",
-                "node_id": "1eaae15a-8c7f-4baf-afee-e9bb4e3b874a",
+                "name": "EmpC",
+                "node_id": "8cb30d82-af84-4300-955e-16458a0165a9",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
@@ -1690,14 +1472,14 @@
                     "clock_divisor": 4,
                     "disk0": 0,
                     "disk1": 0,
-                    "dynamips_id": 8,
+                    "dynamips_id": 5,
                     "exec_area": 64,
                     "idlemax": 500,
                     "idlepc": "0x63184bc8",
                     "idlesleep": 30,
                     "image": "c7200-advipservicesk9-mz.152-4.S5.image",
                     "image_md5sum": "cbbbea66a253f1dac0fcf81274dc778d",
-                    "mac_addr": "ca08.52aa.0000",
+                    "mac_addr": "ca05.5298.0000",
                     "midplane": "vxr",
                     "mmap": true,
                     "npe": "npe-400",
@@ -1707,7 +1489,7 @@
                         1,
                         1
                     ],
-                    "private_config": "configs/i8_private-config.cfg",
+                    "private_config": "configs/i5_private-config.cfg",
                     "private_config_content": "\nend\n",
                     "ram": 512,
                     "sensors": [
@@ -1724,14 +1506,258 @@
                     "slot5": null,
                     "slot6": null,
                     "sparsemem": true,
-                    "startup_config": "configs/i8_startup-config.cfg",
-                    "startup_config_content": "!\n!\n!\n!\n!\n\n!\n! Last configuration change at 12:08:38 UTC Wed Dec 27 2017\n!\nversion 15.2\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\n!\nhostname EmpA1\n!\nboot-start-marker\nboot-end-marker\n!\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\n!\n!\nip name-server 10.2.1.2\nipv6 unicast-routing\nipv6 cef\n!\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface FastEthernet0/0\n ip address 10.0.2.2 255.255.255.252\n ip ospf 2 area 0\n speed auto\n duplex auto\n ipv6 address 2001:100:1:4::2/64\n ipv6 enable\n ipv6 ospf 2 area 0\n!\ninterface FastEthernet0/1\n ip address 110.1.1.1 255.255.255.128\n ip ospf 2 area 0\n speed auto\n duplex auto\n ipv6 address 3001:110:1::1/64\n ipv6 enable\n ipv6 ospf 2 area 0\n!\ninterface FastEthernet1/0\n no ip address\n shutdown\n speed auto\n duplex auto\n!\ninterface FastEthernet1/1\n no ip address\n shutdown\n speed auto\n duplex auto\n!\nrouter ospf 1\n!\nrouter ospf 2\n network 10.0.2.0 0.0.0.3 area 0\n network 110.1.1.0 0.0.0.127 area 0\n!\nip forward-protocol nd\n!\n!\nno ip http server\nno ip http secure-server\nip route 0.0.0.0 0.0.0.0 10.0.2.1\n!\nipv6 router ospf 2\n!\n!\n!\n!\ncontrol-plane\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
+                    "startup_config": "configs/i5_startup-config.cfg",
+                    "startup_config_content": "!\n!\n\n!\n! Last configuration change at 11:41:43 UTC Thu Dec 28 2017\n!\nversion 15.2\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\n!\nhostname EmpC\n!\nboot-start-marker\nboot-end-marker\n!\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\n!\n!\nno ip domain lookup\nipv6 unicast-routing\nipv6 cef\n!\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface FastEthernet0/0\n ip address 10.0.7.1 255.255.255.252\n speed auto\n duplex auto\n ipv6 address 2001:100:1:8::2/64\n ipv6 enable\n!\ninterface FastEthernet0/1\n ip address 112.1.1.1 255.255.255.0\n speed auto\n duplex auto\n ipv6 address 3001:112:1::1/64\n ipv6 enable\n!\ninterface FastEthernet1/0\n no ip address\n shutdown\n speed auto\n duplex auto\n!\ninterface FastEthernet1/1\n no ip address\n shutdown\n speed auto\n duplex auto\n!\nrouter ospf 1\n!\nrouter bgp 65400\n bgp log-neighbor-changes\n neighbor 10.0.7.2 remote-as 1000\n neighbor 2001:100:1:8::1 remote-as 1000\n !\n address-family ipv4\n  network 112.1.1.0 mask 255.255.255.0\n  neighbor 10.0.7.2 activate\n  no neighbor 2001:100:1:8::1 activate\n exit-address-family\n !\n address-family ipv6\n  network 3001:112:1::/64\n  neighbor 2001:100:1:8::1 activate\n exit-address-family\n!\nip forward-protocol nd\n!\n!\nno ip http server\nno ip http secure-server\n!\n!\n!\n!\ncontrol-plane\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
-                "x": 363,
-                "y": -367,
+                "x": 157,
+                "y": -381,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5021,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "netB2",
+                    "x": 13,
+                    "y": -25
+                },
+                "name": "netB2",
+                "node_id": "94857f50-cbb3-400d-87ae-b1e255e045f5",
+                "node_type": "vpcs",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "startup_script": "set pcname netB2\n",
+                    "startup_script_path": "startup.vpc"
+                },
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "width": 65,
+                "x": 525,
+                "y": -93,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5032,
+                "console_type": "telnet",
+                "first_port_name": "",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "LabComServer_3",
+                    "x": -14,
+                    "y": -25
+                },
+                "name": "LabComServer_3",
+                "node_id": "66654829-66e4-415f-9a0c-e2dca1be463a",
+                "node_type": "virtualbox",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "acpi_shutdown": false,
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 1,
+                    "headless": false,
+                    "linked_clone": false,
+                    "ram": 512,
+                    "use_any_adapter": false,
+                    "vmname": "LabComServer_3"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "width": 65,
+                "x": 552,
+                "y": -393,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5018,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "netA1",
+                    "x": 13,
+                    "y": -25
+                },
+                "name": "netA1",
+                "node_id": "5aa89847-05e1-4186-9749-0fbe92fd5051",
+                "node_type": "vpcs",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "startup_script": "set pcname netA1\n",
+                    "startup_script_path": "startup.vpc"
+                },
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "width": 65,
+                "x": 552,
+                "y": -496,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5024,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "netA2",
+                    "x": 13,
+                    "y": -25
+                },
+                "name": "netA2",
+                "node_id": "a20b4bcd-0b1c-4d38-b9c6-294703ba89ce",
+                "node_type": "vpcs",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "startup_script": "set pcname netA2\n",
+                    "startup_script_path": "startup.vpc"
+                },
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "width": 65,
+                "x": 531,
+                "y": 98,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_type": null,
+                "first_port_name": null,
+                "height": 48,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "ATM2",
+                    "x": 10,
+                    "y": 46
+                },
+                "name": "ATM2",
+                "node_id": "dec288a9-9ed2-4891-a03f-25fb2602c5d9",
+                "node_type": "atm_switch",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "mappings": {
+                        "1:0:401": "2:0:501",
+                        "3:0:301": "1:0:302"
+                    }
+                },
+                "symbol": ":/symbols/atm_switch.svg",
+                "width": 51,
+                "x": 206,
+                "y": -141,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5025,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "EmpB2",
+                    "x": 11,
+                    "y": -25
+                },
+                "name": "EmpB2",
+                "node_id": "a3084299-6f90-4972-85a6-b76402a22c1a",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 10,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x63184bc8",
+                    "idlesleep": 30,
+                    "image": "c7200-advipservicesk9-mz.152-4.S5.image",
+                    "image_md5sum": "cbbbea66a253f1dac0fcf81274dc778d",
+                    "mac_addr": "ca0a.52ae.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "private_config": "configs/i10_private-config.cfg",
+                    "private_config_content": "\nend\n",
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-2FE",
+                    "slot1": "PA-2FE-TX",
+                    "slot2": null,
+                    "slot3": null,
+                    "slot4": null,
+                    "slot5": null,
+                    "slot6": null,
+                    "sparsemem": true,
+                    "startup_config": "configs/i10_startup-config.cfg",
+                    "startup_config_content": "!\n!\n!\n!\n\n!\nversion 15.2\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\n!\nhostname EmpB2\n!\nboot-start-marker\nboot-end-marker\n!\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\n!\n!\nno ip domain lookup\nipv6 unicast-routing\nipv6 cef\n!\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface FastEthernet0/0\n ip address 10.0.4.2 255.255.255.252\n ip ospf 3 area 0\n speed auto\n duplex auto\n ipv6 address 2001:100:1:6::2/64\n ipv6 enable\n ipv6 ospf 3 area 0\n!\ninterface FastEthernet0/1\n ip address 111.1.1.193 255.255.255.192 secondary\n ip address 111.1.1.129 255.255.255.192\n ip ospf 3 area 0\n speed auto\n duplex auto\n ipv6 address 3001:111:2::1/64\n ipv6 enable\n ipv6 ospf 3 area 0\n!\ninterface FastEthernet1/0\n no ip address\n shutdown\n speed auto\n duplex auto\n!\ninterface FastEthernet1/1\n no ip address\n shutdown\n speed auto\n duplex auto\n!\nrouter ospf 3\n!\nip forward-protocol nd\n!\n!\nno ip http server\nno ip http secure-server\n!\nipv6 router ospf 3\n!\n!\n!\n!\ncontrol-plane\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
+                    "system_id": "FTX0945W0MY"
+                },
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": 416,
+                "y": -40,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5026,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "PC1",
+                    "x": 18,
+                    "y": -25
+                },
+                "name": "PC1",
+                "node_id": "cefc0268-465b-4109-9735-4bd0797d0355",
+                "node_type": "vpcs",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "startup_script": "set pcname PC1\n",
+                    "startup_script_path": "startup.vpc"
+                },
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "width": 65,
+                "x": 254,
+                "y": -420,
                 "z": 1
             },
             {
@@ -1804,6 +1830,34 @@
             },
             {
                 "compute_id": "local",
+                "console": 5016,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "DataCenterAveiro",
+                    "x": -16,
+                    "y": -25
+                },
+                "name": "DataCenterAveiro",
+                "node_id": "f7ef077e-e980-4d6f-88fc-517badeafc47",
+                "node_type": "vpcs",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "startup_script": "set pcname DataCenterAveiro\n",
+                    "startup_script_path": "startup.vpc"
+                },
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "width": 65,
+                "x": 512,
+                "y": -295,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
                 "console": 5020,
                 "console_type": "telnet",
                 "first_port_name": null,
@@ -1872,77 +1926,53 @@
             },
             {
                 "compute_id": "local",
-                "console": 5024,
+                "console": 5027,
                 "console_type": "telnet",
-                "first_port_name": null,
+                "first_port_name": "",
                 "height": 59,
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "netA2",
-                    "x": 13,
+                    "text": "SIPProxy1",
+                    "x": 3,
                     "y": -25
                 },
-                "name": "netA2",
-                "node_id": "a20b4bcd-0b1c-4d38-b9c6-294703ba89ce",
-                "node_type": "vpcs",
+                "name": "SIPProxy1",
+                "node_id": "9ddbf8ae-b33f-4240-8347-0c17d984e92b",
+                "node_type": "virtualbox",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
                 "properties": {
-                    "startup_script": "set pcname netA2\n",
-                    "startup_script_path": "startup.vpc"
+                    "acpi_shutdown": false,
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 1,
+                    "headless": false,
+                    "linked_clone": false,
+                    "ram": 1024,
+                    "use_any_adapter": false,
+                    "vmname": "LabComServer2"
                 },
-                "symbol": ":/symbols/vpcs_guest.svg",
+                "symbol": ":/symbols/vbox_guest.svg",
                 "width": 65,
-                "x": 531,
-                "y": 98,
+                "x": 319,
+                "y": 149,
                 "z": 1
             },
             {
                 "compute_id": "local",
-                "console": null,
-                "console_type": null,
+                "console": 5019,
+                "console_type": "telnet",
                 "first_port_name": null,
-                "height": 48,
+                "height": 45,
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "ATM2",
+                    "text": "EmpA1",
                     "x": 10,
-                    "y": 46
-                },
-                "name": "ATM2",
-                "node_id": "dec288a9-9ed2-4891-a03f-25fb2602c5d9",
-                "node_type": "atm_switch",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "mappings": {
-                        "1:0:401": "2:0:501",
-                        "3:0:301": "1:0:302"
-                    }
-                },
-                "symbol": ":/symbols/atm_switch.svg",
-                "width": 51,
-                "x": 206,
-                "y": -141,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": 5005,
-                "console_type": "telnet",
-                "first_port_name": null,
-                "height": 45,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "EmpC",
-                    "x": 14,
                     "y": -25
                 },
-                "name": "EmpC",
-                "node_id": "8cb30d82-af84-4300-955e-16458a0165a9",
+                "name": "EmpA1",
+                "node_id": "1eaae15a-8c7f-4baf-afee-e9bb4e3b874a",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
@@ -1952,14 +1982,14 @@
                     "clock_divisor": 4,
                     "disk0": 0,
                     "disk1": 0,
-                    "dynamips_id": 5,
+                    "dynamips_id": 8,
                     "exec_area": 64,
                     "idlemax": 500,
                     "idlepc": "0x63184bc8",
                     "idlesleep": 30,
                     "image": "c7200-advipservicesk9-mz.152-4.S5.image",
                     "image_md5sum": "cbbbea66a253f1dac0fcf81274dc778d",
-                    "mac_addr": "ca05.5298.0000",
+                    "mac_addr": "ca08.52aa.0000",
                     "midplane": "vxr",
                     "mmap": true,
                     "npe": "npe-400",
@@ -1969,7 +1999,7 @@
                         1,
                         1
                     ],
-                    "private_config": "configs/i5_private-config.cfg",
+                    "private_config": "configs/i8_private-config.cfg",
                     "private_config_content": "\nend\n",
                     "ram": 512,
                     "sensors": [
@@ -1986,178 +2016,14 @@
                     "slot5": null,
                     "slot6": null,
                     "sparsemem": true,
-                    "startup_config": "configs/i5_startup-config.cfg",
-                    "startup_config_content": "!\n\n!\n! Last configuration change at 11:41:43 UTC Thu Dec 28 2017\n!\nversion 15.2\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\n!\nhostname EmpC\n!\nboot-start-marker\nboot-end-marker\n!\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\n!\n!\nno ip domain lookup\nipv6 unicast-routing\nipv6 cef\n!\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface FastEthernet0/0\n ip address 10.0.7.1 255.255.255.252\n speed auto\n duplex auto\n ipv6 address 2001:100:1:8::2/64\n ipv6 enable\n!\ninterface FastEthernet0/1\n ip address 112.1.1.1 255.255.255.0\n speed auto\n duplex auto\n ipv6 address 3001:112:1::1/64\n ipv6 enable\n!\ninterface FastEthernet1/0\n no ip address\n shutdown\n speed auto\n duplex auto\n!\ninterface FastEthernet1/1\n no ip address\n shutdown\n speed auto\n duplex auto\n!\nrouter ospf 1\n!\nrouter bgp 65400\n bgp log-neighbor-changes\n neighbor 10.0.7.2 remote-as 1000\n neighbor 2001:100:1:8::1 remote-as 1000\n !\n address-family ipv4\n  network 112.1.1.0 mask 255.255.255.0\n  neighbor 10.0.7.2 activate\n  no neighbor 2001:100:1:8::1 activate\n exit-address-family\n !\n address-family ipv6\n  network 3001:112:1::/64\n  neighbor 2001:100:1:8::1 activate\n exit-address-family\n!\nip forward-protocol nd\n!\n!\nno ip http server\nno ip http secure-server\n!\n!\n!\n!\ncontrol-plane\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
+                    "startup_config": "configs/i8_startup-config.cfg",
+                    "startup_config_content": "!\n!\n!\n!\n!\n\n!\n! Last configuration change at 12:08:38 UTC Wed Dec 27 2017\n!\nversion 15.2\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\n!\nhostname EmpA1\n!\nboot-start-marker\nboot-end-marker\n!\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\n!\n!\nip name-server 10.2.1.2\nipv6 unicast-routing\nipv6 cef\n!\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface FastEthernet0/0\n ip address 10.0.2.2 255.255.255.252\n ip ospf 2 area 0\n speed auto\n duplex auto\n ipv6 address 2001:100:1:4::2/64\n ipv6 enable\n ipv6 ospf 2 area 0\n!\ninterface FastEthernet0/1\n ip address 110.1.1.1 255.255.255.128\n ip ospf 2 area 0\n speed auto\n duplex auto\n ipv6 address 3001:110:1::1/64\n ipv6 enable\n ipv6 ospf 2 area 0\n!\ninterface FastEthernet1/0\n no ip address\n shutdown\n speed auto\n duplex auto\n!\ninterface FastEthernet1/1\n no ip address\n shutdown\n speed auto\n duplex auto\n!\nrouter ospf 1\n!\nrouter ospf 2\n network 10.0.2.0 0.0.0.3 area 0\n network 110.1.1.0 0.0.0.127 area 0\n!\nip forward-protocol nd\n!\n!\nno ip http server\nno ip http secure-server\nip route 0.0.0.0 0.0.0.0 10.0.2.1\n!\nipv6 router ospf 2\n!\n!\n!\n!\ncontrol-plane\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
-                "x": 157,
-                "y": -381,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": 5013,
-                "console_type": "telnet",
-                "first_port_name": null,
-                "height": 45,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Aveiro",
-                    "x": 12,
-                    "y": -25
-                },
-                "name": "Aveiro",
-                "node_id": "101bafd3-9f4f-4fb6-b01d-20279681ce3e",
-                "node_type": "dynamips",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "auto_delete_disks": true,
-                    "aux": null,
-                    "clock_divisor": 4,
-                    "disk0": 0,
-                    "disk1": 0,
-                    "dynamips_id": 6,
-                    "exec_area": 64,
-                    "idlemax": 500,
-                    "idlepc": "0x0",
-                    "idlesleep": 30,
-                    "image": "c7200-a3jk9s-mz.124-25d.image",
-                    "image_md5sum": "1c5c06208a9d09481f3eef1c7febb98c",
-                    "mac_addr": "ca06.5299.0000",
-                    "midplane": "vxr",
-                    "mmap": true,
-                    "npe": "npe-400",
-                    "nvram": 512,
-                    "platform": "c7200",
-                    "power_supplies": [
-                        1,
-                        1
-                    ],
-                    "private_config": "/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips/101bafd3-9f4f-4fb6-b01d-20279681ce3e/configs/i6_private-config.cfg",
-                    "private_config_content": "\nkerberos password \nsnmp-server engineID local 123456789A\nsnmp-server user user1 group1 v3 encrypted auth md5 31:0A:11:8F:A5:72:99:5E:F8:B5:AA:E6:77:66:7B:BF priv des56 F1:6B:3D:35:D8:6A:DD:C6:31:F5:4F:17:11:1D:38:DB \nend\n",
-                    "ram": 512,
-                    "sensors": [
-                        22,
-                        22,
-                        22,
-                        22
-                    ],
-                    "slot0": "C7200-IO-2FE",
-                    "slot1": "PA-2FE-TX",
-                    "slot2": "PA-A1",
-                    "slot3": null,
-                    "slot4": null,
-                    "slot5": null,
-                    "slot6": null,
-                    "sparsemem": true,
-                    "startup_config": "configs/i6_startup-config.cfg",
-                    "startup_config_content": "!\n\n!\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname Aveiro\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\n!\n!\nip cef\nno ip domain lookup\n!\n!\nip vrf VPN-1\n rd 1000:1\n route-target export 1000:1\n route-target import 1000:1\n!\nipv6 unicast-routing\nipv6 cef\nmpls traffic-eng tunnels\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\ninterface Loopback0\n ip address 10.0.10.3 255.255.255.255\n ip ospf 1 area 0\n!\ninterface Tunnel1\n ip unnumbered Loopback0\n tunnel destination 10.0.10.4\n tunnel mode mpls traffic-eng\n tunnel mpls traffic-eng autoroute announce\n tunnel mpls traffic-eng autoroute metric 2\n tunnel mpls traffic-eng priority 7 7\n tunnel mpls traffic-eng bandwidth  20480\n tunnel mpls traffic-eng path-option 1 explicit name aveiro_oeiras\n no routing dynamic\n!\ninterface Tunnel2\n ip unnumbered Loopback0\n tunnel destination 10.0.10.4\n tunnel mode mpls traffic-eng\n tunnel mpls traffic-eng autoroute announce\n tunnel mpls traffic-eng autoroute metric 2\n tunnel mpls traffic-eng priority 7 7\n tunnel mpls traffic-eng bandwidth  20480\n tunnel mpls traffic-eng path-option 1 explicit name aveiro_oeiras\n no routing dynamic\n!\ninterface FastEthernet0/0\n no ip address\n duplex auto\n speed auto\n!\ninterface FastEthernet0/1\n ip vrf forwarding VPN-1\n ip address 10.0.2.1 255.255.255.252\n ip ospf 2 area 0\n duplex auto\n speed auto\n ipv6 address 2001:100:1:4::1/64\n ipv6 enable\n ipv6 ospf 1 area 0\n mpls ip\n mpls traffic-eng tunnels\n!\ninterface FastEthernet1/0\n ip address 10.2.2.1 255.255.255.252\n ip ospf 1 area 0\n duplex auto\n speed auto\n ipv6 address 3001:10:2:2::1/64\n ipv6 enable\n ipv6 ospf 1 area 0\n mpls traffic-eng tunnels\n!\ninterface FastEthernet1/1\n ip address 10.0.3.1 255.255.255.252\n ip ospf 1 area 0\n ip policy route-map route-to-tunnels\n duplex auto\n speed auto\n ipv6 address 2001:100:1:5::1/64\n ipv6 enable\n ipv6 ospf 1 area 0\n mpls ip\n mpls traffic-eng tunnels\n!\ninterface ATM2/0\n no ip address\n no atm ilmi-keepalive\n!\ninterface ATM2/0.123 multipoint\n ip address 10.0.1.2 255.255.255.248\n ip ospf network broadcast\n ip ospf 1 area 0\n ipv6 address 2001:100:1:2::2/64\n ipv6 enable\n ipv6 ospf network broadcast\n ipv6 ospf 1 area 0\n mpls ip\n mpls traffic-eng tunnels\n ip rsvp bandwidth 80000 80000\n pvc 0/302 \n  protocol ip 10.0.1.3 broadcast\n  protocol ipv6 2001:100:1:2::3 broadcast\n  encapsulation aal5snap\n !\n pvc 0/401 \n  protocol ip 10.0.1.1 broadcast\n  protocol ipv6 2001:100:1:2::1 broadcast\n  encapsulation aal5snap\n !\n!\n!\nrouter ospf 2 vrf VPN-1\n log-adjacency-changes\n capability vrf-lite\n network 110.1.1.0 0.0.0.127 area 0\n!\nrouter ospf 1\n mpls traffic-eng router-id Loopback0\n mpls traffic-eng area 0\n log-adjacency-changes\n!\nrouter bgp 1000\n bgp router-id 30.30.30.30\n bgp log-neighbor-changes\n neighbor 10.0.10.1 remote-as 1000\n neighbor 10.0.10.1 update-source Loopback0\n neighbor 10.0.10.2 remote-as 1000\n neighbor 10.0.10.2 update-source Loopback0\n neighbor 10.0.10.4 remote-as 1000\n neighbor 10.0.10.4 update-source Loopback0\n neighbor 2001:100:1:2::1 remote-as 1000\n neighbor 2001:100:1:2::3 remote-as 1000\n !\n address-family ipv4\n  redistribute static\n  neighbor 10.0.10.1 activate\n  neighbor 10.0.10.1 next-hop-self\n  neighbor 10.0.10.1 route-map routes-in-porto in\n  neighbor 10.0.10.2 activate\n  neighbor 10.0.10.2 next-hop-self\n  neighbor 10.0.10.2 route-map routes-in-lisboa2 in\n  neighbor 10.0.10.4 activate\n  no neighbor 2001:100:1:2::1 activate\n  no neighbor 2001:100:1:2::3 activate\n  no auto-summary\n  no synchronization\n  network 192.100.1.0\n exit-address-family\n !\n address-family vpnv4\n  neighbor 10.0.10.4 activate\n  neighbor 10.0.10.4 send-community both\n exit-address-family\n !\n address-family ipv6\n  neighbor 2001:100:1:2::1 activate\n  neighbor 2001:100:1:2::1 next-hop-self\n  neighbor 2001:100:1:2::1 route-map routes-in-lisboa2-ipv6 in\n  neighbor 2001:100:1:2::3 activate\n  neighbor 2001:100:1:2::3 next-hop-self\n  neighbor 2001:100:1:2::3 route-map routes-in-porto-ipv6 in\n exit-address-family\n !\n address-family ipv4 vrf VPN-1\n  redistribute connected\n  redistribute ospf 2 vrf VPN-1\n  no synchronization\n exit-address-family\n!\nip forward-protocol nd\nip route 110.1.1.0 255.255.255.128 FastEthernet0/1 10.0.2.2\nip route vrf VPN-1 0.0.0.0 0.0.0.0 10.0.1.1 global\n!\nno ip http server\nno ip http secure-server\n!\nip bgp-community new-format\nip community-list 1 permit 1000:1\nip community-list 2 permit 1000:2\nip community-list 3 permit 1000:3\n!\nip explicit-path name aveiro_oeiras enable\n next-address 10.0.1.1 \n next-address 10.0.6.1 \n!\n!\nip prefix-list route-to-tunnel1 seq 5 permit 111.1.1.128/26\n!\nip prefix-list route-to-tunnel2 seq 5 permit 111.1.1.192/26\nsnmp-server engineID local 123456789A\nsnmp-server group group1 v3 priv match exact \nsnmp-server view myview system included\nsnmp-server community myrouter RO\nsnmp-server enable traps syslog\nsnmp-server host 10.2.3.2 version 2c myrouter \nipv6 router ospf 1\n log-adjacency-changes\n!\n!\nroute-map routes-to-internet permit 10\n match community 1\n set local-preference 110\n!\nroute-map routes-to-internet permit 20\n!\nroute-map routes-in-porto-ipv6 permit 10\n match community 2\n set local-preference 110\n!\nroute-map routes-in-porto-ipv6 permit 20\n!\nroute-map route-to-tunnels permit 10\n match ip address prefix-list route-to-tunnel1\n!\nroute-map route-to-tunnels permit 20\n match ip address prefix-list route-to-tunnel2\n!\nroute-map route-to-tunnels permit 30\n!\nroute-map routes-in-lisboa2 permit 10\n match community 1\n set local-preference 110\n!\nroute-map routes-in-lisboa2 permit 20\n!\nroute-map routes-to-as20000 permit 30\n match community 2\n set local-preference 110\n!\nroute-map routes-to-as20000 permit 40\n match community 3\n set local-preference 109\n!\nroute-map routes-in-lisboa2-ipv6 permit 10\n match community 1\n set local-preference 110\n!\nroute-map routes-in-lisboa2-ipv6 permit 20\n!\nroute-map routes-in-porto permit 10\n match community 2\n set local-preference 110\n!\nroute-map routes-in-porto permit 20\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
-                    "system_id": "FTX0945W0MY"
-                },
-                "symbol": ":/symbols/router.svg",
-                "width": 66,
-                "x": 266,
-                "y": -257,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": 5018,
-                "console_type": "telnet",
-                "first_port_name": null,
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "netA1",
-                    "x": 13,
-                    "y": -25
-                },
-                "name": "netA1",
-                "node_id": "5aa89847-05e1-4186-9749-0fbe92fd5051",
-                "node_type": "vpcs",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "startup_script": "set pcname netA1\n",
-                    "startup_script_path": "startup.vpc"
-                },
-                "symbol": ":/symbols/vpcs_guest.svg",
-                "width": 65,
-                "x": 552,
-                "y": -496,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": 5025,
-                "console_type": "telnet",
-                "first_port_name": null,
-                "height": 45,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "EmpB2",
-                    "x": 11,
-                    "y": -25
-                },
-                "name": "EmpB2",
-                "node_id": "a3084299-6f90-4972-85a6-b76402a22c1a",
-                "node_type": "dynamips",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "auto_delete_disks": true,
-                    "aux": null,
-                    "clock_divisor": 4,
-                    "disk0": 0,
-                    "disk1": 0,
-                    "dynamips_id": 10,
-                    "exec_area": 64,
-                    "idlemax": 500,
-                    "idlepc": "0x63184bc8",
-                    "idlesleep": 30,
-                    "image": "c7200-advipservicesk9-mz.152-4.S5.image",
-                    "image_md5sum": "cbbbea66a253f1dac0fcf81274dc778d",
-                    "mac_addr": "ca0a.52ae.0000",
-                    "midplane": "vxr",
-                    "mmap": true,
-                    "npe": "npe-400",
-                    "nvram": 512,
-                    "platform": "c7200",
-                    "power_supplies": [
-                        1,
-                        1
-                    ],
-                    "private_config": "configs/i10_private-config.cfg",
-                    "private_config_content": "\nend\n",
-                    "ram": 512,
-                    "sensors": [
-                        22,
-                        22,
-                        22,
-                        22
-                    ],
-                    "slot0": "C7200-IO-2FE",
-                    "slot1": "PA-2FE-TX",
-                    "slot2": null,
-                    "slot3": null,
-                    "slot4": null,
-                    "slot5": null,
-                    "slot6": null,
-                    "sparsemem": true,
-                    "startup_config": "configs/i10_startup-config.cfg",
-                    "startup_config_content": "!\n!\n!\n\n!\nversion 15.2\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\n!\nhostname EmpB2\n!\nboot-start-marker\nboot-end-marker\n!\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\n!\n!\nno ip domain lookup\nipv6 unicast-routing\nipv6 cef\n!\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface FastEthernet0/0\n ip address 10.0.4.2 255.255.255.252\n ip ospf 3 area 0\n speed auto\n duplex auto\n ipv6 address 2001:100:1:6::2/64\n ipv6 enable\n ipv6 ospf 3 area 0\n!\ninterface FastEthernet0/1\n ip address 111.1.1.193 255.255.255.192 secondary\n ip address 111.1.1.129 255.255.255.192\n ip ospf 3 area 0\n speed auto\n duplex auto\n ipv6 address 3001:111:2::1/64\n ipv6 enable\n ipv6 ospf 3 area 0\n!\ninterface FastEthernet1/0\n no ip address\n shutdown\n speed auto\n duplex auto\n!\ninterface FastEthernet1/1\n no ip address\n shutdown\n speed auto\n duplex auto\n!\nrouter ospf 3\n!\nip forward-protocol nd\n!\n!\nno ip http server\nno ip http secure-server\n!\nipv6 router ospf 3\n!\n!\n!\n!\ncontrol-plane\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
-                    "system_id": "FTX0945W0MY"
-                },
-                "symbol": ":/symbols/router.svg",
-                "width": 66,
-                "x": 416,
-                "y": -40,
+                "x": 363,
+                "y": -367,
                 "z": 1
             },
             {
@@ -2196,123 +2062,183 @@
             },
             {
                 "compute_id": "local",
-                "console": 5022,
+                "console": 5029,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Porto",
+                    "x": 15,
+                    "y": -25
+                },
+                "name": "Porto",
+                "node_id": "3d3c57d1-d91d-482f-ae99-994f23e77f24",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 3,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60795140",
+                    "idlesleep": 30,
+                    "image": "c7200-a3jk9s-mz.124-25d.image",
+                    "image_md5sum": "1c5c06208a9d09481f3eef1c7febb98c",
+                    "mac_addr": "ca03.5295.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "private_config": "/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips/3d3c57d1-d91d-482f-ae99-994f23e77f24/configs/i3_private-config.cfg",
+                    "private_config_content": "!\n!\n\nend\n",
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-2FE",
+                    "slot1": "PA-2FE-TX",
+                    "slot2": "PA-A1",
+                    "slot3": null,
+                    "slot4": null,
+                    "slot5": null,
+                    "slot6": null,
+                    "sparsemem": true,
+                    "startup_config": "configs/i3_startup-config.cfg",
+                    "startup_config_content": "!\n!\n!\n!\n\n!\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname Porto\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\n!\n!\nip cef\nno ip domain lookup\n!\n!\nipv6 unicast-routing\nipv6 cef\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\ninterface Loopback0\n ip address 10.0.10.1 255.255.255.255\n ip ospf 1 area 0\n!\ninterface FastEthernet0/0\n ip address 4.4.4.34 255.255.255.248\n duplex auto\n speed auto\n ipv6 address 2001:4:4:40::1/64\n ipv6 enable\n!\ninterface FastEthernet0/1\n ip address 10.0.7.2 255.255.255.252\n ip ospf 1 area 0\n duplex auto\n speed auto\n ipv6 address 2001:100:1:8::1/64\n ipv6 enable\n ipv6 ospf 1 area 0\n!\ninterface FastEthernet1/0\n no ip address\n duplex auto\n speed auto\n!\ninterface FastEthernet1/1\n no ip address\n shutdown\n duplex auto\n speed auto\n!\ninterface ATM2/0\n no ip address\n no atm ilmi-keepalive\n ip rsvp bandwidth\n!\ninterface ATM2/0.123 multipoint\n ip address 10.0.1.3 255.255.255.248\n ip ospf network broadcast\n ip ospf 1 area 0\n ipv6 address 2001:100:1:2::3/64\n ipv6 enable\n ipv6 ospf network broadcast\n ipv6 ospf 1 area 0\n pvc 0/102 \n  protocol ip 10.0.1.1 broadcast\n  protocol ipv6 2001:100:1:2::1 broadcast\n  encapsulation aal5snap\n !\n pvc 0/103 \n  protocol ip 10.0.1.2 broadcast\n  protocol ipv6 2001:100:1:2::2 broadcast\n  encapsulation aal5snap\n !\n!\n!\nrouter ospf 1\n log-adjacency-changes\n!\nrouter bgp 1000\n bgp log-neighbor-changes\n neighbor 4.4.4.33 remote-as 20000\n neighbor 10.0.7.1 remote-as 65400\n neighbor 10.0.10.2 remote-as 1000\n neighbor 10.0.10.2 update-source Loopback0\n neighbor 10.0.10.3 remote-as 1000\n neighbor 10.0.10.3 update-source Loopback0\n neighbor 2001:4:4:40::2 remote-as 20000\n neighbor 2001:100:1:2::1 remote-as 1000\n neighbor 2001:100:1:2::2 remote-as 1000\n neighbor 2001:100:1:3::2 remote-as 65400\n !\n address-family ipv4\n  neighbor 4.4.4.33 activate\n  neighbor 4.4.4.33 route-map routes-to-as20000-ipv4 in\n  neighbor 4.4.4.33 route-map non-transit out\n  neighbor 10.0.7.1 activate\n  neighbor 10.0.10.2 activate\n  neighbor 10.0.10.2 next-hop-self\n  neighbor 10.0.10.2 route-map routes-to-internet in\n  neighbor 10.0.10.2 route-map proxy-route-deny-ipv4 out\n  neighbor 10.0.10.3 activate\n  neighbor 10.0.10.3 send-community\n  neighbor 10.0.10.3 next-hop-self\n  no neighbor 2001:4:4:40::2 activate\n  no neighbor 2001:100:1:2::1 activate\n  no neighbor 2001:100:1:2::2 activate\n  no neighbor 2001:100:1:3::2 activate\n  no auto-summary\n  no synchronization\n exit-address-family\n !\n address-family ipv6\n  neighbor 2001:4:4:40::2 activate\n  neighbor 2001:4:4:40::2 route-map route-in-madrid-ipv6 in\n  neighbor 2001:4:4:40::2 route-map non-transit out\n  neighbor 2001:100:1:2::1 activate\n  neighbor 2001:100:1:2::1 next-hop-self\n  neighbor 2001:100:1:2::1 route-map routes-to-internet in\n  neighbor 2001:100:1:2::2 activate\n  neighbor 2001:100:1:2::2 send-community\n  neighbor 2001:100:1:2::2 next-hop-self\n  neighbor 2001:100:1:3::2 activate\n exit-address-family\n!\nip forward-protocol nd\n!\nno ip http server\nno ip http secure-server\n!\nip bgp-community new-format\nip community-list 1 permit 1000:1\nip as-path access-list 1 permit ^$\n!\n!\nip prefix-list proxy-route-deny-ipv4 seq 5 deny 65.0.1.0/24\nip prefix-list proxy-route-deny-ipv4 seq 10 permit 65.0.1.0/24\n!\nip prefix-list route-to-as20000 seq 10 permit 200.100.1.0/24\nip prefix-list route-to-as20000 seq 15 permit 200.200.1.0/24\naccess-list 1 permit 112.1.1.0 0.0.0.255\nipv6 router ospf 1\n log-adjacency-changes\n!\n!\n!\nipv6 prefix-list proxy-route-deny-ipv6 seq 5 permit 2301:65:0:1::/64\n!\nipv6 prefix-list route-to-as20000-ipv6 seq 5 permit 2201:200:100::/64\nipv6 prefix-list route-to-as20000-ipv6 seq 10 permit 2201:200:200::/64\nroute-map routes-to-internet permit 10\n match community 1\n set local-preference 110\n!\nroute-map routes-to-internet permit 20\n!\nroute-map route-in-madrid-ipv6 permit 10\n match ip address prefix-list route-to-as20000-ipv6\n set community 1000:2\n!\nroute-map route-in-madrid-ipv6 deny 20\n match ip address prefix-list proxy-route-deny-ipv6\n!\nroute-map route-in-madrid-ipv6 permit 30\n!\nroute-map non-transit permit 10\n match as-path 1\n!\nroute-map non-transit permit 20\n match ip address 1\n!\nroute-map routes-to-as20000-ipv4 permit 25\n match ip address prefix-list route-to-as20000\n set community 1000:2\n!\nroute-map routes-to-as20000-ipv4 permit 30\n!\nroute-map route-in-madrid permit 10\n match ip address prefix-list route-to-as20000\n set community 1000:2\n!\nroute-map route-in-madrid deny 20\n match ip address prefix-list proxy-route-deny-ipv4\n!\nroute-map route-in-madrid permit 30\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
+                    "system_id": "FTX0945W0MY"
+                },
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": 11,
+                "y": -372,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5014,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 59,
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "DatacenterOeiras",
-                    "x": -16,
+                    "text": "netB1",
+                    "x": 13,
                     "y": -25
                 },
-                "name": "DatacenterOeiras",
-                "node_id": "3ea7d7c8-5895-4bdd-a9f3-69657b05b034",
+                "name": "netB1",
+                "node_id": "e11b4282-533f-44eb-a6d5-be5ec50abc4c",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
                 "properties": {
-                    "startup_script": "set pcname DatacenterOeiras\n",
+                    "startup_script": "set pcname netB1\n",
                     "startup_script_path": "startup.vpc"
                 },
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": 518,
-                "y": 6,
+                "x": 515,
+                "y": -201,
                 "z": 1
             },
             {
                 "compute_id": "local",
-                "console": null,
-                "console_type": null,
+                "console": 5015,
+                "console_type": "telnet",
                 "first_port_name": null,
-                "height": 32,
+                "height": 45,
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "SW2",
-                    "x": 20,
-                    "y": -25
+                    "text": "Lisboa1",
+                    "x": -13,
+                    "y": -20
                 },
-                "name": "SW2",
-                "node_id": "04cf7e67-2075-4955-a5e9-b473922f721c",
-                "node_type": "ethernet_switch",
+                "name": "Lisboa1",
+                "node_id": "5f19c6e9-6b5e-4e17-b9e3-3acdcda90c90",
+                "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
                 "properties": {
-                    "ports_mapping": [
-                        {
-                            "name": "Ethernet0",
-                            "port_number": 0,
-                            "type": "access",
-                            "vlan": 1
-                        },
-                        {
-                            "name": "Ethernet1",
-                            "port_number": 1,
-                            "type": "access",
-                            "vlan": 1
-                        },
-                        {
-                            "name": "Ethernet2",
-                            "port_number": 2,
-                            "type": "access",
-                            "vlan": 1
-                        },
-                        {
-                            "name": "Ethernet3",
-                            "port_number": 3,
-                            "type": "access",
-                            "vlan": 1
-                        },
-                        {
-                            "name": "Ethernet4",
-                            "port_number": 4,
-                            "type": "access",
-                            "vlan": 1
-                        },
-                        {
-                            "name": "Ethernet5",
-                            "port_number": 5,
-                            "type": "access",
-                            "vlan": 1
-                        },
-                        {
-                            "name": "Ethernet6",
-                            "port_number": 6,
-                            "type": "access",
-                            "vlan": 1
-                        },
-                        {
-                            "name": "Ethernet7",
-                            "port_number": 7,
-                            "type": "access",
-                            "vlan": 1
-                        }
-                    ]
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 2,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x63184bc8",
+                    "idlesleep": 30,
+                    "image": "c7200-advipservicesk9-mz.152-4.S5.image",
+                    "image_md5sum": "cbbbea66a253f1dac0fcf81274dc778d",
+                    "mac_addr": "ca02.5293.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "private_config": "configs/i2_private-config.cfg",
+                    "private_config_content": "\nend\n",
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-2FE",
+                    "slot1": "PA-2FE-TX",
+                    "slot2": null,
+                    "slot3": null,
+                    "slot4": null,
+                    "slot5": null,
+                    "slot6": null,
+                    "sparsemem": true,
+                    "startup_config": "configs/i2_startup-config.cfg",
+                    "startup_config_content": "!\n\n!\n! Last configuration change at 12:22:15 UTC Thu Dec 28 2017\n!\nversion 15.2\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\n!\nhostname Lisboa1\n!\nboot-start-marker\nboot-end-marker\n!\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\n!\n!\nno ip domain lookup\nipv6 unicast-routing\nipv6 cef\n!\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface FastEthernet0/0\n ip address 4.4.4.26 255.255.255.248\n speed auto\n duplex auto\n ipv6 address 2001:4:4:80::2/64\n ipv6 enable\n!\ninterface FastEthernet0/1\n ip address 4.4.4.9 255.255.255.248\n speed auto\n duplex auto\n ipv6 address 2001:4:4:10::1/64\n ipv6 enable\n!\ninterface FastEthernet1/0\n ip address 65.0.1.1 255.255.255.0\n speed auto\n duplex auto\n ipv6 address 2301:65:0:1::1/64\n ipv6 enable\n!\ninterface FastEthernet1/1\n ip address 2.2.2.2 255.255.255.0\n speed auto\n duplex auto\n ipv6 address 2001:2:2::1/64\n ipv6 enable\n!\nrouter bgp 40000\n bgp log-neighbor-changes\n neighbor 4.4.4.10 remote-as 1000\n neighbor 4.4.4.25 remote-as 20000\n !\n address-family ipv4\n  network 65.0.1.0 mask 255.255.255.0\n  neighbor 4.4.4.10 activate\n  neighbor 4.4.4.10 default-originate\n  neighbor 4.4.4.25 activate\n  neighbor 4.4.4.25 default-originate\n exit-address-family\n!\nip forward-protocol nd\n!\n!\nno ip http server\nno ip http secure-server\n!\n!\n!\n!\ncontrol-plane\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
+                    "system_id": "FTX0945W0MY"
                 },
-                "symbol": ":/symbols/ethernet_switch.svg",
-                "width": 72,
-                "x": -409,
-                "y": 152,
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": -117,
+                "y": -29,
                 "z": 1
             },
             {
                 "compute_id": "local",
-                "console": 5027,
+                "console": 5023,
                 "console_type": "telnet",
                 "first_port_name": "",
                 "height": 59,
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "SIPProxy1",
+                    "text": "SIPProxy2",
                     "x": 3,
                     "y": -25
                 },
-                "name": "SIPProxy1",
-                "node_id": "9ddbf8ae-b33f-4240-8347-0c17d984e92b",
+                "name": "SIPProxy2",
+                "node_id": "23ce6a18-a637-42d7-852f-a60c5a280561",
                 "node_type": "virtualbox",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
@@ -2322,14 +2248,82 @@
                     "adapters": 1,
                     "headless": false,
                     "linked_clone": false,
-                    "ram": 1024,
+                    "ram": 512,
                     "use_any_adapter": false,
-                    "vmname": "LabComServer2"
+                    "vmname": "LabComServer_1"
                 },
                 "symbol": ":/symbols/vbox_guest.svg",
                 "width": 65,
-                "x": 319,
-                "y": 149,
+                "x": -238,
+                "y": -32,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5013,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Aveiro",
+                    "x": 12,
+                    "y": -25
+                },
+                "name": "Aveiro",
+                "node_id": "101bafd3-9f4f-4fb6-b01d-20279681ce3e",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 6,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60795140",
+                    "idlesleep": 30,
+                    "image": "c7200-a3jk9s-mz.124-25d.image",
+                    "image_md5sum": "1c5c06208a9d09481f3eef1c7febb98c",
+                    "mac_addr": "ca06.5299.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "private_config": "/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips/101bafd3-9f4f-4fb6-b01d-20279681ce3e/configs/i6_private-config.cfg",
+                    "private_config_content": "\nkerberos password \nsnmp-server engineID local 123456789A\nsnmp-server user user1 group1 v3 encrypted auth md5 31:0A:11:8F:A5:72:99:5E:F8:B5:AA:E6:77:66:7B:BF priv des56 F1:6B:3D:35:D8:6A:DD:C6:31:F5:4F:17:11:1D:38:DB \nend\n",
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-2FE",
+                    "slot1": "PA-2FE-TX",
+                    "slot2": "PA-A1",
+                    "slot3": null,
+                    "slot4": null,
+                    "slot5": null,
+                    "slot6": null,
+                    "sparsemem": true,
+                    "startup_config": "configs/i6_startup-config.cfg",
+                    "startup_config_content": "!\n!\n\n!\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname Aveiro\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\n!\n!\nip cef\nno ip domain lookup\n!\n!\nip vrf VPN-1\n rd 1000:1\n route-target export 1000:1\n route-target import 1000:1\n!\nipv6 unicast-routing\nipv6 cef\nmpls traffic-eng tunnels\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\ninterface Loopback0\n ip address 10.0.10.3 255.255.255.255\n ip ospf 1 area 0\n!\ninterface Tunnel1\n ip unnumbered Loopback0\n tunnel destination 10.0.10.4\n tunnel mode mpls traffic-eng\n tunnel mpls traffic-eng autoroute announce\n tunnel mpls traffic-eng autoroute metric 2\n tunnel mpls traffic-eng priority 7 7\n tunnel mpls traffic-eng bandwidth  20480\n tunnel mpls traffic-eng path-option 1 explicit name aveiro_oeiras\n no routing dynamic\n!\ninterface Tunnel2\n ip unnumbered Loopback0\n tunnel destination 10.0.10.4\n tunnel mode mpls traffic-eng\n tunnel mpls traffic-eng autoroute announce\n tunnel mpls traffic-eng autoroute metric 2\n tunnel mpls traffic-eng priority 7 7\n tunnel mpls traffic-eng bandwidth  20480\n tunnel mpls traffic-eng path-option 1 explicit name aveiro_oeiras\n no routing dynamic\n!\ninterface FastEthernet0/0\n no ip address\n duplex auto\n speed auto\n!\ninterface FastEthernet0/1\n ip vrf forwarding VPN-1\n ip address 10.0.2.1 255.255.255.252\n ip ospf 2 area 0\n duplex auto\n speed auto\n ipv6 address 2001:100:1:4::1/64\n ipv6 enable\n ipv6 ospf 2 area 0\n mpls ip\n mpls traffic-eng tunnels\n!\ninterface FastEthernet1/0\n ip address 10.2.2.1 255.255.255.252\n ip ospf 1 area 0\n duplex auto\n speed auto\n ipv6 address 3001:10:2:2::1/64\n ipv6 enable\n ipv6 ospf 1 area 0\n mpls traffic-eng tunnels\n!\ninterface FastEthernet1/1\n ip address 10.0.3.1 255.255.255.252\n ip ospf 1 area 0\n ip policy route-map route-to-tunnels\n duplex auto\n speed auto\n ipv6 address 2001:100:1:5::1/64\n ipv6 enable\n ipv6 ospf 1 area 0\n mpls ip\n mpls traffic-eng tunnels\n!\ninterface ATM2/0\n no ip address\n no atm ilmi-keepalive\n!\ninterface ATM2/0.123 multipoint\n ip address 10.0.1.2 255.255.255.248\n ip ospf network broadcast\n ip ospf 1 area 0\n ipv6 address 2001:100:1:2::2/64\n ipv6 enable\n ipv6 ospf network broadcast\n ipv6 ospf 1 area 0\n mpls ip\n mpls traffic-eng tunnels\n ip rsvp bandwidth 80000 80000\n pvc 0/302 \n  protocol ip 10.0.1.3 broadcast\n  protocol ipv6 2001:100:1:2::3 broadcast\n  encapsulation aal5snap\n !\n pvc 0/401 \n  protocol ip 10.0.1.1 broadcast\n  protocol ipv6 2001:100:1:2::1 broadcast\n  encapsulation aal5snap\n !\n!\n!\nrouter ospf 2 vrf VPN-1\n log-adjacency-changes\n capability vrf-lite\n network 110.1.1.0 0.0.0.127 area 0\n!\nrouter ospf 1\n mpls traffic-eng router-id Loopback0\n mpls traffic-eng area 0\n log-adjacency-changes\n!\nrouter bgp 1000\n bgp router-id 30.30.30.30\n bgp log-neighbor-changes\n neighbor 10.0.10.1 remote-as 1000\n neighbor 10.0.10.1 update-source Loopback0\n neighbor 10.0.10.2 remote-as 1000\n neighbor 10.0.10.2 update-source Loopback0\n neighbor 10.0.10.4 remote-as 1000\n neighbor 10.0.10.4 update-source Loopback0\n neighbor 2001:100:1:2::1 remote-as 1000\n neighbor 2001:100:1:2::3 remote-as 1000\n !\n address-family ipv4\n  redistribute static\n  neighbor 10.0.10.1 activate\n  neighbor 10.0.10.1 next-hop-self\n  neighbor 10.0.10.1 route-map routes-in-porto in\n  neighbor 10.0.10.2 activate\n  neighbor 10.0.10.2 next-hop-self\n  neighbor 10.0.10.2 route-map routes-in-lisboa2 in\n  neighbor 10.0.10.4 activate\n  no neighbor 2001:100:1:2::1 activate\n  no neighbor 2001:100:1:2::3 activate\n  no auto-summary\n  no synchronization\n  network 192.100.1.0\n exit-address-family\n !\n address-family vpnv4\n  neighbor 10.0.10.4 activate\n  neighbor 10.0.10.4 send-community both\n exit-address-family\n !\n address-family ipv6\n  neighbor 2001:100:1:2::1 activate\n  neighbor 2001:100:1:2::1 next-hop-self\n  neighbor 2001:100:1:2::1 route-map routes-in-lisboa2-ipv6 in\n  neighbor 2001:100:1:2::3 activate\n  neighbor 2001:100:1:2::3 next-hop-self\n  neighbor 2001:100:1:2::3 route-map routes-in-porto-ipv6 in\n exit-address-family\n !\n address-family ipv4 vrf VPN-1\n  redistribute connected\n  redistribute ospf 2 vrf VPN-1\n  no synchronization\n exit-address-family\n!\nip forward-protocol nd\nip route 110.1.1.0 255.255.255.128 FastEthernet0/1 10.0.2.2\nip route vrf VPN-1 0.0.0.0 0.0.0.0 10.0.1.1 global\n!\nno ip http server\nno ip http secure-server\n!\nip bgp-community new-format\nip community-list 1 permit 1000:1\nip community-list 2 permit 1000:2\nip community-list 3 permit 1000:3\n!\nip explicit-path name aveiro_oeiras enable\n next-address 10.0.1.1 \n next-address 10.0.6.1 \n!\n!\nip prefix-list route-to-tunnel1 seq 5 permit 111.1.1.128/26\n!\nip prefix-list route-to-tunnel2 seq 5 permit 111.1.1.192/26\nsnmp-server engineID local 123456789A\nsnmp-server group group1 v3 priv match exact \nsnmp-server view myview system included\nsnmp-server community myrouter RO\nsnmp-server enable traps syslog\nsnmp-server host 10.2.3.2 version 2c myrouter \nipv6 router ospf 1\n log-adjacency-changes\n!\nipv6 router ospf 2\n log-adjacency-changes\n!\n!\nroute-map routes-to-internet permit 10\n match community 1\n set local-preference 110\n!\nroute-map routes-to-internet permit 20\n!\nroute-map routes-in-porto-ipv6 permit 10\n match community 2\n set local-preference 110\n!\nroute-map routes-in-porto-ipv6 permit 20\n!\nroute-map route-to-tunnels permit 10\n match ip address prefix-list route-to-tunnel1\n!\nroute-map route-to-tunnels permit 20\n match ip address prefix-list route-to-tunnel2\n!\nroute-map route-to-tunnels permit 30\n!\nroute-map routes-in-lisboa2 permit 10\n match community 1\n set local-preference 110\n!\nroute-map routes-in-lisboa2 permit 20\n!\nroute-map routes-to-as20000 permit 30\n match community 2\n set local-preference 110\n!\nroute-map routes-to-as20000 permit 40\n match community 3\n set local-preference 109\n!\nroute-map routes-in-lisboa2-ipv6 permit 10\n match community 1\n set local-preference 110\n!\nroute-map routes-in-lisboa2-ipv6 permit 20\n!\nroute-map routes-in-porto permit 10\n match community 2\n set local-preference 110\n!\nroute-map routes-in-porto permit 20\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
+                    "system_id": "FTX0945W0MY"
+                },
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": 266,
+                "y": -257,
                 "z": 1
             },
             {
@@ -2364,64 +2358,70 @@
             },
             {
                 "compute_id": "local",
-                "console": 5021,
+                "console": 5009,
                 "console_type": "telnet",
                 "first_port_name": null,
-                "height": 59,
+                "height": 45,
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "netB2",
-                    "x": 13,
-                    "y": -25
+                    "text": "Lisboa2",
+                    "x": 40,
+                    "y": -16
                 },
-                "name": "netB2",
-                "node_id": "94857f50-cbb3-400d-87ae-b1e255e045f5",
-                "node_type": "vpcs",
+                "name": "Lisboa2",
+                "node_id": "50255974-ebee-47d5-af2f-50d6f273db37",
+                "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
                 "properties": {
-                    "startup_script": "set pcname netB2\n",
-                    "startup_script_path": "startup.vpc"
-                },
-                "symbol": ":/symbols/vpcs_guest.svg",
-                "width": 65,
-                "x": 525,
-                "y": -93,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": 5032,
-                "console_type": "telnet",
-                "first_port_name": "",
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "LabComServer_3",
-                    "x": -14,
-                    "y": -25
-                },
-                "name": "LabComServer_3",
-                "node_id": "66654829-66e4-415f-9a0c-e2dca1be463a",
-                "node_type": "virtualbox",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "acpi_shutdown": false,
-                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
-                    "adapters": 1,
-                    "headless": false,
-                    "linked_clone": false,
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 4,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60795140",
+                    "idlesleep": 30,
+                    "image": "c7200-a3jk9s-mz.124-25d.image",
+                    "image_md5sum": "1c5c06208a9d09481f3eef1c7febb98c",
+                    "mac_addr": "ca04.5296.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "private_config": "/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips/50255974-ebee-47d5-af2f-50d6f273db37/configs/i4_private-config.cfg",
+                    "private_config_content": "\nkerberos password \nsnmp-server engineID local 123456789A\nsnmp-server user user1 group1 v3 encrypted auth md5 31:0A:11:8F:A5:72:99:5E:F8:B5:AA:E6:77:66:7B:BF priv des56 F1:6B:3D:35:D8:6A:DD:C6:31:F5:4F:17:11:1D:38:DB \nend\n",
                     "ram": 512,
-                    "use_any_adapter": false,
-                    "vmname": "LabComServer_3"
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-2FE",
+                    "slot1": "PA-2FE-TX",
+                    "slot2": "PA-2FE-TX",
+                    "slot3": "PA-A1",
+                    "slot4": null,
+                    "slot5": null,
+                    "slot6": null,
+                    "sparsemem": true,
+                    "startup_config": "configs/i4_startup-config.cfg",
+                    "startup_config_content": "!\n!\n!\n\n!\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname Lisboa2\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\n!\n!\nip cef\nno ip domain lookup\n!\n!\nipv6 unicast-routing\nipv6 cef\nmpls traffic-eng tunnels\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\ninterface Loopback0\n ip address 10.0.10.2 255.255.255.255\n ip ospf 1 area 0\n!\ninterface FastEthernet0/0\n ip address 4.4.4.17 255.255.255.248\n duplex auto\n speed auto\n ipv6 address 2001:4:4:20::2/64\n ipv6 enable\n mpls traffic-eng tunnels\n!\ninterface FastEthernet0/1\n no ip address\n duplex auto\n speed auto\n!\ninterface FastEthernet1/0\n ip address 10.0.6.2 255.255.255.252\n ip ospf 1 area 0\n duplex auto\n speed auto\n ipv6 address 2001:100:1:3::1/64\n ipv6 enable\n ipv6 ospf 1 area 0\n mpls traffic-eng tunnels\n ip rsvp bandwidth 80000 80000\n!\ninterface FastEthernet1/1\n ip address 10.2.1.1 255.255.255.252\n ip ospf 1 area 0\n duplex auto\n speed auto\n ipv6 address 3001:10:2:1::1/64\n ipv6 enable\n ipv6 ospf 1 area 0\n mpls traffic-eng tunnels\n!\ninterface FastEthernet2/0\n ip address 4.4.4.10 255.255.255.248\n duplex auto\n speed auto\n ipv6 address 2001:4:4:10::2/64\n ipv6 enable\n mpls traffic-eng tunnels\n!\ninterface FastEthernet2/1\n no ip address\n shutdown\n duplex auto\n speed auto\n!\ninterface ATM3/0\n no ip address\n no atm ilmi-keepalive\n!\ninterface ATM3/0.123 multipoint\n ip address 10.0.1.1 255.255.255.248\n ip ospf network broadcast\n ip ospf 1 area 0\n ipv6 address 2001:100:1:2::1/64\n ipv6 enable\n ipv6 ospf network broadcast\n ipv6 ospf 1 area 0\n mpls ip\n mpls traffic-eng tunnels\n ip rsvp bandwidth 80000 80000\n pvc 0/202 \n  protocol ip 10.0.1.3 broadcast\n  protocol ipv6 2001:100:1:2::3 broadcast\n  encapsulation aal5snap\n !\n pvc 0/502 \n  protocol ip 10.0.1.2 broadcast\n  protocol ipv6 2001:100:1:2::2 broadcast\n  encapsulation aal5snap\n !\n!\n!\nrouter ospf 1\n mpls traffic-eng router-id Loopback0\n mpls traffic-eng area 0\n log-adjacency-changes\n!\nrouter bgp 1000\n bgp log-neighbor-changes\n neighbor 4.4.4.9 remote-as 40000\n neighbor 4.4.4.18 remote-as 20000\n neighbor 10.0.10.1 remote-as 1000\n neighbor 10.0.10.1 update-source Loopback0\n neighbor 10.0.10.3 remote-as 1000\n neighbor 10.0.10.3 update-source Loopback0\n neighbor 10.0.10.4 remote-as 1000\n neighbor 10.0.10.4 update-source Loopback0\n neighbor 2001:4:4:10::1 remote-as 40000\n neighbor 2001:4:4:20::1 remote-as 20000\n neighbor 2001:100:1:2::2 remote-as 1000\n neighbor 2001:100:1:2::3 remote-as 1000\n neighbor 2001:100:1:3::2 remote-as 1000\n !\n address-family ipv4\n  neighbor 4.4.4.9 activate\n  neighbor 4.4.4.9 route-map route-to-as20000-ipv4 in\n  neighbor 4.4.4.9 route-map non-transit out\n  neighbor 4.4.4.18 activate\n  neighbor 4.4.4.18 route-map routes-to-as20000-ipv4 in\n  neighbor 4.4.4.18 route-map non-transit out\n  neighbor 10.0.10.1 activate\n  neighbor 10.0.10.1 send-community\n  neighbor 10.0.10.1 next-hop-self\n  neighbor 10.0.10.3 activate\n  neighbor 10.0.10.3 send-community\n  neighbor 10.0.10.3 next-hop-self\n  neighbor 10.0.10.4 activate\n  neighbor 10.0.10.4 send-community\n  neighbor 10.0.10.4 next-hop-self\n  no neighbor 2001:4:4:10::1 activate\n  no neighbor 2001:4:4:20::1 activate\n  no neighbor 2001:100:1:2::2 activate\n  no neighbor 2001:100:1:2::3 activate\n  no neighbor 2001:100:1:3::2 activate\n  no auto-summary\n  no synchronization\n exit-address-family\n !\n address-family ipv6\n  neighbor 2001:4:4:10::1 activate\n  neighbor 2001:4:4:10::1 route-map routes-in-lisboa1-ipv6 in\n  neighbor 2001:4:4:10::1 route-map non-transit out\n  neighbor 2001:4:4:20::1 activate\n  neighbor 2001:4:4:20::1 route-map routes-in-madrid-ipv6 in\n  neighbor 2001:4:4:20::1 route-map non-transit out\n  neighbor 2001:100:1:2::2 activate\n  neighbor 2001:100:1:2::2 send-community\n  neighbor 2001:100:1:2::2 next-hop-self\n  neighbor 2001:100:1:2::3 activate\n  neighbor 2001:100:1:2::3 send-community\n  neighbor 2001:100:1:2::3 next-hop-self\n  neighbor 2001:100:1:3::2 activate\n  neighbor 2001:100:1:3::2 send-community\n  neighbor 2001:100:1:3::2 next-hop-self\n exit-address-family\n!\nip forward-protocol nd\n!\nno ip http server\nno ip http secure-server\n!\nip bgp-community new-format\nip as-path access-list 1 permit ^$\n!\n!\nip prefix-list default-route seq 5 permit 0.0.0.0/0\n!\nip prefix-list route-to-as20000 seq 5 permit 200.100.1.0/24\nip prefix-list route-to-as20000 seq 10 permit 200.200.1.0/24\naccess-list 1 permit 112.1.1.0 0.0.0.255\nsnmp-server engineID local 123456789A\nsnmp-server group group1 v3 priv match exact \nsnmp-server view myview system included\nsnmp-server community myrouter RO\nsnmp-server enable traps syslog\nsnmp-server host 10.2.3.2 version 2c myrouter \nipv6 router ospf 1\n log-adjacency-changes\n!\n!\n!\nipv6 prefix-list default-route-ipv6 seq 10 permit ::/0\n!\nipv6 prefix-list route-to-as20000-ipv6 seq 5 permit 2201:200:100::/64\nipv6 prefix-list route-to-as20000-ipv6 seq 10 permit 2201:200:200::/64\nroute-map routes-in-madrid permit 10\n match ip address prefix-list route-to-as20000\n set community 1000:3\n!\nroute-map routes-in-madrid permit 20\n!\nroute-map non-transit permit 10\n match as-path 1\n!\nroute-map non-transit permit 20\n match ip address 1\n!\nroute-map routes-in-lisboa1 permit 10\n match ip address prefix-list default-route\n set local-preference 110\n set community 1000:1\n!\nroute-map routes-in-lisboa1 permit 20\n match ip address prefix-list route-to-as20000\n set community 1000:3\n!\nroute-map routes-in-lisboa1 permit 30\n!\nroute-map routes-to-as20000-ipv4 permit 30\n match ip address prefix-list route-to-as20000\n set community 1000:3\n!\nroute-map routes-to-as20000-ipv4 permit 40\n!\nroute-map routes-in-lisboa1-ipv6 permit 10\n match ip address prefix-list default-route-ipv6\n set local-preference 110\n set community 1000:1\n!\nroute-map routes-in-lisboa1-ipv6 permit 20\n match ip address prefix-list route-to-as20000-ipv6\n set community 1000:3\n!\nroute-map routes-in-lisboa1-ipv6 permit 30\n!\nroute-map routes-in-default permit 10\n match ip address prefix-list default-route\n set community 1000:1\n!\nroute-map routes-in-default permit 20\n!\nroute-map routes-in-madrid-ipv6 permit 10\n match ip address prefix-list route-to-as20000-ipv6\n set community 1000:3\n!\nroute-map routes-in-madrid-ipv6 permit 20\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
+                    "system_id": "FTX0945W0MY"
                 },
-                "symbol": ":/symbols/vbox_guest.svg",
-                "width": 65,
-                "x": 552,
-                "y": -393,
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": 37,
+                "y": -30,
                 "z": 1
             }
         ]

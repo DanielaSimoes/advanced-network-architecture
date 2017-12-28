@@ -1,0 +1,204 @@
+conf t
+ipv6 unicast-routing
+ip bgp-community new-format
+ip cef
+mpls traffic-eng tunnels
+
+interface f0/0
+ip address 4.4.4.17 255.255.255.248
+ipv6 enable
+ipv6 address 2001:4:4:20::2/64
+mpls traffic-eng tunnels
+no shutdown
+
+interface ATM3/0
+no shutdown
+int ATM3/0.123 multipoint
+ip address 10.0.1.1 255.255.255.248
+ip ospf 1 area 0
+ipv6 enable
+ipv6 address 2001:100:1:2::1/64
+ipv6 ospf 1 area 0
+mpls traffic-eng tunnels
+ip rsvp bandwidth 80000 80000
+mpls ip
+pvc 0/202
+protocol ip 10.0.1.3 broadcast
+protocol ipv6 2001:100:1:2::3 broadcast
+encapsulation aal5snap
+ip ospf network broadcast
+ipv6 ospf network broadcast
+pvc 0/502
+protocol ip 10.0.1.2 broadcast
+protocol ipv6 2001:100:1:2::2 broadcast
+encapsulation aal5snap
+ip ospf network broadcast
+ipv6 ospf network broadcast
+
+interface f1/0
+ip address 10.0.6.2 255.255.255.252
+ip ospf 1 area 0
+ipv6 enable
+ipv6 address 2001:100:1:3::1/64
+ipv6 ospf 1 area 0
+mpls traffic-eng tunnels
+ip rsvp bandwidth 80000 80000
+no shutdown
+
+interface f1/1
+ip address 10.2.1.1 255.255.255.252
+ip ospf 1 area 0
+ipv6 enable
+ipv6 address 3001:10:2:1::1/64
+ipv6 ospf 1 area 0
+mpls traffic-eng tunnels
+no shutdown
+
+interface f2/0
+ip address 4.4.4.10 255.255.255.248
+ipv6 enable
+ipv6 address 2001:4:4:10::2/64
+mpls traffic-eng tunnels
+no shutdown
+
+interface lo0
+ip address 10.0.10.2 255.255.255.255
+ip ospf 1 area 0
+no shutdown
+
+!SNMP
+snmp-server engineID local 123456789A
+snmp-server user user1 group1 v3 auth md5 authpass priv des56 encpassword
+snmp-server group group1 v3 priv
+snmp-server view myview system included
+snmp-server community myrouter RO
+
+snmp-server enable traps syslog
+snmp-server host 10.2.3.2 version 2c myrouter
+
+! non transit
+ip as-path access-list 1 permit ^$
+route-map non-transit permit 10
+match as-path 1
+
+!"sub" AS (EMPC)
+access-list 1 permit 112.1.1.0 0.0.0.255
+route-map non-transit permit 20
+match ip add 1
+
+!traffic towards internet should be preferably routed via ISP PT1
+ip prefix-list default-route seq 10 permit 0.0.0.0/0
+
+ipv6 prefix-list default-route-ipv6 seq 10 permit ::/0
+
+route-map routes-in-lisboa1 permit 10
+match ip address prefix-list default-route
+set community 1000:1
+set local-preference 110
+
+route-map routes-in-lisboa1  permit 30
+
+route-map routes-in-lisboa1-ipv6 permit 10
+match ip address prefix-list default-route-ipv6
+set community 1000:1
+set local-preference 110
+
+route-map routes-in-lisboa1-ipv6  permit 30
+!end
+
+!traffic towards AS20000
+ip prefix-list route-to-as20000 seq 10 permit 200.100.1.0/24
+ip prefix-list route-to-as20000 seq 20 permit 200.200.1.0/24
+
+ipv6 prefix-list route-to-as20000-ipv6 permit 2201:200:100:0::/64
+ipv6 prefix-list route-to-as20000-ipv6 permit 2201:200:200:0::/64
+
+route-map routes-in-lisboa1 permit 20
+match ip address prefix-list route-to-as20000
+set community 1000:3
+
+route-map routes-in-lisboa1-ipv6 permit 20
+match ip address prefix-list route-to-as20000-ipv6
+set community 1000:3
+
+route-map routes-in-madrid permit 10
+match ip address prefix-list route-to-as20000
+set community 1000:3
+
+route-map routes-in-madrid-ipv6 permit 10
+match ip address prefix-list route-to-as20000-ipv6
+set community 1000:3
+
+route-map routes-in-madrid permit 20
+
+route-map routes-in-madrid-ipv6 permit 20
+!end traffic towards AS20000
+
+router bgp 1000
+address-family ipv4 unicast
+
+! madrid
+neighbor 4.4.4.18 remote-as 20000
+neighbor 4.4.4.18 route-map non-transit out
+neighbor 4.4.4.18 route-map routes-in-madrid in
+! lisboa1
+neighbor 4.4.4.9 remote-as 40000
+neighbor 4.4.4.9 route-map non-transit out
+neighbor 4.4.4.9 route-map routes-in-lisboa1 in
+! porto
+neighbor 10.0.10.1 remote-as 1000
+neighbor 10.0.10.1 next-hop-self
+neighbor 10.0.10.1 update-source Loopback 0
+neighbor 10.0.10.1 send-community
+! aveiro
+neighbor 10.0.10.3 remote-as 1000
+neighbor 10.0.10.3 next-hop-self
+neighbor 10.0.10.3 update-source Loopback 0
+neighbor 10.0.10.3 send-community
+! oeiras
+neighbor 10.0.10.4 remote-as 1000
+neighbor 10.0.10.4 next-hop-self
+neighbor 10.0.10.4 update-source Loopback 0
+neighbor 10.0.10.4 send-community
+
+
+address-family ipv6 unicast
+
+! madrid
+neighbor 2001:4:4:20::1 remote-as 20000
+neighbor 2001:4:4:20::1 activate
+neighbor 2001:4:4:20::1 route-map non-transit out
+neighbor 2001:4:4:20::1 route-map routes-in-madrid-ipv6 in
+
+! lisboa1
+neighbor 2001:4:4:10::1 remote-as 40000
+neighbor 2001:4:4:10::1 activate
+neighbor 2001:4:4:10::1 route-map non-transit out
+neighbor 2001:4:4:10::1 route-map routes-in-lisboa1-ipv6 in
+
+! porto
+neighbor 2001:100:1:2::3 remote-as 1000
+neighbor 2001:100:1:2::3 activate
+neighbor 2001:100:1:2::3 next-hop-self
+neighbor 2001:100:1:2::3 send-community
+
+! aveiro
+neighbor 2001:100:1:2::2 remote-as 1000
+neighbor 2001:100:1:2::2 activate
+neighbor 2001:100:1:2::2 next-hop-self
+neighbor 2001:100:1:2::2 send-community
+
+! oeiras
+neighbor 2001:100:1:3::2 remote-as 1000
+neighbor 2001:100:1:3::2 activate
+neighbor 2001:100:1:3::2 next-hop-self
+neighbor 2001:100:1:3::2 send-community
+
+exit
+
+router ospf 1
+mpls traffic-eng area 0
+mpls traffic-eng router-id Loopback 0
+
+end
+wr
