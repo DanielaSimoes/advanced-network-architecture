@@ -59,6 +59,7 @@ ipv6 ospf 1 area 0
 mpls traffic-eng tunnels
 mpls ip
 ip policy route-map route-to-tunnels
+ipv6 policy route-map route-to-tunnels-ipv6
 no shutdown
 
 interface lo0
@@ -103,6 +104,11 @@ route-map route-to-tunnels permit 10
 match ip address prefix-list route-to-tunnel1
 set default interface Tunnel1
 
+ipv6 prefix-list route-to-tunnel1-ipv6 permit 3001:111:2::/64
+route-map route-to-tunnels-ipv6 permit 10
+match ip address prefix-list route-to-tunnel1-ipv6
+set default interface Tunnel1
+
 !route to tunnel 2 -> oeiras 111.1.1.192/26
 ip prefix-list route-to-tunnel2 permit 111.1.1.192/26
 
@@ -110,7 +116,15 @@ route-map route-to-tunnels permit 20
 match ip address prefix-list route-to-tunnel2
 set default interface Tunnel2
 
+ipv6 prefix-list route-to-tunnel2-ipv6 permit 3001:111:4::/64
+
+route-map route-to-tunnels-ipv6 permit 20
+match ip address prefix-list route-to-tunnel2-ipv6
+set default interface Tunnel2
+
 route-map route-to-tunnels permit 30
+
+route-map route-to-tunnels-ipv6 permit 30
 
 ip explicit-path name aveiro_oeiras enable
 next-address 10.0.1.1 !lisboa2

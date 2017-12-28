@@ -29,11 +29,18 @@ no shutdown
 
 ip prefix-list default-route seq 10 permit 0.0.0.0/0
 
+ipv6 prefix-list default-route-ipv6 seq 10 permit ::/0
+
 route-map routes-out-lisboa2 permit 10
 match ip address prefix-list default-route
 set community 40000:1
 
+route-map routes-out-lisboa2-ipv6 permit 10
+match ip address prefix-list default-route-ipv6
+set community 40000:1
+
 route-map routes-out-lisboa2 permit 20
+route-map routes-out-lisboa2-ipv6 permit 20
 
 router bgp 40000
 address-family ipv4 unicast
@@ -50,6 +57,23 @@ neighbor 4.4.4.10 send-community
 
 !networks
 network 65.0.1.0 mask 255.255.255.0
+
+address-family ipv6 unicast
+
+! madrid
+neighbor 2001:4:4:80::1 remote-as 20000
+neighbor 2001:4:4:80::1 activate
+neighbor 2001:4:4:80::1 default-originate
+
+! lisboa2
+neighbor 2001:4:4:10::2 remote-as 1000
+neighbor 2001:4:4:10::2 activate
+neighbor 2001:4:4:10::2 route-map routes-out-lisboa2-ipv6 out
+neighbor 2001:4:4:10::2 default-originate
+neighbor 2001:4:4:10::2 send-community
+
+!networks
+network 2301:65:0:1::/64
 
 exit
 

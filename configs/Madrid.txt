@@ -60,5 +60,26 @@ network 200.100.1.0 mask 255.255.255.0
 network 200.200.1.0 mask 255.255.255.0
 
 
+address-family ipv6 unicast
+
+!porto
+neighbor 2001:4:4:40::1 remote-as 1000
+!lisboa2
+neighbor 2001:4:4:20::2 remote-as 1000
+!lisboa1
+neighbor 2001:4:4:80::2 remote-as 40000
+
+!internet announcement
+!porto
+neighbor 2001:4:4:40::1 default-originate
+!lisboa2
+neighbor 2001:4:4:20::2 default-originate
+!lisboa1
+neighbor 2001:4:4:80::2 default-originate
+
+!networks
+network 2201:200:200:0::/64
+network 2201:200:100:0::/64
+
 end
 wr

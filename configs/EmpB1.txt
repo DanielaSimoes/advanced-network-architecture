@@ -15,6 +15,7 @@ ip address 111.1.1.65 255.255.255.192 secondary
 ip ospf 3 area 0
 ipv6 enable
 ipv6 address 3001:111:1::1/64
+ipv6 address 3001:111:3::1/64 
 ipv6 ospf 3 area 0
 no shutdown
 
