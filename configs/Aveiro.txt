@@ -18,13 +18,15 @@ ip rsvp bandwidth 80000 80000
 mpls ip
 pvc 0/302
 protocol ip 10.0.1.3 broadcast
-protocol ipv6 2001:100:1:2::3 broadcast
+protocol ipv6 2001:100:1:2::3
+protocol ipv6 FE80::C803:52FF:FE95:8 broadcast
 encapsulation aal5snap
 ip ospf network broadcast
 ipv6 ospf network broadcast
 pvc 0/401
 protocol ip 10.0.1.1 broadcast
-protocol ipv6 2001:100:1:2::1 broadcast
+protocol ipv6 2001:100:1:2::1
+protocol ipv6 FE80::C804:52FF:FE96:8 broadcast 
 encapsulation aal5snap
 ip ospf network broadcast
 ipv6 ospf network broadcast

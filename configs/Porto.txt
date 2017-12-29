@@ -26,13 +26,15 @@ ipv6 address 2001:100:1:2::3/64
 ipv6 ospf 1 area 0
 pvc 0/102
 protocol ip 10.0.1.1 broadcast
-protocol ipv6 2001:100:1:2::1 broadcast
+protocol ipv6 2001:100:1:2::1
+protocol ipv6 FE80::C804:52FF:FE96:8 broadcast
 encapsulation aal5snap
 ip ospf network broadcast
 ipv6 ospf network broadcast
 pvc 0/103
 protocol ip 10.0.1.2 broadcast
-protocol ipv6 2001:100:1:2::2 broadcast
+protocol ipv6 2001:100:1:2::2
+protocol ipv6 FE80::C806:52FF:FE99:8 broadcast
 encapsulation aal5snap
 ip ospf network broadcast
 ipv6 ospf network broadcast
