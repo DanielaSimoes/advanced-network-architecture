@@ -21,7 +21,9 @@ router ospf 2
 network 110.1.1.0 0.0.0.127 area 0
 network 10.0.2.0 0.0.0.3 area 0
 
+
 ip route 0.0.0.0 0.0.0.0 10.0.2.1
+ipv6 route ::/0 2001:100:1:4::1
 
 ip name-server 10.2.1.2
 ip domain lookup

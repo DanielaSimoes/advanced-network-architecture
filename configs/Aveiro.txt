@@ -181,6 +181,7 @@ neighbor 10.0.10.1 next-hop-self
 neighbor 10.0.10.1 update-source Loopback 0
 
 address-family ipv6 unicast
+redistribute ospf 2
 
 ! lisboa2
 neighbor 2001:100:1:2::1 remote-as 1000

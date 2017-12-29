@@ -41,7 +41,7 @@ interface f1/1
 ip address 10.0.5.1 255.255.255.252
 ipv6 enable
 ipv6 address 2001:100:1:7::1/64
-ipv6 ospf 1 area 0
+ipv6 ospf 2 area 0
 mpls traffic-eng tunnels
 mpls ip
 ip vrf forwarding VPN-1
