@@ -64,10 +64,13 @@ address-family ipv6 unicast
 
 !porto
 neighbor 2001:4:4:40::1 remote-as 1000
+neighbor 2001:4:4:40::1 activate
 !lisboa2
 neighbor 2001:4:4:20::2 remote-as 1000
+neighbor 2001:4:4:20::2 activate
 !lisboa1
 neighbor 2001:4:4:80::2 remote-as 40000
+neighbor 2001:4:4:80::2 activate
 
 !internet announcement
 !porto
