@@ -35,7 +35,7 @@ interface f0/1
 ip address 10.0.2.1 255.255.255.252
 ipv6 enable
 ipv6 address 2001:100:1:4::1/64
-ipv6 ospf 2 area 0
+ipv6 ospf 1 area 0
 mpls traffic-eng tunnels
 mpls ip
 ip vrf forwarding VPN-1
@@ -66,11 +66,15 @@ no shutdown
 
 interface lo0
 ip address 10.0.10.3 255.255.255.255
+ipv6 enable
+ipv6 address 2001:100:1:10::3/64
 ip ospf 1 area 0
+ipv6 ospf 1 area 0
 no shutdown
 
 interface tunnel 1
 ip unnumbered Loopback0
+ipv6 unnumbered loopback0
 tunnel destination 10.0.10.4 !oeiras
 tunnel mode mpls traffic-eng
 tunnel mpls traffic-eng bandwidth 20480
@@ -80,6 +84,7 @@ tunnel mpls traffic-eng autoroute metric 2
 
 interface tunnel 2
 ip unnumbered Loopback0
+ipv6 unnumbered loopback0
 tunnel destination 10.0.10.4 !oeiras
 tunnel mode mpls traffic-eng
 tunnel mpls traffic-eng bandwidth 20480
@@ -119,7 +124,6 @@ match ip address prefix-list route-to-tunnel2
 set default interface Tunnel2
 
 ipv6 prefix-list route-to-tunnel2-ipv6 permit 3001:111:4::/64
-
 route-map route-to-tunnels-ipv6 permit 20
 match ip address prefix-list route-to-tunnel2-ipv6
 set default interface Tunnel2
