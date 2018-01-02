@@ -1,8 +1,8 @@
 Dec 07 11:40:34.061 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
 Dec 07 11:40:34.061 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49203.
 Dec 07 11:40:34.077 HYPERVISOR: exec_cmd: hypervisor version 
-Dec 07 11:40:34.079 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips 
-Dec 07 11:40:34.079 GENERAL: working_dir=/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips
+Dec 07 11:40:34.079 HYPERVISOR: exec_cmd: hypervisor working_dir ./project-files/dynamips 
+Dec 07 11:40:34.079 GENERAL: working_dir=./project-files/dynamips
 Dec 07 11:40:34.080 HYPERVISOR: exec_cmd: ethsw create EthernetCore 
 Dec 07 11:40:37.553 HYPERVISOR: exec_cmd: nio create_udp udp-b8cc0659-e543-4d98-8f40-8b2242d97ad2 10013 127.0.0.1 10012 
 Dec 07 11:40:37.554 HYPERVISOR: exec_cmd: ethsw add_nio EthernetCore udp-b8cc0659-e543-4d98-8f40-8b2242d97ad2 

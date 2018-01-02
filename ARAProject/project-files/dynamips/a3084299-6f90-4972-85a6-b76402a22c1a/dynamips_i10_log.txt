@@ -1,10 +1,10 @@
 Dec 07 11:40:35.704 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
 Dec 07 11:40:35.704 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49233.
 Dec 07 11:40:35.721 HYPERVISOR: exec_cmd: hypervisor version 
-Dec 07 11:40:35.722 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips 
-Dec 07 11:40:35.722 GENERAL: working_dir=/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips
-Dec 07 11:40:35.723 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips/36cfe528-a765-4cfd-92f5-df37a6349027 
-Dec 07 11:40:35.723 GENERAL: working_dir=/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips/36cfe528-a765-4cfd-92f5-df37a6349027
+Dec 07 11:40:35.722 HYPERVISOR: exec_cmd: hypervisor working_dir ./project-files/dynamips 
+Dec 07 11:40:35.722 GENERAL: working_dir=./project-files/dynamips
+Dec 07 11:40:35.723 HYPERVISOR: exec_cmd: hypervisor working_dir ./project-files/dynamips/36cfe528-a765-4cfd-92f5-df37a6349027 
+Dec 07 11:40:35.723 GENERAL: working_dir=./project-files/dynamips/36cfe528-a765-4cfd-92f5-df37a6349027
 Dec 07 11:40:35.724 HYPERVISOR: exec_cmd: vm create EmpB1 9 c7200 
 Dec 07 11:40:35.724 VM: VM EmpB1 created.
 Dec 07 11:40:35.725 HYPERVISOR: exec_cmd: vm set_con_tcp_port EmpB1 5017 

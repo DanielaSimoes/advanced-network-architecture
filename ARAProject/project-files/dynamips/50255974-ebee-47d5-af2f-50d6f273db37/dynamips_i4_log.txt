@@ -1,10 +1,10 @@
 Dec 07 11:40:34.319 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
 Dec 07 11:40:34.319 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49211.
 Dec 07 11:40:34.344 HYPERVISOR: exec_cmd: hypervisor version 
-Dec 07 11:40:34.345 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips 
-Dec 07 11:40:34.345 GENERAL: working_dir=/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips
-Dec 07 11:40:34.346 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips/5395bd7e-c0cb-46cd-9112-3232757e2cb1 
-Dec 07 11:40:34.346 GENERAL: working_dir=/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips/5395bd7e-c0cb-46cd-9112-3232757e2cb1
+Dec 07 11:40:34.345 HYPERVISOR: exec_cmd: hypervisor working_dir ./project-files/dynamips 
+Dec 07 11:40:34.345 GENERAL: working_dir=./project-files/dynamips
+Dec 07 11:40:34.346 HYPERVISOR: exec_cmd: hypervisor working_dir ./project-files/dynamips/5395bd7e-c0cb-46cd-9112-3232757e2cb1 
+Dec 07 11:40:34.346 GENERAL: working_dir=./project-files/dynamips/5395bd7e-c0cb-46cd-9112-3232757e2cb1
 Dec 07 11:40:34.347 HYPERVISOR: exec_cmd: vm create Madrid 1 c7200 
 Dec 07 11:40:34.347 VM: VM Madrid created.
 Dec 07 11:40:34.348 HYPERVISOR: exec_cmd: vm set_con_tcp_port Madrid 5003 

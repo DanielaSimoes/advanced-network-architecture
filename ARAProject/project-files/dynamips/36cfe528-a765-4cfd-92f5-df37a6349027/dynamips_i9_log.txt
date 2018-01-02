@@ -1,10 +1,10 @@
 Dec 07 11:40:35.602 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
 Dec 07 11:40:35.602 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49229.
 Dec 07 11:40:35.619 HYPERVISOR: exec_cmd: hypervisor version 
-Dec 07 11:40:35.620 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips 
-Dec 07 11:40:35.620 GENERAL: working_dir=/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips
-Dec 07 11:40:35.620 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips/5f19c6e9-6b5e-4e17-b9e3-3acdcda90c90 
-Dec 07 11:40:35.620 GENERAL: working_dir=/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips/5f19c6e9-6b5e-4e17-b9e3-3acdcda90c90
+Dec 07 11:40:35.620 HYPERVISOR: exec_cmd: hypervisor working_dir ./project-files/dynamips 
+Dec 07 11:40:35.620 GENERAL: working_dir=./project-files/dynamips
+Dec 07 11:40:35.620 HYPERVISOR: exec_cmd: hypervisor working_dir ./project-files/dynamips/5f19c6e9-6b5e-4e17-b9e3-3acdcda90c90 
+Dec 07 11:40:35.620 GENERAL: working_dir=./project-files/dynamips/5f19c6e9-6b5e-4e17-b9e3-3acdcda90c90
 Dec 07 11:40:35.621 HYPERVISOR: exec_cmd: vm create Lisboa1 2 c7200 
 Dec 07 11:40:35.621 VM: VM Lisboa1 created.
 Dec 07 11:40:35.622 HYPERVISOR: exec_cmd: vm set_con_tcp_port Lisboa1 5012 

@@ -1,10 +1,10 @@
 Dec 07 11:40:34.127 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
 Dec 07 11:40:34.127 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49206.
 Dec 07 11:40:34.148 HYPERVISOR: exec_cmd: hypervisor version 
-Dec 07 11:40:34.150 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips 
-Dec 07 11:40:34.151 GENERAL: working_dir=/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips
-Dec 07 11:40:34.152 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips/3a307e93-7cea-4fe4-8aab-fc2156a5c805 
-Dec 07 11:40:34.152 GENERAL: working_dir=/Users/cristianacarvalho/Desktop/UA/4Ano/ARA/Project/ARAProject/project-files/dynamips/3a307e93-7cea-4fe4-8aab-fc2156a5c805
+Dec 07 11:40:34.150 HYPERVISOR: exec_cmd: hypervisor working_dir ./project-files/dynamips 
+Dec 07 11:40:34.151 GENERAL: working_dir=./project-files/dynamips
+Dec 07 11:40:34.152 HYPERVISOR: exec_cmd: hypervisor working_dir ./project-files/dynamips/3a307e93-7cea-4fe4-8aab-fc2156a5c805 
+Dec 07 11:40:34.152 GENERAL: working_dir=./project-files/dynamips/3a307e93-7cea-4fe4-8aab-fc2156a5c805
 Dec 07 11:40:34.153 HYPERVISOR: exec_cmd: vm create Oeiras 7 c7200 
 Dec 07 11:40:34.153 VM: VM Oeiras created.
 Dec 07 11:40:34.155 HYPERVISOR: exec_cmd: vm set_con_tcp_port Oeiras 5006 
