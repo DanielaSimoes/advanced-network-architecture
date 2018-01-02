@@ -127,12 +127,10 @@ set community 1000:3
 
 route-map routes-in-madrid permit 10
 match ip address prefix-list route-to-as20000
-set local-preference 110
 set community 1000:3
 
 route-map routes-in-madrid-ipv6 permit 10
 match ip address prefix-list route-to-as20000-ipv6
-set local-preference 110
 set community 1000:3
 
 route-map routes-in-madrid permit 20
