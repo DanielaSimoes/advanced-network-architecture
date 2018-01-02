@@ -138,7 +138,7 @@ neighbor 2001:4:4:40::2 route-map route-in-madrid-ipv6 in
 neighbor 2001:100:1:2::1 remote-as 1000
 neighbor 2001:100:1:2::1 activate
 neighbor 2001:100:1:2::1 next-hop-self
-neighbor 2001:100:1:2::1 route-map routes-to-internet in
+neighbor 2001:100:1:2::1 route-map routes-to-internet-ipv6 in
 
 ! aveiro
 neighbor 2001:100:1:2::2 remote-as 1000
