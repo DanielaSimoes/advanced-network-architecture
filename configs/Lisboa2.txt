@@ -165,10 +165,6 @@ neighbor 10.0.10.4 next-hop-self
 neighbor 10.0.10.4 update-source Loopback 0
 neighbor 10.0.10.4 send-community
 
-network 2001:100:1:2::/64
-network 2001:100:1:3::/64
-network 3001:10:2:1::/64
-
 
 address-family ipv6 unicast
 
