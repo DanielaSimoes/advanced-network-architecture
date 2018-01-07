@@ -1,0 +1,17 @@
+Jan 07 12:36:35.300 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Jan 07 12:36:35.301 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53960.
+Jan 07 12:36:35.322 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 07 12:36:35.323 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips 
+Jan 07 12:36:35.323 GENERAL: working_dir=/Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips
+Jan 07 12:36:35.324 HYPERVISOR: exec_cmd: atmsw create ATM1 
+Jan 07 12:36:39.670 HYPERVISOR: exec_cmd: nio create_udp udp-7f5e386c-73b0-4c62-b722-a522d67c263d 10019 127.0.0.1 10018 
+Jan 07 12:36:40.008 HYPERVISOR: exec_cmd: nio create_udp udp-b8afb44f-fab7-4e0c-8646-3c09ce1f9346 10022 127.0.0.1 10023 
+Jan 07 12:36:40.009 HYPERVISOR: exec_cmd: atmsw create_vcc ATM1 udp-b8afb44f-fab7-4e0c-8646-3c09ce1f9346 0 102 udp-7f5e386c-73b0-4c62-b722-a522d67c263d 0 201 
+Jan 07 12:36:40.027 HYPERVISOR: exec_cmd: atmsw create_vcc ATM1 udp-7f5e386c-73b0-4c62-b722-a522d67c263d 0 201 udp-b8afb44f-fab7-4e0c-8646-3c09ce1f9346 0 102 
+Jan 07 12:36:40.787 HYPERVISOR: exec_cmd: nio create_udp udp-c3cc67eb-e27a-4be0-aca5-305eadd3362f 10029 127.0.0.1 10028 
+Jan 07 12:36:40.789 HYPERVISOR: exec_cmd: atmsw create_vcc ATM1 udp-b8afb44f-fab7-4e0c-8646-3c09ce1f9346 0 103 udp-c3cc67eb-e27a-4be0-aca5-305eadd3362f 0 301 
+Jan 07 12:36:40.804 HYPERVISOR: exec_cmd: atmsw create_vcc ATM1 udp-c3cc67eb-e27a-4be0-aca5-305eadd3362f 0 301 udp-b8afb44f-fab7-4e0c-8646-3c09ce1f9346 0 103 
+Jan 07 16:08:50.336 HYPERVISOR: exec_cmd: atmsw delete ATM1 
+Jan 07 16:08:50.499 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 07 16:08:50.976 HYPERVISOR: Stopped.
+Jan 07 16:08:50.976 GENERAL: reset done.

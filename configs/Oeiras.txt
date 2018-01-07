@@ -99,8 +99,6 @@ snmp-server enable traps syslog
 snmp-server host 10.2.3.2 version 2c myrouter
 
 
-exit
-
 ! route to tunnel 1 -> aveiro B1 111.1.1.0/26
 ip prefix-list route-to-tunnel1 permit 111.1.1.0/26
 route-map route-to-tunnels permit 10
@@ -128,17 +126,14 @@ route-map route-to-tunnels permit 30
 
 route-map route-to-tunnels-ipv6 permit 30
 
-
 ip explicit-path name oeiras_aveiro enable
 next-address 10.0.6.2 !lisboa2
 next-address 10.0.1.2 !aveiro
 
-
 !traffic towards internet should be preferably routed via ISP PT1
 ip community-list 1 permit 1000:1
 
-!traffic towards AS20000 should be preferably routed via Porto
-ip community-list 3 permit 1000:3
+!traffic towards AS20000 should be routed via Lisboa
 
 route-map routes-in-lisboa2 permit 10
 match community 1
@@ -146,14 +141,6 @@ set local-preference 110
 
 route-map routes-in-lisboa2-ipv6 permit 10
 match community 1
-set local-preference 110
-
-route-map routes-in-lisboa2 permit 20
-match community 3
-set local-preference 110
-
-route-map routes-in-lisboa2-ipv6 permit 20
-match community 3
 set local-preference 110
 
 route-map routes-in-lisboa2 permit 30
@@ -175,7 +162,6 @@ neighbor 2001:100:1:3::1 remote-as 1000
 neighbor 2001:100:1:3::1 activate
 neighbor 2001:100:1:3::1 route-map routes-in-lisboa2-ipv6 in
 network 2001:100:1::/48
-
 
 redistribute static
 redistribute ospf 2

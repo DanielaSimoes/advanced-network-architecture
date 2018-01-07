@@ -1,0 +1,91 @@
+Jan 07 12:36:37.780 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Jan 07 12:36:37.781 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53998.
+Jan 07 12:36:37.802 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 07 12:36:37.803 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips 
+Jan 07 12:36:37.803 GENERAL: working_dir=/Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips
+Jan 07 12:36:37.804 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/50255974-ebee-47d5-af2f-50d6f273db37 
+Jan 07 12:36:37.804 GENERAL: working_dir=/Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/50255974-ebee-47d5-af2f-50d6f273db37
+Jan 07 12:36:37.805 HYPERVISOR: exec_cmd: vm create Lisboa2 4 c7200 
+Jan 07 12:36:37.807 VM: VM Lisboa2 created.
+Jan 07 12:36:37.808 HYPERVISOR: exec_cmd: vm set_con_tcp_port Lisboa2 5010 
+Jan 07 12:36:37.809 HYPERVISOR: exec_cmd: c7200 get_mac_addr Lisboa2 
+Jan 07 12:36:37.810 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
+Jan 07 12:36:37.811 HYPERVISOR: exec_cmd: vm slot_add_binding Lisboa2 0 0 C7200-IO-FE 
+Jan 07 12:36:37.812 HYPERVISOR: exec_cmd: vm set_disk0 Lisboa2 0 
+Jan 07 12:36:37.813 HYPERVISOR: exec_cmd: vm set_nvram Lisboa2 512 
+Jan 07 12:36:37.814 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
+Jan 07 12:36:37.815 HYPERVISOR: exec_cmd: vm slot_add_binding Lisboa2 2 0 PA-2FE-TX 
+Jan 07 12:36:37.816 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
+Jan 07 12:36:37.817 HYPERVISOR: exec_cmd: vm slot_add_binding Lisboa2 1 0 PA-2FE-TX 
+Jan 07 12:36:37.818 HYPERVISOR: exec_cmd: vm set_ios Lisboa2 /Users/Daniela/GNS3/images/IOS/c7200-a3jk9s-mz.124-25d.image 
+Jan 07 12:36:37.820 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
+Jan 07 12:36:37.821 HYPERVISOR: exec_cmd: vm slot_remove_binding Lisboa2 0 0 
+Jan 07 12:36:37.822 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
+Jan 07 12:36:37.823 HYPERVISOR: exec_cmd: vm slot_add_binding Lisboa2 0 0 C7200-IO-2FE 
+Jan 07 12:36:37.824 HYPERVISOR: exec_cmd: vm set_ram Lisboa2 512 
+Jan 07 12:36:37.825 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
+Jan 07 12:36:37.826 HYPERVISOR: exec_cmd: vm set_idle_pc Lisboa2 0x60795140 
+Jan 07 12:36:37.827 HYPERVISOR: exec_cmd: c7200 set_mac_addr Lisboa2 ca04.5296.0000 
+Jan 07 12:36:37.828 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
+Jan 07 12:36:37.829 HYPERVISOR: exec_cmd: vm slot_add_binding Lisboa2 3 0 PA-A1 
+Jan 07 12:36:37.831 HYPERVISOR: exec_cmd: vm set_config Lisboa2 configs/i4_startup-config.cfg 
+Jan 07 12:36:37.833 HYPERVISOR: exec_cmd: vm set_config Lisboa2 configs/i4_startup-config.cfg configs/i4_private-config.cfg 
+Jan 07 12:36:38.011 HYPERVISOR: exec_cmd: nio create_udp udp-7666e602-9282-45bb-ada2-feb2d742d7c6 10001 127.0.0.1 10000 
+Jan 07 12:36:38.012 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisboa2 2 0 udp-7666e602-9282-45bb-ada2-feb2d742d7c6 
+Jan 07 12:36:38.013 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
+Jan 07 12:36:38.915 HYPERVISOR: exec_cmd: nio create_udp udp-153441c2-7bc3-4dce-9b7e-7edeac799fc7 10011 127.0.0.1 10010 
+Jan 07 12:36:38.916 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisboa2 0 0 udp-153441c2-7bc3-4dce-9b7e-7edeac799fc7 
+Jan 07 12:36:38.917 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
+Jan 07 12:36:41.196 HYPERVISOR: exec_cmd: nio create_udp udp-04fc2005-3a05-473a-bce5-e86e6e50e419 10032 127.0.0.1 10033 
+Jan 07 12:36:41.197 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisboa2 1 0 udp-04fc2005-3a05-473a-bce5-e86e6e50e419 
+Jan 07 12:36:41.198 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
+Jan 07 12:36:41.398 HYPERVISOR: exec_cmd: nio create_udp udp-465e7ef6-5a16-46b6-beb0-b56bb89fd86f 10034 127.0.0.1 10035 
+Jan 07 12:36:41.400 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisboa2 1 1 udp-465e7ef6-5a16-46b6-beb0-b56bb89fd86f 
+Jan 07 12:36:41.401 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
+Jan 07 12:36:43.213 HYPERVISOR: exec_cmd: nio create_udp udp-370bcab3-23a8-4a72-af27-a72a82a9e8a4 10050 127.0.0.1 10051 
+Jan 07 12:36:43.214 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisboa2 3 0 udp-370bcab3-23a8-4a72-af27-a72a82a9e8a4 
+Jan 07 12:36:43.215 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
+Jan 07 12:36:59.097 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Jan 07 12:36:59.097 VM: VM Ghost created.
+Jan 07 12:36:59.098 HYPERVISOR: exec_cmd: vm set_ios Ghost /Users/Daniela/GNS3/images/IOS/c7200-a3jk9s-mz.124-25d.image 
+Jan 07 12:36:59.100 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jan 07 12:36:59.102 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/c7200-a3jk9s-mz.124-25d.image-512.ghost 
+Jan 07 12:36:59.103 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Jan 07 12:36:59.105 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 07 12:36:59.114 HYPERVISOR: exec_cmd: vm start Ghost 
+Jan 07 12:36:59.471 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 07 12:36:59.478 HYPERVISOR: exec_cmd: vm stop Ghost 
+Jan 07 12:36:59.792 VM: VM Ghost shutdown.
+Jan 07 12:36:59.794 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jan 07 12:36:59.794 VM: VM Ghost destroyed.
+Jan 07 12:36:59.810 HYPERVISOR: exec_cmd: vm set_ghost_status Lisboa2 2 
+Jan 07 12:36:59.812 HYPERVISOR: exec_cmd: vm set_ghost_file Lisboa2 /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/c7200-a3jk9s-mz.124-25d.image-512.ghost 
+Jan 07 12:36:59.813 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
+Jan 07 12:36:59.816 HYPERVISOR: exec_cmd: vm start Lisboa2 
+Jan 07 12:37:30.048 HYPERVISOR: exec_cmd: vm extract_config Lisboa2 
+Jan 07 12:48:39.961 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
+Jan 07 12:48:39.963 HYPERVISOR: exec_cmd: vm stop Lisboa2 
+Jan 07 12:48:40.132 VM: VM Lisboa2 shutdown.
+Jan 07 12:48:40.137 HYPERVISOR: exec_cmd: vm extract_config Lisboa2 
+Jan 07 12:51:13.308 HYPERVISOR: exec_cmd: vm set_ghost_status Lisboa2 2 
+Jan 07 12:51:13.309 HYPERVISOR: exec_cmd: vm set_ghost_file Lisboa2 /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/c7200-a3jk9s-mz.124-25d.image-512.ghost 
+Jan 07 12:51:13.311 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
+Jan 07 12:51:13.318 HYPERVISOR: exec_cmd: vm start Lisboa2 
+Jan 07 12:51:43.571 HYPERVISOR: exec_cmd: vm extract_config Lisboa2 
+Jan 07 14:44:15.027 HYPERVISOR: exec_cmd: vm extract_config Lisboa2 
+Jan 07 15:31:15.555 HYPERVISOR: exec_cmd: vm extract_config Lisboa2 
+Jan 07 15:40:57.638 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
+Jan 07 15:40:57.640 HYPERVISOR: exec_cmd: vm stop Lisboa2 
+Jan 07 15:40:57.819 VM: VM Lisboa2 shutdown.
+Jan 07 15:40:57.825 HYPERVISOR: exec_cmd: vm extract_config Lisboa2 
+Jan 07 16:08:45.391 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
+Jan 07 16:08:45.395 HYPERVISOR: exec_cmd: vm extract_config Lisboa2 
+Jan 07 16:08:49.162 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
+Jan 07 16:08:49.168 HYPERVISOR: exec_cmd: vm extract_config Lisboa2 
+Jan 07 16:08:50.236 HYPERVISOR: exec_cmd: vm get_status Lisboa2 
+Jan 07 16:08:50.359 HYPERVISOR: exec_cmd: vm extract_config Lisboa2 
+Jan 07 16:08:50.417 HYPERVISOR: exec_cmd: vm delete Lisboa2 
+Jan 07 16:08:50.418 VM: VM Lisboa2 destroyed.
+Jan 07 16:08:50.508 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 07 16:08:50.688 HYPERVISOR: Stopped.
+Jan 07 16:08:50.691 GENERAL: reset done.

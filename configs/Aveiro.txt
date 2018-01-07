@@ -26,7 +26,7 @@ ipv6 ospf network broadcast
 pvc 0/401
 protocol ip 10.0.1.1 broadcast
 protocol ipv6 2001:100:1:2::1
-protocol ipv6 FE80::C804:52FF:FE96:8 broadcast 
+protocol ipv6 FE80::C804:52FF:FE96:8 broadcast
 encapsulation aal5snap
 ip ospf network broadcast
 ipv6 ospf network broadcast
@@ -144,27 +144,32 @@ route-map routes-in-lisboa2 permit 10
 match community 1
 set local-preference 110
 
+route-map routes-in-lisboa2 permit 20
+
 route-map routes-in-lisboa2-ipv6 permit 10
 match community 1
 set local-preference 110
-
-route-map routes-in-lisboa2 permit 20
 
 route-map routes-in-lisboa2-ipv6 permit 20
 !end
 
 !traffic towards AS20000 should be preferably routed via Porto
-ip community-list 2 permit 1000:2
+
+ip prefix-list route-to-as20000 seq 10 permit 200.100.1.0/24
+ip prefix-list route-to-as20000 seq 20 permit 200.200.1.0/24
+
+ipv6 prefix-list route-to-as20000-ipv6 permit 2201:200:100:0::/64
+ipv6 prefix-list route-to-as20000-ipv6 permit 2201:200:200:0::/64
 
 route-map routes-in-porto permit 10
-match community 2
-set local-preference 110
-
-route-map routes-in-porto-ipv6 permit 10
-match community 2
+match ip address prefix-list route-to-as20000
 set local-preference 110
 
 route-map routes-in-porto permit 20
+
+route-map routes-in-porto-ipv6 permit 10
+match ip address prefix-list route-to-as20000-ipv6
+set local-preference 110
 
 route-map routes-in-porto-ipv6 permit 20
 !end

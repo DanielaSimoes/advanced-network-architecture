@@ -24,7 +24,7 @@ ip rsvp bandwidth 80000 80000
 mpls ip
 pvc 0/202
 protocol ip 10.0.1.3 broadcast
-protocol ipv6 2001:100:1:2::3 
+protocol ipv6 2001:100:1:2::3
 protocol ipv6 FE80::C803:52FF:FE95:8 broadcast
 encapsulation aal5snap
 ip ospf network broadcast
@@ -96,47 +96,17 @@ ipv6 prefix-list default-route-ipv6 seq 10 permit ::/0
 route-map routes-in-lisboa1 permit 10
 match ip address prefix-list default-route
 set community 1000:1
-set local-preference 110
+set local-preference 109
 
 route-map routes-in-lisboa1  permit 30
 
 route-map routes-in-lisboa1-ipv6 permit 10
 match ip address prefix-list default-route-ipv6
 set community 1000:1
-set local-preference 110
+set local-preference 109
 
 route-map routes-in-lisboa1-ipv6  permit 30
 !end
-
-!traffic towards AS20000
-ip prefix-list route-to-as20000 seq 10 permit 200.100.1.0/24
-ip prefix-list route-to-as20000 seq 20 permit 200.200.1.0/24
-
-ipv6 prefix-list route-to-as20000-ipv6 permit 2201:200:100:0::/64
-ipv6 prefix-list route-to-as20000-ipv6 permit 2201:200:200:0::/64
-
-route-map routes-in-lisboa1 permit 20
-match ip address prefix-list route-to-as20000
-set local-preference 110
-set community 1000:3
-
-route-map routes-in-lisboa1-ipv6 permit 20
-match ip address prefix-list route-to-as20000-ipv6
-set local-preference 110
-set community 1000:3
-
-route-map routes-in-madrid permit 10
-match ip address prefix-list route-to-as20000
-set community 1000:3
-
-route-map routes-in-madrid-ipv6 permit 10
-match ip address prefix-list route-to-as20000-ipv6
-set community 1000:3
-
-route-map routes-in-madrid permit 20
-
-route-map routes-in-madrid-ipv6 permit 20
-!end traffic towards AS20000
 
 router bgp 1000
 address-family ipv4 unicast
@@ -144,7 +114,6 @@ address-family ipv4 unicast
 ! madrid
 neighbor 4.4.4.18 remote-as 20000
 neighbor 4.4.4.18 route-map non-transit out
-neighbor 4.4.4.18 route-map routes-in-madrid in
 ! lisboa1
 neighbor 4.4.4.9 remote-as 40000
 neighbor 4.4.4.9 route-map non-transit out
@@ -172,7 +141,6 @@ address-family ipv6 unicast
 neighbor 2001:4:4:20::1 remote-as 20000
 neighbor 2001:4:4:20::1 activate
 neighbor 2001:4:4:20::1 route-map non-transit out
-neighbor 2001:4:4:20::1 route-map routes-in-madrid-ipv6 in
 
 ! lisboa1
 neighbor 2001:4:4:10::1 remote-as 40000

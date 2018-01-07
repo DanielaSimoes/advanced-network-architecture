@@ -1,0 +1,66 @@
+Jan 07 12:36:35.142 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Jan 07 12:36:35.143 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53954.
+Jan 07 12:36:35.164 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 07 12:36:35.165 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips 
+Jan 07 12:36:35.165 GENERAL: working_dir=/Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips
+Jan 07 12:36:35.167 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/a3084299-6f90-4972-85a6-b76402a22c1a 
+Jan 07 12:36:35.167 GENERAL: working_dir=/Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/a3084299-6f90-4972-85a6-b76402a22c1a
+Jan 07 12:36:35.168 HYPERVISOR: exec_cmd: vm create EmpB2 10 c7200 
+Jan 07 12:36:35.170 VM: VM EmpB2 created.
+Jan 07 12:36:35.171 HYPERVISOR: exec_cmd: vm set_con_tcp_port EmpB2 5025 
+Jan 07 12:36:35.172 HYPERVISOR: exec_cmd: c7200 get_mac_addr EmpB2 
+Jan 07 12:36:35.174 HYPERVISOR: exec_cmd: vm get_status EmpB2 
+Jan 07 12:36:35.175 HYPERVISOR: exec_cmd: vm slot_add_binding EmpB2 0 0 C7200-IO-FE 
+Jan 07 12:36:35.176 HYPERVISOR: exec_cmd: vm set_disk0 EmpB2 0 
+Jan 07 12:36:35.177 HYPERVISOR: exec_cmd: vm set_nvram EmpB2 512 
+Jan 07 12:36:35.178 HYPERVISOR: exec_cmd: vm get_status EmpB2 
+Jan 07 12:36:35.179 HYPERVISOR: exec_cmd: vm slot_add_binding EmpB2 1 0 PA-2FE-TX 
+Jan 07 12:36:35.181 HYPERVISOR: exec_cmd: vm set_ios EmpB2 /Users/Daniela/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jan 07 12:36:35.183 HYPERVISOR: exec_cmd: vm get_status EmpB2 
+Jan 07 12:36:35.184 HYPERVISOR: exec_cmd: vm slot_remove_binding EmpB2 0 0 
+Jan 07 12:36:35.185 HYPERVISOR: exec_cmd: vm get_status EmpB2 
+Jan 07 12:36:35.187 HYPERVISOR: exec_cmd: vm slot_add_binding EmpB2 0 0 C7200-IO-2FE 
+Jan 07 12:36:35.189 HYPERVISOR: exec_cmd: vm set_ram EmpB2 512 
+Jan 07 12:36:35.190 HYPERVISOR: exec_cmd: vm get_status EmpB2 
+Jan 07 12:36:35.191 HYPERVISOR: exec_cmd: vm set_idle_pc EmpB2 0x63184bc8 
+Jan 07 12:36:35.192 HYPERVISOR: exec_cmd: c7200 set_mac_addr EmpB2 ca0a.52ae.0000 
+Jan 07 12:36:35.194 HYPERVISOR: exec_cmd: vm set_config EmpB2 configs/i10_startup-config.cfg 
+Jan 07 12:36:35.195 HYPERVISOR: exec_cmd: vm set_config EmpB2 configs/i10_startup-config.cfg configs/i10_private-config.cfg 
+Jan 07 12:36:39.823 HYPERVISOR: exec_cmd: nio create_udp udp-b2ae2ee3-cb82-4058-88db-fffc7581c6a2 10020 127.0.0.1 10021 
+Jan 07 12:36:39.824 HYPERVISOR: exec_cmd: vm slot_add_nio_binding EmpB2 0 1 udp-b2ae2ee3-cb82-4058-88db-fffc7581c6a2 
+Jan 07 12:36:39.825 HYPERVISOR: exec_cmd: vm get_status EmpB2 
+Jan 07 12:36:41.730 HYPERVISOR: exec_cmd: nio create_udp udp-b061adad-fad9-4c2a-a421-175a1ab6f41d 10037 127.0.0.1 10036 
+Jan 07 12:36:41.731 HYPERVISOR: exec_cmd: vm slot_add_nio_binding EmpB2 0 0 udp-b061adad-fad9-4c2a-a421-175a1ab6f41d 
+Jan 07 12:36:41.732 HYPERVISOR: exec_cmd: vm get_status EmpB2 
+Jan 07 12:36:54.575 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Jan 07 12:36:54.575 VM: VM Ghost created.
+Jan 07 12:36:54.577 HYPERVISOR: exec_cmd: vm set_ios Ghost /Users/Daniela/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jan 07 12:36:54.578 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jan 07 12:36:54.579 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Jan 07 12:36:54.581 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Jan 07 12:36:54.582 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 07 12:36:54.590 HYPERVISOR: exec_cmd: vm start Ghost 
+Jan 07 12:36:54.950 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 07 12:36:54.952 HYPERVISOR: exec_cmd: vm stop Ghost 
+Jan 07 12:36:55.299 VM: VM Ghost shutdown.
+Jan 07 12:36:55.300 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jan 07 12:36:55.300 VM: VM Ghost destroyed.
+Jan 07 12:36:55.314 HYPERVISOR: exec_cmd: vm set_ghost_status EmpB2 2 
+Jan 07 12:36:55.316 HYPERVISOR: exec_cmd: vm set_ghost_file EmpB2 /Users/Daniela/Desktop/UA/4ano/1semestre/ara/project/advanced-network-architecture.git/ARAProject/project-files/dynamips/c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Jan 07 12:36:55.317 HYPERVISOR: exec_cmd: vm get_status EmpB2 
+Jan 07 12:36:55.321 HYPERVISOR: exec_cmd: vm start EmpB2 
+Jan 07 12:37:25.547 HYPERVISOR: exec_cmd: vm extract_config EmpB2 
+Jan 07 12:37:55.553 HYPERVISOR: exec_cmd: vm extract_config EmpB2 
+Jan 07 16:08:45.446 HYPERVISOR: exec_cmd: vm get_status EmpB2 
+Jan 07 16:08:45.455 HYPERVISOR: exec_cmd: vm stop EmpB2 
+Jan 07 16:08:45.572 VM: VM EmpB2 shutdown.
+Jan 07 16:08:45.577 HYPERVISOR: exec_cmd: vm extract_config EmpB2 
+Jan 07 16:08:49.247 HYPERVISOR: exec_cmd: vm get_status EmpB2 
+Jan 07 16:08:49.258 HYPERVISOR: exec_cmd: vm extract_config EmpB2 
+Jan 07 16:08:50.233 HYPERVISOR: exec_cmd: vm get_status EmpB2 
+Jan 07 16:08:50.356 HYPERVISOR: exec_cmd: vm extract_config EmpB2 
+Jan 07 16:08:50.396 HYPERVISOR: exec_cmd: vm delete EmpB2 
+Jan 07 16:08:50.396 VM: VM EmpB2 destroyed.
+Jan 07 16:08:50.499 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 07 16:08:50.975 HYPERVISOR: Stopped.
+Jan 07 16:08:50.975 GENERAL: reset done.
